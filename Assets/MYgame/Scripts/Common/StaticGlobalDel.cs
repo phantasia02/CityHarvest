@@ -33,13 +33,7 @@ public static class StaticGlobalDel
     public enum ELayerIndex
     {
         eFloor              = 6,
-        ePlayerConstWall    = 7,
-        eFragments          = 8,
-        eFragmentsConstWall = 9,
-        ePlayer             = 10,
-        eQuestionHole       = 11,
-        eNPC                = 12,
-        eCAR                = 13,
+
         eMax
     }
 
@@ -60,6 +54,18 @@ public static class StaticGlobalDel
     }
 
 
+    public enum EBrickColor
+    {
+        eRed        = 0,
+        eOrange     = 1,
+        eYellow     = 2,
+        eGreen      = 3,
+        eBlue       = 4,
+        eWhite      = 5,
+        eMax
+    }
+
+
     public const string TagDoorPost             = "DoorPost";
     public const string TagFloor                = "Floor";
     public const string TagPlayer               = "TagPlayer";
@@ -75,13 +81,6 @@ public static class StaticGlobalDel
     //public const string TagFloor                = "TagFloor";
 
     public const int g_FloorMask                    = 1 << (int)ELayerIndex.eFloor;
-    public const int g_PlayerConstWallMask          = 1 << (int)ELayerIndex.ePlayerConstWall;
-    public const int g_FragmentsMask                = 1 << (int)ELayerIndex.eFragments;
-    public const int g_FragmentsConstWallMask       = 1 << (int)ELayerIndex.eFragmentsConstWall;
-    public const int g_PlayerMask                   = 1 << (int)ELayerIndex.ePlayer;
-    public const int g_QuestionHoleMask             = 1 << (int)ELayerIndex.eQuestionHole;
-    public const int g_NPCMask                      = 1 << (int)ELayerIndex.eNPC;
-    public const int g_CARMask                      = 1 << (int)ELayerIndex.eCAR;
 
     public const int g_MaxFever         = 100;
     public const int g_LeveFever        = 33;
