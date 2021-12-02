@@ -12,9 +12,9 @@ namespace MYgame.Scripts.Window
         private BrickStatusGroupUI _brickStatusGroupUI;
 
         /// <summary>
-        /// Set the number of the bricks
+        /// Set the total number of the bricks
         /// </summary>
-        public void SetNumber(StaticGlobalDel.EBrickColor color, int number)
+        public void UpdateTotalBricksNumber(StaticGlobalDel.EBrickColor color, int number)
         {
             _brickStatusGroupUI.SetNumber(color, number);
         }
