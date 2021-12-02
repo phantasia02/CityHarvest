@@ -181,14 +181,12 @@ public class CGameManager : MonoBehaviour
                 break;
             case EState.ePlay:
                 {
-                    if (lTempGameSceneWindow != null)
-                        lTempGameSceneWindow.SetGoButton(CGameSceneWindow.EButtonState.eNormal);
+
                 }
                 break;
             case EState.ePlayHold:
                 {
-                    if (lTempGameSceneWindow != null)
-                        lTempGameSceneWindow.SetGoButton(CGameSceneWindow.EButtonState.eDisable);
+
                 }
                 break;
             case EState.ePlayOKPerformance:

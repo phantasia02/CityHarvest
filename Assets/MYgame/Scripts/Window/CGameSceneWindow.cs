@@ -43,21 +43,18 @@ public class CGameSceneWindow : CSingletonMonoBehaviour<CGameSceneWindow>
             m_ChangeScenes.ResetScene();
         });
 
-        m_GoButton.onClick.AddListener(() => {
-            SetGoButton( EButtonState.eHide);
-        });
 
-        CSaveManager lTempCSaveManager = CSaveManager.SharedInstance;
-        if (lTempCSaveManager != null)
-            m_CurLevelText.text = $"{ GlobalData.g_ShowCurLevelNamePrefix + (SceneManager.GetActiveScene().buildIndex).ToString()}";
+        //CSaveManager lTempCSaveManager = CSaveManager.SharedInstance;
+        //if (lTempCSaveManager != null)
+        //    m_CurLevelText.text = $"{ GlobalData.g_ShowCurLevelNamePrefix + (SceneManager.GetActiveScene().buildIndex).ToString()}";
 
-        CGameManager lTempGameManager = this.GetComponentInParent<CGameManager>();
-        if (lTempGameManager == null)
-            return;
+        //CGameManager lTempGameManager = this.GetComponentInParent<CGameManager>();
+        //if (lTempGameManager == null)
+        //    return;
 
-        CGGameSceneData lTempGameSceneData = CGGameSceneData.SharedInstance;
-        if (lTempGameSceneData == null)
-            return;
+        //CGGameSceneData lTempGameSceneData = CGGameSceneData.SharedInstance;
+        //if (lTempGameSceneData == null)
+        //    return;
 
     }
 
@@ -85,30 +82,5 @@ public class CGameSceneWindow : CSingletonMonoBehaviour<CGameSceneWindow>
         }
         m_ShowObj.SetActive(showObj);
         // CGameSceneWindow.SharedInstance.SetCurState(CGameSceneWindow.EState.eEndStop);
-    }
-
-    public void SetGoButton(EButtonState settype)
-    {
-        if (settype == EButtonState.eDisable)
-        {
-            m_GoButton.gameObject.SetActive(true);
-            m_GoButton.interactable = false;
-        }
-        else if (settype == EButtonState.eHide)
-        {
-            m_GoButton.gameObject.SetActive(false);
-        }
-    }
-
-
-    public void UpdateFragmentSprogressRate(float Val)
-    {
-        if (Val < 0.0f)
-            Val = 0.0f;
-
-        if (Val >= 1.0f)
-            Val = 1.0f;
-
-        m_FragmentSprogressRate.fillAmount = Val;
     }
 }
