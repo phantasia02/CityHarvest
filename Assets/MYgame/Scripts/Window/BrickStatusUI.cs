@@ -12,6 +12,10 @@ namespace MYgame.Scripts.Window
         private StaticGlobalDel.EBrickColor _color;
         [SerializeField]
         private TextMeshProUGUI _text;
+        [SerializeField]
+        private bool _showMaxNum;
+
+        private int _maxNumber;
 
         public StaticGlobalDel.EBrickColor color => _color;
 
@@ -29,9 +33,15 @@ namespace MYgame.Scripts.Window
 
         #endregion
 
+        public void SetMaxNumber(int number)
+        {
+            _maxNumber = number;
+        }
+
         public void SetNumber(int number)
         {
-            _text.text = number.ToString();
+            _text.text =
+                _showMaxNum ? $"{number}/{_maxNumber}" : $"{number}";
         }
     }
 }
