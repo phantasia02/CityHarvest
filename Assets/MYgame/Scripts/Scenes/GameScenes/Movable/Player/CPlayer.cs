@@ -4,6 +4,7 @@ using UnityEngine;
 using Cinemachine;
 using DG.Tweening;
 using UniRx;
+using MYgame.Scripts.Scenes.GameScenes.Data;
 
 public class CPlayerMemoryShare : CActorMemoryShare
 {
@@ -11,17 +12,17 @@ public class CPlayerMemoryShare : CActorMemoryShare
     public Vector3                          m_OldMouseDownPos           = Vector3.zero;
     public Vector3                          m_OldMouseDragDirNormal     = Vector3.zero;
     public CPlayer                          m_MyPlayer                  = null;
-    public Vector3[]                        m_AllPathPoint              = new Vector3[8];
-    public int                              m_CurStandPointindex        = 0;
-    public Vector3                          m_TargetStandPoint          = Vector3.zero;
-    public Collider                         m_SwordeCollider            = null;
+
     public UniRx.ReactiveProperty<float>    m_AnimationVal              = new ReactiveProperty<float>(0.5f);
     public float                            m_AddSpeedSecond            = 5.0f;
 
-    public bool                             m_UpdateUI                  = false;
    // public UniRx.ReactiveProperty<int>      m_UpdateFeverScore          = new ReactiveProperty<int>(StaticGlobalDel.g_InitScoreFever);
     public int                              m_EndIndex                  = 0;
-
+    public StageData                        m_CurStageData              = null;
+    //public BuildingRecipeData               m_CurBuildingRecipeData     = null;
+    //public BuildingRecipeData               m_NextBuildingRecipeData    = null;
+    public int                              m_BuildingRecipeDataIndex   = 0;
+    public BrickAmount[]                    m_CurBrickAmount            = new BrickAmount[(int)StaticGlobalDel.EBrickColor.eMax];
 };
 
 public class CPlayer : CActor
@@ -76,6 +77,12 @@ public class CPlayer : CActor
 
         m_MaxMoveDirSize = Screen.width > Screen.height ? (float)Screen.width : (float)Screen.height;
         m_MaxMoveDirSize = m_MaxMoveDirSize / 5.0f;
+
+        for (int i = 0; i < m_MyPlayerMemoryShare.m_CurBrickAmount.Length; i++)
+        {
+            m_MyPlayerMemoryShare.m_CurBrickAmount[i] = new BrickAmount();
+            m_MyPlayerMemoryShare.m_CurBrickAmount[i].color = (StaticGlobalDel.EBrickColor)i;
+        }
     }
 
     // Start is called before the first frame update
@@ -214,6 +221,17 @@ public class CPlayer : CActor
         m_MyPlayerMemoryShare.m_MyTransform.forward = m_MyPlayerMemoryShare.m_OldMouseDragDirNormal;
       //  m_MyPlayerMemoryShare.m_MyRigidbody.velocity = m_MyPlayerMemoryShare.m_OldMouseDragDirNormal;
     }
+
+    public void AddBrickColor(StaticGlobalDel.EBrickColor setBrickColor, int Amount)
+    {
+        int lTempindex = (int)setBrickColor;
+        m_MyPlayerMemoryShare.m_CurBrickAmount[lTempindex].amount += Amount;
+    }
+
+    //public void UpdateBrickAmount()
+    //{
+
+    //}
 
     // ===================== UniRx ======================
 

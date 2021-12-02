@@ -16,4 +16,21 @@ public abstract class CPlayerStateBase : CStateActor
     {
     }
 
+
+    public override void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == StaticGlobalDel.TagBrickObj)
+        {
+            CBrickObj lTempBrickObj = other.GetComponent<CBrickObj>();
+
+            lTempBrickObj.gameObject.SetActive(false);
+            m_MyPlayerMemoryShare.m_MyPlayer.AddBrickColor(lTempBrickObj.MyBrickColor, 1);
+
+            Debug.Log($"===========================================");
+            for (int i = 0; i < m_MyPlayerMemoryShare.m_CurBrickAmount.Length; i++)
+                Debug.Log($"m_MyPlayerMemoryShare.m_CurBrickAmount[i].amount = {m_MyPlayerMemoryShare.m_CurBrickAmount[i].amount}");
+        }
+
+      //  base.OnTriggerEnter(other);
+    }
 }

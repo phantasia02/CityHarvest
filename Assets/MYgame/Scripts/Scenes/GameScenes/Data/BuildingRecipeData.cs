@@ -25,7 +25,16 @@ namespace MYgame.Scripts.Scenes.GameScenes.Data
         [SerializeField]
         private int _amount;
 
-        public StaticGlobalDel.EBrickColor color => _color;
-        public int amount => _amount;
-    }
+        public StaticGlobalDel.EBrickColor color
+        {
+            set => _color = value;
+            get => _color;
+        }
+
+        public int amount
+        {
+            set => _amount = value;
+            get => _amount;
+        }
+}
 }

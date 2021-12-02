@@ -8,7 +8,7 @@ public class CBrickObj : CGameObjBas
     // ==================== SerializeField ===========================================
 
     [SerializeField] protected StaticGlobalDel.EBrickColor m_MyBrickColor = StaticGlobalDel.EBrickColor.eBlue;
-    public StaticGlobalDel.EBrickColor MyBrickColor { get { return m_MyBrickColor; } }
+    public StaticGlobalDel.EBrickColor MyBrickColor => m_MyBrickColor;
 
     // ==================== SerializeField ===========================================
 

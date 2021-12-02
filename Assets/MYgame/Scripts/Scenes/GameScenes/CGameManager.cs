@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using Cinemachine;
 using UniRx;
+using MYgame.Scripts.Scenes.GameScenes.Data;
 
 public class CGameManager : MonoBehaviour
 {
@@ -37,12 +38,11 @@ public class CGameManager : MonoBehaviour
 
     //[SerializeField] GameObject m_WinCamera = null;
     //public GameObject WinCamera { get { return m_WinCamera; } }
-
-    [SerializeField] protected int m_AnswerIndex = 0;
-    public int AnswerIndex { get { return m_AnswerIndex; } }
     [Header("Result OBJ")]
-    [SerializeField] protected GameObject m_WinObjAnima     = null;
-    [SerializeField] protected GameObject m_OverObjAnima    = null;
+    [SerializeField] protected GameObject   m_WinObjAnima       = null;
+    [SerializeField] protected GameObject   m_OverObjAnima      = null;
+    [SerializeField] protected StageData    m_MyTargetBuilding  = null;
+    public StageData MyTargetBuilding { get { return m_MyTargetBuilding; } }
     // ==================== SerializeField ===========================================
 
     protected bool isApplicationQuitting = false;
