@@ -66,19 +66,8 @@ public static class StaticGlobalDel
     }
 
 
-    public const string TagDoorPost             = "DoorPost";
-    public const string TagFloor                = "Floor";
-    public const string TagPlayer               = "TagPlayer";
-    public const string TagNPC                  = "TagNPC";
-    public const string TagCar                  = "TagCar";
-    //public const string TagCarCollider          = "TagCarCollider";
-    //public const string TagPlayerRogueGroup     = "PlayerRogueGroupTag";
-    //public const string TagEndResult            = "EndResult";
-    //public const string TagPlayerRogue          = "TagPlayerRogue";
-    //public const string TagEnemy                = "TagEnemy";
-    //public const string TagShowEnemy            = "ShowEnemy";
-    //public const string TagTrafficLightGroup    = "TagTrafficLightGroup";
-    //public const string TagFloor                = "TagFloor";
+    public const string TagBrickObj     = "BrickObj";
+
 
     public const int g_FloorMask                    = 1 << (int)ELayerIndex.eFloor;
 

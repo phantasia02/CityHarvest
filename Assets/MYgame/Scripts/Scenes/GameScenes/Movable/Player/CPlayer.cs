@@ -22,11 +22,6 @@ public class CPlayerMemoryShare : CActorMemoryShare
    // public UniRx.ReactiveProperty<int>      m_UpdateFeverScore          = new ReactiveProperty<int>(StaticGlobalDel.g_InitScoreFever);
     public int                              m_EndIndex                  = 0;
 
-    public GameObject                       m_CollisionBox              = null;
-    public GameObject                       m_TagBox                    = null;
-    public MeshRenderer                     m_MyMeshRenderer            = null;
-    public Material                         m_MyMainMaterial            = null;
-
 };
 
 public class CPlayer : CActor
@@ -38,9 +33,6 @@ public class CPlayer : CActor
     protected CPlayerMemoryShare m_MyPlayerMemoryShare = null;
 
     // ==================== SerializeField ===========================================
-
-    [SerializeField] protected GameObject m_CollisionBox = null;
-    [SerializeField] protected GameObject m_TagBox = null;
 
     // ==================== SerializeField ===========================================
 
@@ -58,6 +50,8 @@ public class CPlayer : CActor
 
     protected Vector3 m_OldMouseDragDir = Vector3.zero;
 
+    public override float DefSpeed { get { return 20.0f; } }
+
     int m_MoveingHash = 0;
  
 
@@ -66,9 +60,7 @@ public class CPlayer : CActor
         m_AllState[(int)StaticGlobalDel.EMovableState.eWait].AllThisState.Add(new CWaitStatePlayer(this));
         m_AllState[(int)StaticGlobalDel.EMovableState.eMove].AllThisState.Add(new CMoveStatePlayer(this));
 
-
         m_AllState[(int)StaticGlobalDel.EMovableState.eDeath].AllThisState.Add(new CDeathStatePlayer(this));
-        m_AllState[(int)StaticGlobalDel.EMovableState.eDeath].AllThisState.Add(new CDeathStateBase(this));
 
         m_AllState[(int)StaticGlobalDel.EMovableState.eWin].AllThisState.Add(new CWinStatePlayer(this));
     }
@@ -79,19 +71,11 @@ public class CPlayer : CActor
         m_MyMemoryShare = m_MyPlayerMemoryShare;
 
         m_MyPlayerMemoryShare.m_MyPlayer                    = this;
-        m_MyPlayerMemoryShare.m_CollisionBox                = m_CollisionBox;
-        m_MyPlayerMemoryShare.m_TagBox                      = m_TagBox;
-        m_MyPlayerMemoryShare.m_MyMeshRenderer              = this.GetComponentInChildren<MeshRenderer>();
-        m_MyPlayerMemoryShare.m_MyMainMaterial              = m_MyPlayerMemoryShare.m_MyMeshRenderer.material;
 
         base.CreateMemoryShare();
 
-        SetBaseMemoryShare();
-      
         m_MaxMoveDirSize = Screen.width > Screen.height ? (float)Screen.width : (float)Screen.height;
         m_MaxMoveDirSize = m_MaxMoveDirSize / 5.0f;
-
-
     }
 
     // Start is called before the first frame update
@@ -216,7 +200,7 @@ public class CPlayer : CActor
         //if (lTempScreenDragProportion >= 0.01f)
         // {
         ChangState = StaticGlobalDel.EMovableState.eMove;
-        m_OldMouseDragDir += lTempMouseDrag * 2.0f;
+        m_OldMouseDragDir += lTempMouseDrag * 3.0f;
         m_OldMouseDragDir.y = 0.0f;
 
         m_OldMouseDragDir = Vector3.ClampMagnitude(m_OldMouseDragDir, m_MaxMoveDirSize);
