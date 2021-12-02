@@ -1,4 +1,4 @@
-using System;
+using MYgame.Scripts.Scenes.GameScenes.Data;
 using UnityEngine;
 
 namespace MYgame.Scripts.Window
@@ -10,6 +10,8 @@ namespace MYgame.Scripts.Window
     {
         [SerializeField]
         private BrickStatusGroupUI _brickStatusGroupUI;
+        [SerializeField]
+        private BuildingRecipeUI _buildingRecipeUI;
 
         /// <summary>
         /// Set the total number of the bricks
@@ -17,6 +19,19 @@ namespace MYgame.Scripts.Window
         public void UpdateTotalBricksNumber(StaticGlobalDel.EBrickColor color, int number)
         {
             _brickStatusGroupUI.SetNumber(color, number);
+        }
+
+        /// <summary>
+        /// Set the building recipe
+        /// </summary>
+        /// <param name="curSprite">The sprite of the current building target</param>
+        /// <param name="targetBrickAmounts">The target amount of bricks</param>
+        /// <param name="nextSprite">The sprite of the next building target</param>
+        public void SetBuildingRecipe(
+            Sprite curSprite, BrickAmount[] targetBrickAmounts, Sprite nextSprite)
+        {
+            _buildingRecipeUI.SetBuildingRecipe(
+                curSprite, targetBrickAmounts, nextSprite);
         }
     }
 }
