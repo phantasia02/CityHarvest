@@ -22,9 +22,4 @@ public abstract class CPlayerStateBase : CStateActor
         m_MyPlayerMemoryShare.m_MyRigidbody.velocity = m_MyPlayerMemoryShare.m_MyTransform.forward * 300.0f * Time.fixedDeltaTime;
     }
 
-    public void EnabledCollisionTag(bool enabled)
-    {
-        m_MyPlayerMemoryShare.m_CollisionBox.SetActive(enabled);
-        m_MyPlayerMemoryShare.m_TagBox.SetActive(enabled);
-    }
 }
