@@ -19,8 +19,6 @@ public class CGameSceneWindow : CSingletonMonoBehaviour<CGameSceneWindow>
     CChangeScenes m_ChangeScenes = new CChangeScenes();
     [SerializeField] GameObject m_ShowObj           = null;
     [SerializeField] Button m_ResetButton           = null;
-    [SerializeField] Button m_GoButton              = null;
-    [SerializeField] Image m_FragmentSprogressRate  = null;
 
     [SerializeField] Text m_CurLevelText = null;
 
