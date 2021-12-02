@@ -89,6 +89,7 @@ public class CPlayer : CActor
     protected override void Start()
     {
         base.Start();
+        m_MyPlayerMemoryShare.m_CurStageData = m_MyGameManager.MyTargetBuilding;
         SetCurState(StaticGlobalDel.EMovableState.eWait);
 
         //UpdateAnimationVal().Subscribe(_ => {
@@ -222,11 +223,6 @@ public class CPlayer : CActor
       //  m_MyPlayerMemoryShare.m_MyRigidbody.velocity = m_MyPlayerMemoryShare.m_OldMouseDragDirNormal;
     }
 
-    public void AddBrickColor(StaticGlobalDel.EBrickColor setBrickColor, int Amount)
-    {
-        int lTempindex = (int)setBrickColor;
-        m_MyPlayerMemoryShare.m_CurBrickAmount[lTempindex].amount += Amount;
-    }
 
     //public void UpdateBrickAmount()
     //{
