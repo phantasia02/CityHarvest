@@ -50,6 +50,8 @@ public class CPlayer : CActor
 
     protected Vector3 m_OldMouseDragDir = Vector3.zero;
 
+    public override float DefSpeed { get { return 20.0f; } }
+
     int m_MoveingHash = 0;
  
 
@@ -198,7 +200,7 @@ public class CPlayer : CActor
         //if (lTempScreenDragProportion >= 0.01f)
         // {
         ChangState = StaticGlobalDel.EMovableState.eMove;
-        m_OldMouseDragDir += lTempMouseDrag * 2.0f;
+        m_OldMouseDragDir += lTempMouseDrag * 3.0f;
         m_OldMouseDragDir.y = 0.0f;
 
         m_OldMouseDragDir = Vector3.ClampMagnitude(m_OldMouseDragDir, m_MaxMoveDirSize);
