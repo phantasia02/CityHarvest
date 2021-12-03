@@ -1,5 +1,7 @@
+using System;
 using MYgame.Scripts.Scenes.GameScenes.Data;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace MYgame.Scripts.Window
 {
@@ -12,6 +14,8 @@ namespace MYgame.Scripts.Window
         private BrickStatusGroupUI _brickStatusGroupUI;
         [SerializeField]
         private BuildingRecipeUI _buildingRecipeUI;
+        [SerializeField]
+        private Timer _timer;
 
         /// <summary>
         /// Set the total number of the bricks
@@ -19,6 +23,7 @@ namespace MYgame.Scripts.Window
         public void UpdateTotalBricksNumber(StaticGlobalDel.EBrickColor color, int number)
         {
             _brickStatusGroupUI.SetNumber(color, number);
+            _buildingRecipeUI.SetNumber(color, number);
         }
 
         /// <summary>
@@ -32,6 +37,15 @@ namespace MYgame.Scripts.Window
         {
             _buildingRecipeUI.SetBuildingRecipe(
                 curSprite, targetBrickAmounts, nextSprite);
+        }
+
+        /// <summary>
+        /// Start the timer
+        /// </summary>
+        /// <param name="onTimesUp">The callback when the times is up</param>
+        public void StartTimer(Action onTimesUp)
+        {
+            _timer.StartTimer(onTimesUp);
         }
     }
 }
