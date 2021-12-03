@@ -470,13 +470,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _statusUI: {fileID: 4513320794939801703}
-  _curImageSprite: {fileID: 21300000, guid: 1c7b3f6dc7897564cbb15bbc9f5cf698, type: 3}
-  _nextImageSprite: {fileID: 21300000, guid: 9ebb33837b9ba8449b6959ee382918dc, type: 3}
-  _brickAmounts:
-  - _color: 3
-    _amount: 200
-  - _color: 2
-    _amount: 10
+  _recipeDatas:
+  - {fileID: 11400000, guid: 3cab6630180daa44695721478376d81a, type: 2}
+  - {fileID: 11400000, guid: 56983ed2cca8a314cba7592519911e8d, type: 2}
 --- !u!1 &7294883981305746276
 GameObject:
   m_ObjectHideFlags: 0
