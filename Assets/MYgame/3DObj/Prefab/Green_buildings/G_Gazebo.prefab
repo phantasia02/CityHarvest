@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5877985848536937666}
   - component: {fileID: 5877985848535840258}
   - component: {fileID: 1088216539088998732}
+  - component: {fileID: -3383825917154159977}
   m_Layer: 0
   m_Name: G_Gazebo
   m_TagString: Untagged
@@ -410,3 +411,17 @@ MonoBehaviour:
     m_Center: {x: 50.278484, y: 1.3743279, z: 17.365389}
     m_Extent: {x: 1.4661645, y: 1.4499655, z: 1.4585814}
   resetState: 0
+--- !u!64 &-3383825917154159977
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5877985848538097858}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 09f47596cc2386d49841e2ff1218c042, type: 3}
