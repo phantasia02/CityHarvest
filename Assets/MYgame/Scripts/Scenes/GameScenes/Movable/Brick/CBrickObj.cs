@@ -40,10 +40,11 @@ public class CBrickObj : CGameObjBas
 
             const float CsDoTweenTime = 1.0f;
             Tween lTempTween = this.transform.DOLocalJump(Vector3.zero, 0.1f, 1, CsDoTweenTime);
-            this.transform.DOScale(Vector3.zero, 1.5f);
+            Tween lTempTween1 = this.transform.DOScale(Vector3.zero, 1.5f);
 
             lTempTween.onComplete = () => 
             {
+                lTempTween1.Kill();
                 m_MyGameManager.Player.AddBrickColor(MyBrickColor, 1);
                 Destroy(this.gameObject);
             };
