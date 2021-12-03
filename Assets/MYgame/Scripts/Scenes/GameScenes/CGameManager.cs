@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 using Cinemachine;
 using UniRx;
 using MYgame.Scripts.Scenes.GameScenes.Data;
+using MYgame.Scripts.Window;
 
 public class CGameManager : MonoBehaviour
 {
@@ -99,7 +100,7 @@ public class CGameManager : MonoBehaviour
                 CGameSceneWindow lTempGameSceneWindow = CGameSceneWindow.SharedInstance;
                 if (lTempGameSceneWindow)
                 {
-
+                    lTempGameSceneWindow.MyGameStatusUI.StartTimer(TimeOut);
                 }
             }
         },
@@ -286,6 +287,11 @@ public class CGameManager : MonoBehaviour
     }
 
     public void SetLoseUI()
+    {
+        SetState(EState.eGameOver);
+    }
+
+    public void TimeOut()
     {
         SetState(EState.eGameOver);
     }
