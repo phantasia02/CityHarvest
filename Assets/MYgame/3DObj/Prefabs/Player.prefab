@@ -113,7 +113,7 @@ Transform:
   - {fileID: 1549751438726520363}
   - {fileID: 3369210537749365051}
   m_Father: {fileID: 9082376536502100527}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: -39.909, y: 0, z: 0}
 --- !u!198 &2175623736781656220
 ParticleSystem:
@@ -5110,7 +5110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MyCollider: {fileID: 0}
   m_AllObj: {fileID: 3799775217207024499}
-  m_RecycleBrickObj: {fileID: 0}
+  m_RecycleBrickObj: {fileID: 578076350345639113}
 --- !u!54 &5696183109127007363
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10323,6 +10323,36 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!1 &4976966744625638617
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 578076350345639113}
+  m_Layer: 0
+  m_Name: RecycleBrickObj
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &578076350345639113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4976966744625638617}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.0346, z: -0.0366}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9082376536502100527}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5127697781323594800
 GameObject:
   m_ObjectHideFlags: 0
@@ -20173,6 +20203,7 @@ Transform:
   - {fileID: 2030847334705623669}
   - {fileID: 8171772937972396948}
   - {fileID: 860624452818828851}
+  - {fileID: 578076350345639113}
   - {fileID: 7362507266717024459}
   m_Father: {fileID: 2674705846919867311}
   m_RootOrder: 0
