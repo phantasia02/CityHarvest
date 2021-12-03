@@ -13,7 +13,7 @@ public class CWaitStatePlayer : CPlayerStateBase
 
     protected override void InState()
     {
-
+        m_MyPlayerMemoryShare.m_MyPlayer.AnimatorStateCtl.SetCurState(CAnimatorStateCtl.EState.eIdle);
     }
 
     protected override void updataState()

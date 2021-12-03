@@ -13,7 +13,7 @@ public class CMoveStatePlayer : CPlayerStateBase
 
     protected override void InState()
     {
-
+        m_MyPlayerMemoryShare.m_MyPlayer.AnimatorStateCtl.SetCurState(CAnimatorStateCtl.EState.eRun);
     }
 
     protected override void updataState()
