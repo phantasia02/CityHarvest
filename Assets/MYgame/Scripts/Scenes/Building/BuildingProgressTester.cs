@@ -13,14 +13,14 @@ namespace MYgame.Scripts.Scenes.Building
         private void Start()
         {
             DOTween.Sequence()
-                .AppendInterval(2f)
+                .AppendInterval(0.2f)
                 .AppendCallback(UpdateProgress)
                 .SetLoops(-1);
         }
 
         private void UpdateProgress()
         {
-            _currentProgress += 0.1f;
+            _currentProgress += 0.05f;
             _buildingProgress.UpdateProgress(_currentProgress);
         }
     }

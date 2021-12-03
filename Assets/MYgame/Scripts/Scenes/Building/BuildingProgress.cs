@@ -1,3 +1,4 @@
+using LanKuDot.UnityToolBox;
 using UnityEngine;
 
 namespace MYgame.Scripts.Scenes.Building
@@ -8,9 +9,11 @@ namespace MYgame.Scripts.Scenes.Building
     public class BuildingProgress : MonoBehaviour
     {
         [SerializeField]
-        private GameObject[] _bulidingPieces;
+        private BuildingProgressUnit[] _bulidingPieces;
         [SerializeField]
-        private GameObject _completedPiece;
+        private BuildingProgressUnit _completedPiece;
+        [SerializeField]
+        private TweenHDRColorEaseCurve _showUpEmissionCurve;
 
         private const float _progressStep = 0.25f;
         private const float _progressComplete = 1f;
@@ -20,9 +23,9 @@ namespace MYgame.Scripts.Scenes.Building
         private void Awake()
         {
             foreach (var piece in _bulidingPieces)
-                piece.SetActive(false);
+                piece.Inactivate();
 
-            _completedPiece.SetActive(false);
+            _completedPiece.Inactivate();
         }
 
         /// <summary>
@@ -33,28 +36,28 @@ namespace MYgame.Scripts.Scenes.Building
         {
             progress = Mathf.Min(progress, _progressComplete);
 
-            var step = (int)(progress / _progressStep) - 1;
+            var step = (int)(progress / _progressStep);
 
-            if (step < _currentStep)
+            if (step <= _currentStep)
                 return;
 
-            ++_currentStep;
-
             if (progress >= _progressComplete) {
+                _currentStep = 100;
                 ShowCompletedPiece();
                 return;
             }
 
-            ShowPiece(_bulidingPieces[step]);
+            for (; _currentStep < step; ++_currentStep)
+                ShowPiece(_bulidingPieces[_currentStep]);
         }
 
         /// <summary>
         /// Show the pieces
         /// </summary>
         /// <param name="targetPiece">The target piece to be shown</param>
-        private void ShowPiece(GameObject targetPiece)
+        private void ShowPiece(BuildingProgressUnit targetPiece)
         {
-            targetPiece.SetActive(true);
+            targetPiece.Activate(_showUpEmissionCurve);
         }
 
         /// <summary>
@@ -63,9 +66,9 @@ namespace MYgame.Scripts.Scenes.Building
         private void ShowCompletedPiece()
         {
             foreach (var piece in _bulidingPieces)
-                piece.SetActive(false);
+                piece.Inactivate();
 
-            _completedPiece.SetActive(true);
+            _completedPiece.Activate(_showUpEmissionCurve);
         }
     }
 }
