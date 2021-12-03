@@ -8,6 +8,7 @@ public abstract class CGameObjBas : MonoBehaviour
     {
         eMovable            = 0,
         eBrickObj           = 1,
+        eOriginBuilding     = 2,
         eMax
     }
 

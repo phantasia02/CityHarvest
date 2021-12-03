@@ -66,8 +66,10 @@ public static class StaticGlobalDel
     }
 
 
-    public const string TagBrickObj     = "BrickObj";
-    public const string TagPlayer       = "Player";
+    public const string TagBrickObj         = "BrickObj";
+    public const string TagPlayer           = "Player";
+    public const string TagOriginBuilding   = "OriginBuilding";
+    public const string TagPlayerRoll       = "PlayerRoll";
 
 
     public const int g_FloorMask                    = 1 << (int)ELayerIndex.eFloor;
