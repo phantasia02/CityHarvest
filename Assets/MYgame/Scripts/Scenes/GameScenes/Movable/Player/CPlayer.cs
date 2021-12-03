@@ -74,8 +74,8 @@ public class CPlayer : CActor
         m_MyPlayerMemoryShare = new CPlayerMemoryShare();
         m_MyMemoryShare = m_MyPlayerMemoryShare;
 
-        m_MyPlayerMemoryShare.m_MyPlayer                    = this;
-        m_MyPlayerMemoryShare.m_RecycleBrickObj             = m_RecycleBrickObj;
+        m_MyPlayerMemoryShare.m_MyPlayer = this;
+        m_MyPlayerMemoryShare.m_RecycleBrickObj = m_RecycleBrickObj;
 
         base.CreateMemoryShare();
 
@@ -87,15 +87,25 @@ public class CPlayer : CActor
             m_MyPlayerMemoryShare.m_CurBrickAmount[i] = new BrickAmount();
             m_MyPlayerMemoryShare.m_CurBrickAmount[i].color = (StaticGlobalDel.EBrickColor)i;
         }
+
+        
     }
 
     // Start is called before the first frame update
     protected override void Start()
     {
         base.Start();
-        m_MyPlayerMemoryShare.m_CurStageData = m_MyGameManager.MyTargetBuilding;
-        SetCurState(StaticGlobalDel.EMovableState.eWait);
 
+
+        m_MyPlayerMemoryShare.m_CurStageData = m_MyGameManager.MyTargetBuilding;
+
+        CGameSceneWindow lTempCGameSceneWindow = CGameSceneWindow.SharedInstance;
+        foreach (StaticGlobalDel.EBrickColor lTempColor in m_MyPlayerMemoryShare.m_CurStageData.brickColors)
+            lTempCGameSceneWindow.MyGameStatusUI.UpdateTotalBricksNumber(lTempColor, m_MyPlayerMemoryShare.m_CurBrickAmount[(int)lTempColor].amount);
+
+        UpdateInitSetUI();
+
+        SetCurState(StaticGlobalDel.EMovableState.eWait);
         //UpdateAnimationVal().Subscribe(_ => {
         //    UpdateAnimationChangVal();
         //}).AddTo(this.gameObject);
@@ -233,7 +243,11 @@ public class CPlayer : CActor
         int lTempindex = (int)setBrickColor;
         m_MyPlayerMemoryShare.m_CurBrickAmount[lTempindex].amount += Amount;
 
+        CGameSceneWindow lTempCGameSceneWindow = CGameSceneWindow.SharedInstance;
+        lTempCGameSceneWindow.MyGameStatusUI.UpdateTotalBricksNumber(setBrickColor, m_MyPlayerMemoryShare.m_CurBrickAmount[lTempindex].amount);
+
         CheckBrickIsTarget();
+        
     }
 
     public bool CheckBrickIsTarget()
@@ -276,8 +290,24 @@ public class CPlayer : CActor
             lTempCurIndex = 0;
 
         m_MyPlayerMemoryShare.m_BuildingRecipeDataIndex = lTempCurIndex;
+
+        UpdateInitSetUI();
     }
 
+    public void UpdateInitSetUI()
+    {
+        int lTempCurIndex = m_MyPlayerMemoryShare.m_BuildingRecipeDataIndex;
+        BuildingRecipeData lTempCurBuildingRecipeData = m_MyPlayerMemoryShare.m_CurStageData.buildings[lTempCurIndex];
+
+        int lTempNextIndex = lTempCurIndex + 1;
+        if (m_MyPlayerMemoryShare.m_CurStageData.buildings.Length == lTempNextIndex)
+            lTempNextIndex = 0;
+
+        BuildingRecipeData lTempNextBuildingRecipeData = m_MyPlayerMemoryShare.m_CurStageData.buildings[lTempNextIndex];
+
+        CGameSceneWindow lTempCGameSceneWindow = CGameSceneWindow.SharedInstance;
+        lTempCGameSceneWindow.MyGameStatusUI.SetBuildingRecipe(lTempCurBuildingRecipeData.buildingSprite, lTempCurBuildingRecipeData.brickAmounts, lTempNextBuildingRecipeData.buildingSprite);
+    }
 
     //public void UpdateBrickAmount()
     //{

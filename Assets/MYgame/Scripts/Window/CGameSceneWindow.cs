@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using DG.Tweening;
 using UniRx;
 using UnityEngine.SceneManagement;
+using MYgame.Scripts.Window;
 
 public class CGameSceneWindow : CSingletonMonoBehaviour<CGameSceneWindow>
 {
@@ -21,6 +22,9 @@ public class CGameSceneWindow : CSingletonMonoBehaviour<CGameSceneWindow>
     [SerializeField] Button m_ResetButton           = null;
 
     [SerializeField] Text m_CurLevelText = null;
+
+    protected GameStatusUI m_MyGameStatusUI = null;
+    public GameStatusUI MyGameStatusUI => m_MyGameStatusUI;
 
     //const float
     protected float m_CurFever      = 0.0f;
@@ -41,6 +45,7 @@ public class CGameSceneWindow : CSingletonMonoBehaviour<CGameSceneWindow>
             m_ChangeScenes.ResetScene();
         });
 
+        m_MyGameStatusUI = this.GetComponentInChildren<GameStatusUI>();
 
         //CSaveManager lTempCSaveManager = CSaveManager.SharedInstance;
         //if (lTempCSaveManager != null)

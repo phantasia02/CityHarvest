@@ -34,7 +34,6 @@ public class CBrickObj : CGameObjBas
         {
             OpenCollider(false);
 
-            m_MyGameManager.Player.AddBrickColor(MyBrickColor, 1);
 
             Transform lTempTargetTransform  = m_MyGameManager.Player.RecycleBrickObj;
             this.transform.parent = lTempTargetTransform;
