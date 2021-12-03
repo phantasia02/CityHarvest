@@ -67,6 +67,7 @@ public static class StaticGlobalDel
 
 
     public const string TagBrickObj     = "BrickObj";
+    public const string TagPlayer       = "Player";
 
 
     public const int g_FloorMask                    = 1 << (int)ELayerIndex.eFloor;

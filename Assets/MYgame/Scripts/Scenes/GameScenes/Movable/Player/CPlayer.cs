@@ -23,6 +23,7 @@ public class CPlayerMemoryShare : CActorMemoryShare
     //public BuildingRecipeData               m_NextBuildingRecipeData    = null;
     public int                              m_BuildingRecipeDataIndex   = 0;
     public BrickAmount[]                    m_CurBrickAmount            = new BrickAmount[(int)StaticGlobalDel.EBrickColor.eMax];
+    public Transform                        m_RecycleBrickObj           = null;
 };
 
 public class CPlayer : CActor
@@ -35,9 +36,11 @@ public class CPlayer : CActor
 
     // ==================== SerializeField ===========================================
 
+    [SerializeField] protected Transform m_RecycleBrickObj = null;
+
     // ==================== SerializeField ===========================================
 
-
+    public Transform RecycleBrickObj => m_MyPlayerMemoryShare.m_RecycleBrickObj;
 
     public float AnimationVal
     {
@@ -72,6 +75,7 @@ public class CPlayer : CActor
         m_MyMemoryShare = m_MyPlayerMemoryShare;
 
         m_MyPlayerMemoryShare.m_MyPlayer                    = this;
+        m_MyPlayerMemoryShare.m_RecycleBrickObj             = m_RecycleBrickObj;
 
         base.CreateMemoryShare();
 
@@ -221,6 +225,57 @@ public class CPlayer : CActor
 
         m_MyPlayerMemoryShare.m_MyTransform.forward = m_MyPlayerMemoryShare.m_OldMouseDragDirNormal;
       //  m_MyPlayerMemoryShare.m_MyRigidbody.velocity = m_MyPlayerMemoryShare.m_OldMouseDragDirNormal;
+    }
+
+
+    public void AddBrickColor(StaticGlobalDel.EBrickColor setBrickColor, int Amount)
+    {
+        int lTempindex = (int)setBrickColor;
+        m_MyPlayerMemoryShare.m_CurBrickAmount[lTempindex].amount += Amount;
+
+        CheckBrickIsTarget();
+    }
+
+    public bool CheckBrickIsTarget()
+    {
+        int lTempCurIndex = m_MyPlayerMemoryShare.m_BuildingRecipeDataIndex;
+        BuildingRecipeData lTempCurBuildingRecipeData = m_MyPlayerMemoryShare.m_CurStageData.buildings[lTempCurIndex];
+        int lTempColorIndex = 0;
+        bool lTempbCheckOK = true;
+
+        for (int i = 0; i < lTempCurBuildingRecipeData.brickAmounts.Length; i++)
+        {
+            lTempColorIndex = (int)lTempCurBuildingRecipeData.brickAmounts[i].color;
+            if (m_MyPlayerMemoryShare.m_CurBrickAmount[lTempColorIndex].amount < lTempCurBuildingRecipeData.brickAmounts[i].amount)
+            {
+                lTempbCheckOK = false;
+                break;
+            }
+        }
+
+        if (lTempbCheckOK)
+            SetNextBuildings();
+
+        return lTempbCheckOK;
+    }
+
+    public void SetNextBuildings()
+    {
+        int lTempCurIndex = m_MyPlayerMemoryShare.m_BuildingRecipeDataIndex;
+        BuildingRecipeData lTempCurBuildingRecipeData = m_MyPlayerMemoryShare.m_CurStageData.buildings[lTempCurIndex];
+        int lTempColorIndex = 0;
+
+        for (int i = 0; i < lTempCurBuildingRecipeData.brickAmounts.Length; i++)
+        {
+            lTempColorIndex = (int)lTempCurBuildingRecipeData.brickAmounts[i].color;
+            m_MyPlayerMemoryShare.m_CurBrickAmount[lTempColorIndex].amount -= lTempCurBuildingRecipeData.brickAmounts[i].amount;
+        }
+
+        lTempCurIndex++;
+        if (m_MyPlayerMemoryShare.m_CurStageData.buildings.Length <= lTempCurIndex)
+            lTempCurIndex = 0;
+
+        m_MyPlayerMemoryShare.m_BuildingRecipeDataIndex = lTempCurIndex;
     }
 
 
