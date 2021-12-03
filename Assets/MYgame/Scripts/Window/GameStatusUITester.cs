@@ -29,6 +29,7 @@ namespace MYgame.Scripts.Window
                     () => 0, x => { }, 0, 5f)
                 .OnStepComplete(SetBuildingRecipe)
                 .SetLoops(-1);
+            _statusUI.StartTimer(() => Debug.Log("Times up"));
         }
 
         private void UpdateNumber()
