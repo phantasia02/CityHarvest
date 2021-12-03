@@ -13,26 +13,22 @@ namespace MYgame.Scripts.Window
         [SerializeField]
         private GameStatusUI _statusUI;
         [SerializeField]
-        private Sprite _curImageSprite;
-        [SerializeField]
-        private Sprite _nextImageSprite;
-        [SerializeField]
-        private BrickAmount[] _brickAmounts;
+        private BuildingRecipeData[] _recipeDatas;
 
         private int _number;
+        private int _completedRecipeCount;
 
         private void Start()
         {
-            SetUI();
+            SetBuildingRecipe();
             DOTween.To(
                     () => 0, x => { }, 0, 0.5f)
                 .OnStepComplete(UpdateNumber)
                 .SetLoops(-1);
-        }
-
-        private void SetUI()
-        {
-            _statusUI.SetBuildingRecipe(_curImageSprite, _brickAmounts, _nextImageSprite);
+            DOTween.To(
+                    () => 0, x => { }, 0, 5f)
+                .OnStepComplete(SetBuildingRecipe)
+                .SetLoops(-1);
         }
 
         private void UpdateNumber()
@@ -42,6 +38,17 @@ namespace MYgame.Scripts.Window
             _statusUI.UpdateTotalBricksNumber(StaticGlobalDel.EBrickColor.eYellow, _number * 2);
             _statusUI.UpdateTotalBricksNumber(StaticGlobalDel.EBrickColor.eGreen, _number * 3);
             _statusUI.UpdateTotalBricksNumber(StaticGlobalDel.EBrickColor.eWhite, _number * 4);
+        }
+
+        private void SetBuildingRecipe()
+        {
+            var id = _completedRecipeCount % _recipeDatas.Length;
+            var data = _recipeDatas[id];
+            var nextData = _recipeDatas[(id + 1) % _recipeDatas.Length];
+            _statusUI.SetBuildingRecipe(
+                data.buildingSprite, data.brickAmounts, nextData.buildingSprite);
+
+            ++_completedRecipeCount;
         }
     }
 }
