@@ -19,6 +19,7 @@ namespace MYgame.Scripts.Window
         public void UpdateTotalBricksNumber(StaticGlobalDel.EBrickColor color, int number)
         {
             _brickStatusGroupUI.SetNumber(color, number);
+            _buildingRecipeUI.SetNumber(color, number);
         }
 
         /// <summary>

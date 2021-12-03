@@ -26,5 +26,15 @@ namespace MYgame.Scripts.Window
             _nextBuildingImage.sprite = nextSprite;
             _buildingStatusUI.SetMaxBrickAmount(targetBrickAmounts);
         }
+
+        /// <summary>
+        /// Set the number of the brick
+        /// </summary>
+        /// <param name="color">The color of the brick</param>
+        /// <param name="number">The number of the bricks</param>
+        public void SetNumber(StaticGlobalDel.EBrickColor color, int number)
+        {
+            _buildingStatusUI.SetNumber(color, number);
+        }
     }
 }

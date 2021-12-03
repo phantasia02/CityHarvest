@@ -26,6 +26,9 @@ namespace MYgame.Scripts.Window
 
         public void SetMaxBrickAmount(BrickAmount[] maxBrickAmounts)
         {
+            foreach (var ui in _brickStatusUIs)
+                ui.Inactivate();
+
             foreach (var brickAmount in maxBrickAmounts) {
                 var color = brickAmount.color;
                 var ui = _brickStatusUIMap[color];
@@ -33,6 +36,13 @@ namespace MYgame.Scripts.Window
                 ui.SetNumber(0);
                 ui.Activate();
             }
+        }
+
+        public void SetNumber(StaticGlobalDel.EBrickColor color, int number)
+        {
+            var ui = _brickStatusUIMap[color];
+            if (ui.gameObject.activeSelf)
+                ui.SetNumber(number);
         }
     }
 }
