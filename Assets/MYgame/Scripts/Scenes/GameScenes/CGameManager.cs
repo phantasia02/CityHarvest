@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 using Cinemachine;
 using UniRx;
 using MYgame.Scripts.Scenes.GameScenes.Data;
+using MYgame.Scripts.Window;
 
 public class CGameManager : MonoBehaviour
 {
@@ -42,6 +43,8 @@ public class CGameManager : MonoBehaviour
     [SerializeField] protected GameObject   m_WinObjAnima       = null;
     [SerializeField] protected GameObject   m_OverObjAnima      = null;
     [SerializeField] protected StageData    m_MyTargetBuilding  = null;
+    [SerializeField] protected Transform    m_AllBrickObj       = null;
+    public Transform AllBrickObj => m_AllBrickObj;
     public StageData MyTargetBuilding { get { return m_MyTargetBuilding; } }
     // ==================== SerializeField ===========================================
 
@@ -99,7 +102,7 @@ public class CGameManager : MonoBehaviour
                 CGameSceneWindow lTempGameSceneWindow = CGameSceneWindow.SharedInstance;
                 if (lTempGameSceneWindow)
                 {
-
+                    lTempGameSceneWindow.MyGameStatusUI.StartTimer(TimeOut);
                 }
             }
         },
@@ -286,6 +289,11 @@ public class CGameManager : MonoBehaviour
     }
 
     public void SetLoseUI()
+    {
+        SetState(EState.eGameOver);
+    }
+
+    public void TimeOut()
     {
         SetState(EState.eGameOver);
     }
