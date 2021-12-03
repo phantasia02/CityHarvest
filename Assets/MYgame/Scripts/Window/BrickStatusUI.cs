@@ -41,7 +41,9 @@ namespace MYgame.Scripts.Window
         public void SetNumber(int number)
         {
             _text.text =
-                _showMaxNum ? $"{number}/{_maxNumber}" : $"{number}";
+                _showMaxNum ?
+                    $"{Mathf.Min(number, _maxNumber)}/{_maxNumber}" :
+                    $"{number}";
         }
     }
 }
