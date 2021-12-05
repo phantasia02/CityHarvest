@@ -12,9 +12,12 @@ namespace MYgame.Scripts.Scenes.GameScenes.Data
         private Sprite _buildingSprite;
         [SerializeField]
         private BrickAmount[] _brickAmounts;
+        [SerializeField]
+        private GameObject _Prefab3DMode;
 
         public Sprite buildingSprite => _buildingSprite;
         public BrickAmount[] brickAmounts => _brickAmounts;
+        public GameObject Prefab3DMode => _Prefab3DMode;
     }
 
     [Serializable]

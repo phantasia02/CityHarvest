@@ -5,6 +5,7 @@ using Cinemachine;
 using DG.Tweening;
 using UniRx;
 using MYgame.Scripts.Scenes.GameScenes.Data;
+using MYgame.Scripts.Scenes.Building;
 
 public class CPlayerMemoryShare : CActorMemoryShare
 {
@@ -24,6 +25,8 @@ public class CPlayerMemoryShare : CActorMemoryShare
     public int                              m_BuildingRecipeDataIndex   = 0;
     public BrickAmount[]                    m_CurBrickAmount            = new BrickAmount[(int)StaticGlobalDel.EBrickColor.eMax];
     public Transform                        m_RecycleBrickObj           = null;
+    public Transform                        m_BuildingPos               = null;
+    public BuildingProgress                 m_CurBuildingProgress       = null;
 };
 
 public class CPlayer : CActor
@@ -36,11 +39,13 @@ public class CPlayer : CActor
 
     // ==================== SerializeField ===========================================
 
-    [SerializeField] protected Transform m_RecycleBrickObj = null;
+    [SerializeField] protected Transform m_RecycleBrickObj  = null;
+    [SerializeField] protected Transform m_BuildingPos      = null;
 
     // ==================== SerializeField ===========================================
 
     public Transform RecycleBrickObj => m_MyPlayerMemoryShare.m_RecycleBrickObj;
+    public Transform BuildingPos => m_MyPlayerMemoryShare.m_BuildingPos;
 
     public float AnimationVal
     {
@@ -75,7 +80,9 @@ public class CPlayer : CActor
         m_MyMemoryShare = m_MyPlayerMemoryShare;
 
         m_MyPlayerMemoryShare.m_MyPlayer = this;
-        m_MyPlayerMemoryShare.m_RecycleBrickObj = m_RecycleBrickObj;
+        m_MyPlayerMemoryShare.m_RecycleBrickObj     = m_RecycleBrickObj;
+        m_MyPlayerMemoryShare.m_BuildingPos         = m_BuildingPos;
+
 
         base.CreateMemoryShare();
 
@@ -103,7 +110,7 @@ public class CPlayer : CActor
         foreach (StaticGlobalDel.EBrickColor lTempColor in m_MyPlayerMemoryShare.m_CurStageData.brickColors)
             lTempCGameSceneWindow.MyGameStatusUI.UpdateTotalBricksNumber(lTempColor, m_MyPlayerMemoryShare.m_CurBrickAmount[(int)lTempColor].amount);
 
-        UpdateInitSetUI();
+        UpdateInitSetUIMode();
 
         SetCurState(StaticGlobalDel.EMovableState.eWait);
         //UpdateAnimationVal().Subscribe(_ => {
@@ -256,16 +263,22 @@ public class CPlayer : CActor
         BuildingRecipeData lTempCurBuildingRecipeData = m_MyPlayerMemoryShare.m_CurStageData.buildings[lTempCurIndex];
         int lTempColorIndex = 0;
         bool lTempbCheckOK = true;
+        int TotalBuildingRecipeDataCount = 0;
+        int CurBuildingRecipeDataCount = 0;
 
         for (int i = 0; i < lTempCurBuildingRecipeData.brickAmounts.Length; i++)
         {
             lTempColorIndex = (int)lTempCurBuildingRecipeData.brickAmounts[i].color;
             if (m_MyPlayerMemoryShare.m_CurBrickAmount[lTempColorIndex].amount < lTempCurBuildingRecipeData.brickAmounts[i].amount)
             {
+                CurBuildingRecipeDataCount += m_MyPlayerMemoryShare.m_CurBrickAmount[lTempColorIndex].amount;
+                TotalBuildingRecipeDataCount += lTempCurBuildingRecipeData.brickAmounts[i].amount;
                 lTempbCheckOK = false;
-                break;
             }
         }
+
+        float lTempRatio = (float)CurBuildingRecipeDataCount / (float)TotalBuildingRecipeDataCount;
+        m_MyPlayerMemoryShare.m_CurBuildingProgress.UpdateProgress(lTempRatio);
 
         if (lTempbCheckOK)
             SetNextBuildings();
@@ -284,6 +297,32 @@ public class CPlayer : CActor
             lTempColorIndex = (int)lTempCurBuildingRecipeData.brickAmounts[i].color;
             m_MyPlayerMemoryShare.m_CurBrickAmount[lTempColorIndex].amount -= lTempCurBuildingRecipeData.brickAmounts[i].amount;
         }
+       
+        Vector3 lTemppoint = Vector3.zero;
+        Vector3 lTempTargetpos = Vector3.zero;
+        Collider[] lTempAllCollider = null;
+        for (int i = 0; i < 100; i++)
+        {
+            lTempAllCollider = null;
+            lTemppoint = Random.insideUnitSphere * Random.Range(15.0f, 20.0f);
+            lTemppoint.y = 0.0f;
+            lTemppoint = this.transform.position + lTemppoint + Vector3.up * 10.0f;
+
+            if (Physics.Raycast(lTemppoint, Vector3.down, out RaycastHit hit, 20.0f, StaticGlobalDel.g_FloorMask))
+            {
+                lTempAllCollider = Physics.OverlapSphere(hit.point, 3.0f, StaticGlobalDel.g_CompleteBuildingMask);
+                if (lTempAllCollider.Length > 0)
+                    continue;
+
+                lTempTargetpos = hit.point;
+                break;
+            }
+            
+        }
+
+        m_MyPlayerMemoryShare.m_CurBuildingProgress.transform.parent = m_MyGameManager.AllCompleteBuilding;
+        Tween lTempTween = m_MyPlayerMemoryShare.m_CurBuildingProgress.transform.DOJump(lTempTargetpos, 20.0f, 1, 1.0f);
+        m_MyPlayerMemoryShare.m_CurBuildingProgress.transform.DOScale(Vector3.one * 0.3f, 3.0f).SetEase( Ease.OutBounce);
 
         lTempCurIndex++;
         if (m_MyPlayerMemoryShare.m_CurStageData.buildings.Length <= lTempCurIndex)
@@ -291,10 +330,10 @@ public class CPlayer : CActor
 
         m_MyPlayerMemoryShare.m_BuildingRecipeDataIndex = lTempCurIndex;
 
-        UpdateInitSetUI();
+        UpdateInitSetUIMode();
     }
 
-    public void UpdateInitSetUI()
+    public void UpdateInitSetUIMode()
     {
         int lTempCurIndex = m_MyPlayerMemoryShare.m_BuildingRecipeDataIndex;
         BuildingRecipeData lTempCurBuildingRecipeData = m_MyPlayerMemoryShare.m_CurStageData.buildings[lTempCurIndex];
@@ -307,6 +346,12 @@ public class CPlayer : CActor
 
         CGameSceneWindow lTempCGameSceneWindow = CGameSceneWindow.SharedInstance;
         lTempCGameSceneWindow.MyGameStatusUI.SetBuildingRecipe(lTempCurBuildingRecipeData.buildingSprite, lTempCurBuildingRecipeData.brickAmounts, lTempNextBuildingRecipeData.buildingSprite);
+
+        GameObject lTempCurBuilding =  GameObject.Instantiate(lTempCurBuildingRecipeData.Prefab3DMode);
+        lTempCurBuilding.transform.parent = m_MyPlayerMemoryShare.m_BuildingPos;
+        lTempCurBuilding.transform.localPosition = Vector3.zero ;
+
+        m_MyPlayerMemoryShare.m_CurBuildingProgress = lTempCurBuilding.GetComponent<BuildingProgress>();
     }
 
     //public void UpdateBrickAmount()

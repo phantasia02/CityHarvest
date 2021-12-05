@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7250742849943776868}
   - component: {fileID: 7992508582480782955}
   - component: {fileID: 3567797925168004117}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Street_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}

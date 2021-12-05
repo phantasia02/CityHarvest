@@ -43,8 +43,13 @@ public class CGameManager : MonoBehaviour
     [SerializeField] protected GameObject   m_WinObjAnima       = null;
     [SerializeField] protected GameObject   m_OverObjAnima      = null;
     [SerializeField] protected StageData    m_MyTargetBuilding  = null;
+
     [SerializeField] protected Transform    m_AllBrickObj       = null;
     public Transform AllBrickObj => m_AllBrickObj;
+
+    [SerializeField] protected Transform m_AllCompleteBuilding = null;
+    public Transform AllCompleteBuilding => m_AllCompleteBuilding;
+    
     public StageData MyTargetBuilding { get { return m_MyTargetBuilding; } }
     // ==================== SerializeField ===========================================
 

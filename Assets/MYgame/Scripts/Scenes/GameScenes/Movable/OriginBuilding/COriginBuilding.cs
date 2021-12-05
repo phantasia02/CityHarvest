@@ -26,7 +26,7 @@ public class COriginBuilding : CGameObjBas
 
     public void OnTriggerEnter(Collider other)
     {
-        if (other.tag == StaticGlobalDel.TagPlayerRoll)
+        if (other.tag == StaticGlobalDel.TagPlayerRoll || other.tag == StaticGlobalDel.TagCompleteBuilding)
         {
            // Debug.Log($"other.tag = {other.tag}");
 

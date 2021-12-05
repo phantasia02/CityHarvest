@@ -54,13 +54,13 @@ MonoBehaviour:
       m_RotationOrder: 4
     _duration: 0.5
     _endValue: {r: 1, g: 1, b: 1, a: 1}
---- !u!114 &1396057081
+--- !u!114 &1396057085
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1558733819824237484}
+  m_GameObject: {fileID: 9181028163068171442}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f477ea5feba1a84418ffa9630879bc8a, type: 3}
@@ -78,18 +78,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f477ea5feba1a84418ffa9630879bc8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1396057082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4095653474021458788}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f477ea5feba1a84418ffa9630879bc8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1396057083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102,13 +90,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f477ea5feba1a84418ffa9630879bc8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1396057085
+--- !u!114 &1396057082
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9181028163068171442}
+  m_GameObject: {fileID: 4095653474021458788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f477ea5feba1a84418ffa9630879bc8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &9151749965105926661
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558733819824237484}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.78211737, y: 0.7821171, z: 1.8312832}
+  m_Center: {x: 0.00003759563, y: 0.000027433034, z: 0.9156415}
+--- !u!114 &1396057081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558733819824237484}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f477ea5feba1a84418ffa9630879bc8a, type: 3}
@@ -124,6 +137,14 @@ PrefabInstance:
     - target: {fileID: 6092407163882286914, guid: 80a05c36870dd4b4985770ed5a39a4fd, type: 3}
       propertyPath: m_Name
       value: Tower Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6191402271278543658, guid: 80a05c36870dd4b4985770ed5a39a4fd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6191402271278543658, guid: 80a05c36870dd4b4985770ed5a39a4fd, type: 3}
+      propertyPath: m_TagString
+      value: CompleteBuilding
       objectReference: {fileID: 0}
     - target: {fileID: 6901560432726636024, guid: 80a05c36870dd4b4985770ed5a39a4fd, type: 3}
       propertyPath: m_RootOrder

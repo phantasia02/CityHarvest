@@ -18,3 +18,4 @@ MonoBehaviour:
     _amount: 200
   - _color: 2
     _amount: 10
+  _Prefab3DMode: {fileID: 7667832354272224885, guid: 179cabc50ebeefc4d8c40ecb696ce733, type: 3}
