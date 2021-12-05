@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41d4939dd86839d43bac8bfdf4a1ba70, type: 3}
   m_Name: TokyoTowerRecipe
   m_EditorClassIdentifier: 
-  _buildingSprite: {fileID: 21300000, guid: 2e0a3743a6caa444c9934723636678dc, type: 3}
+  _buildingSprite: {fileID: 21300000, guid: c14009ff8d0c8e3409643432013a4056, type: 3}
   _brickAmounts:
   - _color: 0
     _amount: 120

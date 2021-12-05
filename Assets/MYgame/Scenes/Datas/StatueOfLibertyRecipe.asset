@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41d4939dd86839d43bac8bfdf4a1ba70, type: 3}
   m_Name: StatueOfLibertyRecipe
   m_EditorClassIdentifier: 
-  _buildingSprite: {fileID: 21300000, guid: db10a1a1411ed5041b0c43a53d97681a, type: 3}
+  _buildingSprite: {fileID: 21300000, guid: a70a8a3e42f575844b6555502e72e4a6, type: 3}
   _brickAmounts:
   - _color: 3
     _amount: 200
