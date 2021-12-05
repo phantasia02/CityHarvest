@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8346510964021583178}
   - component: {fileID: 8346510964017491242}
   - component: {fileID: 8346510964029075530}
+  - component: {fileID: 6897507631793634885}
   m_Layer: 0
   m_Name: Y_Bus_station
   m_TagString: Untagged
@@ -91,10 +92,10 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8346510964019577738}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: c7808d8dc14a41c4b9003a7bede316bf, type: 3}
 --- !u!95 &8346510964029075530
@@ -116,3 +117,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &6897507631793634885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8346510964019577738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c2f65d6937eda42821d5cca36d8bab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MyBrickColor: 2
+  m_MyCopyBrickObj: {fileID: 3916221544094308216, guid: 023de62eec6640448bceae2e33f9b87d, type: 3}

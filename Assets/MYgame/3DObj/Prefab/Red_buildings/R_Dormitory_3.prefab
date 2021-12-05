@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4558802114818432053}
   - component: {fileID: 4558802114819399413}
   - component: {fileID: 4558802114823761557}
+  - component: {fileID: -9208893920161567599}
   m_Layer: 0
   m_Name: R_Dormitory_3
   m_TagString: Untagged
@@ -90,9 +91,23 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4558802114821652533}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: ea58f80cd97662f4db3a14cd6261b2b8, type: 3}
+--- !u!114 &-9208893920161567599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4558802114821652533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c2f65d6937eda42821d5cca36d8bab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MyBrickColor: 0
+  m_MyCopyBrickObj: {fileID: 571461229477716759, guid: 3ea718eb0ae9d9542af752ceba0b94b7, type: 3}

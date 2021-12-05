@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8151884559497102922}
   - component: {fileID: 8151884559496004746}
   - component: {fileID: 8151884559491986666}
+  - component: {fileID: 6905834075817103763}
   m_Layer: 0
   m_Name: W_Office
   m_TagString: Untagged
@@ -90,9 +91,23 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8151884559498271306}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: dcb6ef7cddaafc64583170e642ceb2d2, type: 3}
+--- !u!114 &6905834075817103763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8151884559498271306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c2f65d6937eda42821d5cca36d8bab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MyBrickColor: 5
+  m_MyCopyBrickObj: {fileID: 8439743884732230184, guid: 13a52adc30babcc418568fddffe0f881, type: 3}

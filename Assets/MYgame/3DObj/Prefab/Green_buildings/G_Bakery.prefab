@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6984075305541026806}
   - component: {fileID: 6984075305539895606}
   - component: {fileID: 6984075305535811926}
-  - component: {fileID: 624612490}
+  - component: {fileID: -6632009008496574319}
   m_Layer: 0
   m_Name: G_Bakery
   m_TagString: Untagged
@@ -91,13 +91,13 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6984075305542098934}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: d1f992642eca0ae4f9b9493408262bf9, type: 3}
---- !u!114 &624612490
+--- !u!114 &-6632009008496574319
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -106,237 +106,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 6984075305542098934}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b55d9bb3ec909340848c72a5bfc0ad0, type: 3}
+  m_Script: {fileID: 11500000, guid: 91c2f65d6937eda42821d5cca36d8bab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
-  voronoi:
-    amount: 20
-    centerBias: 0
-  splinters:
-    axis: 1
-    amount: 30
-    strength: 0.7
-    centerBias: 0
-  slabs:
-    axis: 1
-    amount: 30
-    strength: 0.7
-    centerBias: 0
-  radial:
-    centerAxis: 1
-    radius: 1
-    divergence: 1
-    restrictToPlane: 1
-    rings: 10
-    focus: 0
-    focusStr: 50
-    randomRings: 50
-    rays: 10
-    randomRays: 0
-    twist: 0
-  custom:
-    source: 4
-    useAs: 12
-    amount: 100
-    radius: 1
-    enable: 1
-    size: 0.05
-    transforms: []
-    vector3: []
-    noPoints: 0
-  mirrored:
-    amount: 50
-    planeType: 0
-    noPoints: 0
-  slice:
-    plane: 1
-    sliceList: []
-  bricks:
-    amountType: 0
-    mult: 1
-    amount_X: 3
-    amount_Y: 6
-    amount_Z: 0
-    size_Lock: 0
-    size_X: 1
-    size_Y: 1
-    size_Z: 1
-    sizeVar_X: 0
-    sizeVar_Y: 0
-    sizeVar_Z: 0
-    offset_X: 0.5
-    offset_Y: 0.5
-    offset_Z: 0
-    split_X: 0
-    split_Y: 0
-    split_Z: 0
-    split_probability: 0
-    split_offset: 0.5
-    split_rotation: 30
-  voxels:
-    size: 1
-  tets:
-    lattice: 0
-    density: 7
-    noise: 100
-  mode: 1
-  material:
-    innerMaterial: {fileID: 0}
-    mappingScale: 0.1
-    outerMaterial: {fileID: 0}
-    needNewMat: 0
-  clusters:
-    enable: 0
-    count: 10
-    seed: 1
-    relax: 0.5
-    amount: 0
-    layers: 0
-    scale: 1
-    min: 1
-    max: 3
-  advanced:
-    seed: 1
-    decompose: 0
-    removeCollinear: 1
-    copyComponents: 0
-    postWeld: 0
-    smooth: 0
-    inputPrecap: 1
-    outputPrecap: 0
-    removeDoubleFaces: 1
-    elementSizeThreshold: 5
-    combineChildren: 0
-    inner: 0
-    planar: 0
-    relativeSize: 4
-    absoluteSize: 0.1
-    vertexLimitation: 0
-    vertexAmount: 300
-  export:
-    source: 0
-    suffix: _frags
-  showCenter: 0
-  centerPosition: {x: -0.48470116, y: 0.487854, z: 0}
-  centerDirection: {x: 0, y: 0, z: 0, w: 1}
-  transForm: {fileID: 6984075305542321110}
-  meshFilter: {fileID: 6984075305541026806}
-  meshRenderer: {fileID: 6984075305539895606}
-  skinnedMeshRend: {fileID: 0}
-  meshFilters: []
-  meshes: []
-  pivots: []
-  rootChildList:
-  - {fileID: 0}
-  - {fileID: 0}
-  fragmentsAll:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  fragmentsLast:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  origSubMeshIdsRF: []
-  materials:
-  - {fileID: 2100000, guid: 5ebe58df583e5934da6913174c7cfb46, type: 2}
-  shatterMode: 1
-  colorPreview: 0
-  scalePreview: 1
-  previewScale: 0
-  size: 6.631441
-  rescaleFix: 1
-  originalScale: {x: 1, y: 1, z: 1}
-  bound:
-    m_Center: {x: 30.71292, y: 1.7343225, z: 18.260748}
-    m_Extent: {x: 2, y: 1.7303188, z: 2}
-  resetState: 0
+  m_MyBrickColor: 3
+  m_MyCopyBrickObj: {fileID: 5184244963218615058, guid: b7fbaac41c17efd4eb9c3ee17e22d0ce, type: 3}

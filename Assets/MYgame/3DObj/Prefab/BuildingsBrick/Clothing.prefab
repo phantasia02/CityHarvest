@@ -496,7 +496,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4700942594777891685}
   m_Layer: 0
-  m_Name: G_Clothing
+  m_Name: Clothing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

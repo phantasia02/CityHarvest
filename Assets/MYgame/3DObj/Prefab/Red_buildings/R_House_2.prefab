@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8659741133675358062}
   - component: {fileID: 8659741133676455342}
   - component: {fileID: 8659741133680481742}
+  - component: {fileID: 6745572996474655412}
   m_Layer: 0
   m_Name: R_House_2
   m_TagString: Untagged
@@ -90,9 +91,23 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8659741133678394222}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: e47f924ef5ef44848b7eb64d54639939, type: 3}
+--- !u!114 &6745572996474655412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8659741133678394222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c2f65d6937eda42821d5cca36d8bab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MyBrickColor: 0
+  m_MyCopyBrickObj: {fileID: 4045606337303683424, guid: 27a679dad7b7acb439f74980bc0906e8, type: 3}

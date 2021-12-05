@@ -9,16 +9,19 @@ public class CBrickObj : CGameObjBas
     // ==================== SerializeField ===========================================
 
     [SerializeField] protected StaticGlobalDel.EBrickColor m_MyBrickColor = StaticGlobalDel.EBrickColor.eBlue;
-    public StaticGlobalDel.EBrickColor MyBrickColor => m_MyBrickColor;
-
+    public StaticGlobalDel.EBrickColor MyBrickColor
+    {
+        set => m_MyBrickColor = value;
+        get => m_MyBrickColor;
+    }
     // ==================== SerializeField ===========================================
 
     protected Collider[] m_AllMyCollider = null;
 
-    protected override void Awake()
-    {
-        base.Awake();
 
+    protected override void Start()
+    {
+        base.Start();
         m_AllMyCollider = this.GetComponentsInChildren<Collider>();
     }
 

@@ -658,7 +658,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5352415901838900496}
   m_Layer: 0
-  m_Name: G_PawnShop
+  m_Name: PawnShop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
