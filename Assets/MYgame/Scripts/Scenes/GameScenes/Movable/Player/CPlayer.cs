@@ -67,6 +67,8 @@ public class CPlayer : CActor
     protected override void AddInitState()
     {
         m_AllState[(int)StaticGlobalDel.EMovableState.eWait].AllThisState.Add(new CWaitStatePlayer(this));
+        m_AllState[(int)StaticGlobalDel.EMovableState.eWait].AllThisState.Add(new CWinStateBase(this));
+
         m_AllState[(int)StaticGlobalDel.EMovableState.eMove].AllThisState.Add(new CMoveStatePlayer(this));
 
         m_AllState[(int)StaticGlobalDel.EMovableState.eDeath].AllThisState.Add(new CDeathStatePlayer(this));

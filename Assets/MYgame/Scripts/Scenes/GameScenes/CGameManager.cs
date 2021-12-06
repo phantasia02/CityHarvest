@@ -219,7 +219,7 @@ public class CGameManager : MonoBehaviour
 
                   //  m_AllGroupQuestionHole[0].ChangeQuestionHoleState( CQuestionHole.ECurShowState.eFinish);
                   //  ChangeQuestionHoleState
-                    m_MyResultUI.ShowSuccessUI(0.0f);
+                    m_MyResultUI.ShowSuccessUI(2.0f);
                 }
                 break;
             case EState.eGameOver:
@@ -227,7 +227,7 @@ public class CGameManager : MonoBehaviour
                     //if (lTempGameSceneWindow)
                     //    lTempGameSceneWindow.ShowObj(false);
                   
-                    m_MyResultUI.ShowFailedUI(1.0f);
+                    m_MyResultUI.ShowFailedUI(0.0f);
                 }
                 break;
         }
@@ -300,6 +300,21 @@ public class CGameManager : MonoBehaviour
 
     public void TimeOut()
     {
-        SetState(EState.eGameOver);
+        m_Player.ChangState = StaticGlobalDel.EMovableState.eWait;
+        m_Player.ChangStateinndex = 1;
+
+        if (m_AllCompleteBuilding.childCount == 0)
+            SetState(EState.eGameOver);
+        else
+        {
+            CinemachineVirtualCamera lTempCinemachineVirtualCamera = m_WinObjAnima.GetComponent<CinemachineVirtualCamera>();
+            lTempCinemachineVirtualCamera.Follow = m_AllCompleteBuilding.GetChild(m_AllCompleteBuilding.childCount - 1);
+
+            Physics.gravity = new Vector3(0.0f, -9.81f, 0.0f);
+            m_WinObjAnima.SetActive(true);
+            SetState(EState.eWinUI);
+        }
+
+        
     }
 }
