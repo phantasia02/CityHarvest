@@ -318,7 +318,7 @@ public class CPlayer : CActor
 
         m_MyPlayerMemoryShare.m_CurBuildingProgress.transform.parent = m_MyGameManager.AllCompleteBuilding;
         Tween lTempTween = m_MyPlayerMemoryShare.m_CurBuildingProgress.transform.DOJump(lTempTargetpos, 20.0f, 1, 1.0f);
-        m_MyPlayerMemoryShare.m_CurBuildingProgress.transform.DOScale(Vector3.one * 0.3f, 3.0f).SetEase( Ease.OutBounce);
+        m_MyPlayerMemoryShare.m_CurBuildingProgress.transform.DOScale(Vector3.one * 0.2f, 3.0f).SetEase( Ease.OutBounce);
 
         int lTempCurIndex = m_MyPlayerMemoryShare.m_BuildingRecipeDataIndex;
         lTempCurIndex++;
