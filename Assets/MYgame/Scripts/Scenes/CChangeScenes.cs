@@ -25,7 +25,7 @@ public class CChangeScenes
         //if (lpLevelIndex < 0 || lpLevelIndex >= GlobalData.SharedInstance.LevelGameObj.Length)
         //    return;
         int lTempIndex = SceneManager.GetActiveScene().buildIndex + 1;
-        if (lTempIndex == 4)
+        if (lTempIndex == 2)
             lTempIndex = 1;
 
         GlobalData.g_CurSceneName = GlobalData.g_GameScenesName;
