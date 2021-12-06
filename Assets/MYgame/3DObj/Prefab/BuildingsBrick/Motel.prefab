@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 6601596078145722304}
   - component: {fileID: 6601596078145722305}
   - component: {fileID: 7182408615670584256}
-  - component: {fileID: 2591633357865554246}
   - component: {fileID: 6364527507520425685}
+  - component: {fileID: 7104287863308338001}
   m_Layer: 0
   m_Name: G_Motel_sh_26
   m_TagString: BrickObj
@@ -97,20 +97,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.9656415, y: 0.20748879, z: 4.5678077}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2591633357865554246
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596078145722307}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 469828094398472458, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &6364527507520425685
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -127,6 +113,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7104287863308338001
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596078145722307}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.9656415, y: 0.20748879, z: 4.5678077}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596078169004846
 GameObject:
   m_ObjectHideFlags: 0
@@ -139,8 +138,8 @@ GameObject:
   - component: {fileID: 6601596078169004843}
   - component: {fileID: 6601596078169004844}
   - component: {fileID: 2485077929195362286}
-  - component: {fileID: 1725352253920409593}
   - component: {fileID: 849304880860763642}
+  - component: {fileID: 3345247731321196932}
   m_Layer: 0
   m_Name: G_Motel_sh_15
   m_TagString: BrickObj
@@ -224,20 +223,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.6646504, y: 3.1766896, z: 0.7684231}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &1725352253920409593
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596078169004846}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5869309653872944195, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &849304880860763642
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -254,6 +239,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3345247731321196932
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596078169004846}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.6646504, y: 3.1766896, z: 0.7684231}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596078182016753
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,8 +264,8 @@ GameObject:
   - component: {fileID: 6601596078182016766}
   - component: {fileID: 6601596078182016767}
   - component: {fileID: 7262792553936759295}
-  - component: {fileID: 1212513969825578787}
   - component: {fileID: 4046089788344914067}
+  - component: {fileID: 7028273669486149674}
   m_Layer: 0
   m_Name: G_Motel_sh_6
   m_TagString: BrickObj
@@ -351,20 +349,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.998807, y: 2.5098736, z: 3.7015674}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &1212513969825578787
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596078182016753}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7117833702268969630, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &4046089788344914067
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -381,6 +365,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7028273669486149674
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596078182016753}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.998807, y: 2.5098736, z: 3.7015674}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596078239332707
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,8 +390,8 @@ GameObject:
   - component: {fileID: 6601596078239332704}
   - component: {fileID: 6601596078239332705}
   - component: {fileID: 5271449227286103403}
-  - component: {fileID: 4195387676605459022}
   - component: {fileID: 7626498913324833302}
+  - component: {fileID: 528698927721836735}
   m_Layer: 0
   m_Name: G_Motel_sh_14
   m_TagString: BrickObj
@@ -478,20 +475,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.2121367, y: 3.2559757, z: 2.5889642}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4195387676605459022
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596078239332707}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2103157342066371228, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &7626498913324833302
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -508,6 +491,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &528698927721836735
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596078239332707}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.2121367, y: 3.2559757, z: 2.5889642}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596078278184001
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,8 +516,8 @@ GameObject:
   - component: {fileID: 6601596078278184014}
   - component: {fileID: 6601596078278184015}
   - component: {fileID: 4486950925401089300}
-  - component: {fileID: 956974617593914539}
   - component: {fileID: 3768579613566066793}
+  - component: {fileID: 5888495868971179899}
   m_Layer: 0
   m_Name: G_Motel_sh_7
   m_TagString: BrickObj
@@ -605,20 +601,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.3700275, y: 3.146903, z: 2.2405505}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &956974617593914539
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596078278184001}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5719680769039418076, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &3768579613566066793
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -635,6 +617,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &5888495868971179899
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596078278184001}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.3700275, y: 3.146903, z: 2.2405505}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596078310294478
 GameObject:
   m_ObjectHideFlags: 0
@@ -647,8 +642,8 @@ GameObject:
   - component: {fileID: 6601596078310294475}
   - component: {fileID: 6601596078310294476}
   - component: {fileID: 6744169387000115452}
-  - component: {fileID: 7842789772945779247}
   - component: {fileID: 9018527458910520056}
+  - component: {fileID: 7448866837113061841}
   m_Layer: 0
   m_Name: G_Motel_sh_32
   m_TagString: BrickObj
@@ -732,20 +727,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.5572317, y: 1.3672472, z: 2.0873532}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &7842789772945779247
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596078310294478}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6728406829673321304, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &9018527458910520056
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -762,6 +743,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7448866837113061841
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596078310294478}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5572317, y: 1.3672472, z: 2.0873532}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596078324186626
 GameObject:
   m_ObjectHideFlags: 0
@@ -774,8 +768,8 @@ GameObject:
   - component: {fileID: 6601596078324186639}
   - component: {fileID: 6601596078324186624}
   - component: {fileID: 7292793504635495833}
-  - component: {fileID: 1013663479104431125}
   - component: {fileID: 369204443159297963}
+  - component: {fileID: 1607227880618790754}
   m_Layer: 0
   m_Name: G_Motel_sh_46
   m_TagString: BrickObj
@@ -859,20 +853,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.9493403, y: 4.1730504, z: 3.074585}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &1013663479104431125
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596078324186626}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7002664857405516577, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &369204443159297963
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -889,6 +869,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1607227880618790754
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596078324186626}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.9493403, y: 4.1730504, z: 3.074585}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596078333475928
 GameObject:
   m_ObjectHideFlags: 0
@@ -901,8 +894,8 @@ GameObject:
   - component: {fileID: 6601596078333475941}
   - component: {fileID: 6601596078333475942}
   - component: {fileID: 2348811350690271664}
-  - component: {fileID: 7115893880206355484}
   - component: {fileID: 2942453317519434760}
+  - component: {fileID: 875526655390770592}
   m_Layer: 0
   m_Name: G_Motel_sh_47
   m_TagString: BrickObj
@@ -986,20 +979,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.5256011, y: 2.3318396, z: 2.044042}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &7115893880206355484
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596078333475928}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1910175342721259818, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &2942453317519434760
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1016,6 +995,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &875526655390770592
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596078333475928}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.5256011, y: 2.3318396, z: 2.044042}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596078397141552
 GameObject:
   m_ObjectHideFlags: 0
@@ -1028,8 +1020,8 @@ GameObject:
   - component: {fileID: 6601596078397141565}
   - component: {fileID: 6601596078397141566}
   - component: {fileID: 840173125231684658}
-  - component: {fileID: 5078302906566903142}
   - component: {fileID: 3138274956961738509}
+  - component: {fileID: 4787791572647366504}
   m_Layer: 0
   m_Name: G_Motel_sh_16
   m_TagString: BrickObj
@@ -1113,20 +1105,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.9424372, y: 1.8743603, z: 2.5134819}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5078302906566903142
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596078397141552}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -173781112359760913, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &3138274956961738509
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1143,6 +1121,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4787791572647366504
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596078397141552}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.9424372, y: 1.8743603, z: 2.5134819}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596078448307896
 GameObject:
   m_ObjectHideFlags: 0
@@ -1155,8 +1146,8 @@ GameObject:
   - component: {fileID: 6601596078448307781}
   - component: {fileID: 6601596078448307782}
   - component: {fileID: 7934166384655006446}
-  - component: {fileID: 6007651602891264104}
   - component: {fileID: 4330996317052253395}
+  - component: {fileID: 6185977443411672929}
   m_Layer: 0
   m_Name: G_Motel_sh_30
   m_TagString: BrickObj
@@ -1240,20 +1231,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.2331386, y: 2.4818282, z: 3.1788502}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6007651602891264104
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596078448307896}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -9180714652368588235, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &4330996317052253395
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1270,6 +1247,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6185977443411672929
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596078448307896}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.2331386, y: 2.4818282, z: 3.1788502}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596078453844465
 GameObject:
   m_ObjectHideFlags: 0
@@ -1282,8 +1272,8 @@ GameObject:
   - component: {fileID: 6601596078453844478}
   - component: {fileID: 6601596078453844479}
   - component: {fileID: 276669236703997427}
-  - component: {fileID: 4070187486792474437}
   - component: {fileID: 7172729854322763003}
+  - component: {fileID: 7764996595767883272}
   m_Layer: 0
   m_Name: G_Motel_sh_45
   m_TagString: BrickObj
@@ -1367,20 +1357,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.1982076, y: 3.545956, z: 3.6559625}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4070187486792474437
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596078453844465}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4226334576318552469, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &7172729854322763003
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1397,6 +1373,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7764996595767883272
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596078453844465}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.1982076, y: 3.545956, z: 3.6559625}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596078685466498
 GameObject:
   m_ObjectHideFlags: 0
@@ -1409,8 +1398,8 @@ GameObject:
   - component: {fileID: 6601596078685466511}
   - component: {fileID: 6601596078685466496}
   - component: {fileID: 4933364519381652568}
-  - component: {fileID: 6909539836795980193}
   - component: {fileID: 9151803749123937833}
+  - component: {fileID: 6881933789841044678}
   m_Layer: 0
   m_Name: G_Motel_sh_18
   m_TagString: BrickObj
@@ -1494,20 +1483,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.2327952, y: 2.5618224, z: 3.896439}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6909539836795980193
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596078685466498}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1012945812772243707, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &9151803749123937833
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1524,6 +1499,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6881933789841044678
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596078685466498}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.2327952, y: 2.5618224, z: 3.896439}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596078751715930
 GameObject:
   m_ObjectHideFlags: 0
@@ -1536,8 +1524,8 @@ GameObject:
   - component: {fileID: 6601596078751715943}
   - component: {fileID: 6601596078751715928}
   - component: {fileID: 5317671335981549094}
-  - component: {fileID: 5459331986427962101}
   - component: {fileID: 8781168516399470358}
+  - component: {fileID: 8845874904482348458}
   m_Layer: 0
   m_Name: G_Motel_sh_5
   m_TagString: BrickObj
@@ -1621,20 +1609,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0582623, y: 3.7266722, z: 4.6134024}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5459331986427962101
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596078751715930}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6575657395312839197, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &8781168516399470358
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1651,6 +1625,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &8845874904482348458
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596078751715930}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0582623, y: 3.7266722, z: 4.6134024}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596078783305686
 GameObject:
   m_ObjectHideFlags: 0
@@ -1663,8 +1650,8 @@ GameObject:
   - component: {fileID: 6601596078783305683}
   - component: {fileID: 6601596078783305684}
   - component: {fileID: 3328801745671454801}
-  - component: {fileID: 3539922696099454289}
   - component: {fileID: 7920678189125702460}
+  - component: {fileID: 8936085223103018729}
   m_Layer: 0
   m_Name: G_Motel_sh_35
   m_TagString: BrickObj
@@ -1748,20 +1735,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.2473626, y: 0.023999974, z: 4.310828}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &3539922696099454289
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596078783305686}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4816405896495216175, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &7920678189125702460
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1778,6 +1751,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &8936085223103018729
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596078783305686}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.2473626, y: 0.023999974, z: 4.310828}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596078783754382
 GameObject:
   m_ObjectHideFlags: 0
@@ -1790,8 +1776,8 @@ GameObject:
   - component: {fileID: 6601596078783754379}
   - component: {fileID: 6601596078783754380}
   - component: {fileID: 1565088480786967742}
-  - component: {fileID: 2859267762002325063}
   - component: {fileID: 3516493465804876694}
+  - component: {fileID: 3405590484275843384}
   m_Layer: 0
   m_Name: G_Motel_sh_3
   m_TagString: BrickObj
@@ -1875,20 +1861,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.65629, y: 0.94178224, z: 1.362885}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2859267762002325063
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596078783754382}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6230030756223048795, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &3516493465804876694
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1905,6 +1877,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3405590484275843384
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596078783754382}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.65629, y: 0.94178224, z: 1.362885}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596078786773484
 GameObject:
   m_ObjectHideFlags: 0
@@ -1917,8 +1902,8 @@ GameObject:
   - component: {fileID: 6601596078786773481}
   - component: {fileID: 6601596078786773482}
   - component: {fileID: 4886597461996919002}
-  - component: {fileID: 2935695079238798270}
   - component: {fileID: 1731100024584692126}
+  - component: {fileID: 7690352752419041323}
   m_Layer: 0
   m_Name: G_Motel_sh_19
   m_TagString: BrickObj
@@ -2002,20 +1987,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.6921487, y: 0.1677692, z: 1.0386109}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2935695079238798270
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596078786773484}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5006787090973285313, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &1731100024584692126
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2032,6 +2003,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7690352752419041323
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596078786773484}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6921487, y: 0.1677692, z: 1.0386109}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596078793456157
 GameObject:
   m_ObjectHideFlags: 0
@@ -2044,8 +2028,8 @@ GameObject:
   - component: {fileID: 6601596078793456154}
   - component: {fileID: 6601596078793456155}
   - component: {fileID: 2687774756417333656}
-  - component: {fileID: 6476293494695803107}
   - component: {fileID: 2174566001118478005}
+  - component: {fileID: 8777498753262635743}
   m_Layer: 0
   m_Name: G_Motel_sh_8
   m_TagString: BrickObj
@@ -2129,20 +2113,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.4354544, y: 3.6332364, z: 2.113471}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6476293494695803107
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596078793456157}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1290879242812928803, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &2174566001118478005
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2159,6 +2129,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &8777498753262635743
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596078793456157}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.4354544, y: 3.6332364, z: 2.113471}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596078897425817
 GameObject:
   m_ObjectHideFlags: 0
@@ -2171,8 +2154,8 @@ GameObject:
   - component: {fileID: 6601596078897425830}
   - component: {fileID: 6601596078897425831}
   - component: {fileID: 81429470704298864}
-  - component: {fileID: 8769291722798932373}
   - component: {fileID: 4522582370054292599}
+  - component: {fileID: 690693696736645794}
   m_Layer: 0
   m_Name: G_Motel_sh_31
   m_TagString: BrickObj
@@ -2256,20 +2239,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.159177, y: 3.380642, z: 3.3101988}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &8769291722798932373
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596078897425817}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7550960147794967133, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &4522582370054292599
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2286,6 +2255,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &690693696736645794
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596078897425817}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.159177, y: 3.380642, z: 3.3101988}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596078914017987
 GameObject:
   m_ObjectHideFlags: 0
@@ -2298,8 +2280,8 @@ GameObject:
   - component: {fileID: 6601596078914017984}
   - component: {fileID: 6601596078914017985}
   - component: {fileID: 3569917847873106218}
-  - component: {fileID: 7471778430662515996}
   - component: {fileID: 2762430973100462420}
+  - component: {fileID: 1649067141912965706}
   m_Layer: 0
   m_Name: G_Motel_sh_20
   m_TagString: BrickObj
@@ -2383,20 +2365,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.6551738, y: 0.20748879, z: 2.828334}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &7471778430662515996
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596078914017987}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1205771431960349743, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &2762430973100462420
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2413,6 +2381,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1649067141912965706
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596078914017987}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.6551738, y: 0.20748879, z: 2.828334}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596078967200569
 GameObject:
   m_ObjectHideFlags: 0
@@ -2425,8 +2406,8 @@ GameObject:
   - component: {fileID: 6601596078967199942}
   - component: {fileID: 6601596078967199943}
   - component: {fileID: 6191753280024515725}
-  - component: {fileID: 4458162205182886197}
   - component: {fileID: 512746019684701019}
+  - component: {fileID: 649102956092535862}
   m_Layer: 0
   m_Name: G_Motel_sh_11
   m_TagString: BrickObj
@@ -2510,20 +2491,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.4516492, y: 1.7351608, z: 2.263728}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4458162205182886197
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596078967200569}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4007017264014439374, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &512746019684701019
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2540,6 +2507,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &649102956092535862
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596078967200569}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.4516492, y: 1.7351608, z: 2.263728}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596079012637635
 GameObject:
   m_ObjectHideFlags: 0
@@ -2552,8 +2532,8 @@ GameObject:
   - component: {fileID: 6601596079012637632}
   - component: {fileID: 6601596079012637633}
   - component: {fileID: 4661549557390104717}
-  - component: {fileID: 7922456886475082337}
   - component: {fileID: 8898434973067243812}
+  - component: {fileID: 8560347850761123462}
   m_Layer: 0
   m_Name: G_Motel_sh_36
   m_TagString: BrickObj
@@ -2637,20 +2617,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0334024, y: 1.5878289, z: 1.6307329}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &7922456886475082337
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596079012637635}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3894312480953863812, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &8898434973067243812
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2667,6 +2633,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &8560347850761123462
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596079012637635}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0334024, y: 1.5878289, z: 1.6307329}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596079036264098
 GameObject:
   m_ObjectHideFlags: 0
@@ -2679,8 +2658,8 @@ GameObject:
   - component: {fileID: 6601596079036264111}
   - component: {fileID: 6601596079036264096}
   - component: {fileID: 7990721250697418399}
-  - component: {fileID: 5687319546517604028}
   - component: {fileID: 7317184240904140428}
+  - component: {fileID: 6684183188426784306}
   m_Layer: 0
   m_Name: G_Motel_sh_34
   m_TagString: BrickObj
@@ -2764,20 +2743,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.5622706, y: 0.20748879, z: 1.9421678}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5687319546517604028
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596079036264098}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1703042262873307479, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &7317184240904140428
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2794,6 +2759,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6684183188426784306
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596079036264098}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.5622706, y: 0.20748879, z: 1.9421678}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596079046982309
 GameObject:
   m_ObjectHideFlags: 0
@@ -2806,8 +2784,8 @@ GameObject:
   - component: {fileID: 6601596079046982306}
   - component: {fileID: 6601596079046982307}
   - component: {fileID: 202003922309183034}
-  - component: {fileID: 3031087577087528837}
   - component: {fileID: 7246021077641231306}
+  - component: {fileID: 7302259528738932645}
   m_Layer: 0
   m_Name: G_Motel_sh_12
   m_TagString: BrickObj
@@ -2891,20 +2869,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.3199804, y: 4.0018735, z: 3.0748029}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &3031087577087528837
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596079046982309}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7948723079639565769, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &7246021077641231306
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2921,6 +2885,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7302259528738932645
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596079046982309}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.3199804, y: 4.0018735, z: 3.0748029}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596079050768173
 GameObject:
   m_ObjectHideFlags: 0
@@ -2933,8 +2910,8 @@ GameObject:
   - component: {fileID: 6601596079050768170}
   - component: {fileID: 6601596079050768171}
   - component: {fileID: 6405350209153068577}
-  - component: {fileID: 3347320591023216797}
   - component: {fileID: 4815803070334054141}
+  - component: {fileID: 4634948564276640033}
   m_Layer: 0
   m_Name: G_Motel_sh_1
   m_TagString: BrickObj
@@ -3018,20 +2995,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.7115884, y: 1.3750734, z: 3.7632477}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &3347320591023216797
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596079050768173}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6994286009260695198, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &4815803070334054141
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3048,6 +3011,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4634948564276640033
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596079050768173}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7115884, y: 1.3750734, z: 3.7632477}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596079072248582
 GameObject:
   m_ObjectHideFlags: 0
@@ -3060,8 +3036,8 @@ GameObject:
   - component: {fileID: 6601596079072248579}
   - component: {fileID: 6601596079072248580}
   - component: {fileID: 2517281466998407967}
-  - component: {fileID: 8603975183729311851}
   - component: {fileID: 6463703831793632753}
+  - component: {fileID: 927514630869220841}
   m_Layer: 0
   m_Name: G_Motel_sh_40
   m_TagString: BrickObj
@@ -3145,20 +3121,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.5080304, y: 2.0376492, z: 4.007689}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &8603975183729311851
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596079072248582}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1874055861311434096, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &6463703831793632753
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3175,6 +3137,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &927514630869220841
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596079072248582}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5080304, y: 2.0376492, z: 4.007689}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596079189682093
 GameObject:
   m_ObjectHideFlags: 0
@@ -3187,8 +3162,8 @@ GameObject:
   - component: {fileID: 6601596079189682090}
   - component: {fileID: 6601596079189682091}
   - component: {fileID: 3865327286870298748}
-  - component: {fileID: 5973961162331435096}
   - component: {fileID: 16279204209717522}
+  - component: {fileID: 4922878259480970785}
   m_Layer: 0
   m_Name: G_Motel_sh_28
   m_TagString: BrickObj
@@ -3272,20 +3247,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.36192298, y: 0.51253176, z: 1.5827689}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5973961162331435096
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596079189682093}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2993882645959683486, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &16279204209717522
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3302,6 +3263,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4922878259480970785
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596079189682093}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.36192298, y: 0.51253176, z: 1.5827689}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596079202367997
 GameObject:
   m_ObjectHideFlags: 0
@@ -3314,8 +3288,8 @@ GameObject:
   - component: {fileID: 6601596079202367994}
   - component: {fileID: 6601596079202367995}
   - component: {fileID: 2096267777708920224}
-  - component: {fileID: 2275925735740238764}
   - component: {fileID: 6036487564946109344}
+  - component: {fileID: 3882946186938523401}
   m_Layer: 0
   m_Name: G_Motel_sh_2
   m_TagString: BrickObj
@@ -3399,20 +3373,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.0053582, y: 0.20748879, z: 3.7491622}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2275925735740238764
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596079202367997}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2850041382256732461, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &6036487564946109344
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3429,6 +3389,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3882946186938523401
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596079202367997}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.0053582, y: 0.20748879, z: 3.7491622}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596079341793193
 GameObject:
   m_ObjectHideFlags: 0
@@ -3441,8 +3414,8 @@ GameObject:
   - component: {fileID: 6601596079341793206}
   - component: {fileID: 6601596079341793207}
   - component: {fileID: 3782943947401175112}
-  - component: {fileID: 3090344107755765884}
   - component: {fileID: 8146084226153990136}
+  - component: {fileID: 5587473731039862060}
   m_Layer: 0
   m_Name: G_Motel_sh_42
   m_TagString: BrickObj
@@ -3526,20 +3499,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.61676383, y: 1.0423481, z: 1.3182254}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &3090344107755765884
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596079341793193}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3961728642565998624, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &8146084226153990136
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3556,6 +3515,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &5587473731039862060
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596079341793193}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.61676383, y: 1.0423481, z: 1.3182254}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596079359799688
 GameObject:
   m_ObjectHideFlags: 0
@@ -3568,8 +3540,8 @@ GameObject:
   - component: {fileID: 6601596079359799701}
   - component: {fileID: 6601596079359799702}
   - component: {fileID: 5179536428453076351}
-  - component: {fileID: 3733637267209608022}
   - component: {fileID: 6078195147793901145}
+  - component: {fileID: 8373007975348827505}
   m_Layer: 0
   m_Name: G_Motel_sh_41
   m_TagString: BrickObj
@@ -3653,20 +3625,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.6450791, y: 2.7767348, z: 3.8015642}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &3733637267209608022
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596079359799688}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2928204172506120477, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &6078195147793901145
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3683,6 +3641,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &8373007975348827505
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596079359799688}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.6450791, y: 2.7767348, z: 3.8015642}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596079433047417
 GameObject:
   m_ObjectHideFlags: 0
@@ -3695,8 +3666,8 @@ GameObject:
   - component: {fileID: 6601596079433047302}
   - component: {fileID: 6601596079433047303}
   - component: {fileID: 6554958328550822673}
-  - component: {fileID: 1879961561209994075}
   - component: {fileID: 3621891904604462141}
+  - component: {fileID: 6593672085900502141}
   m_Layer: 0
   m_Name: G_Motel_sh_4
   m_TagString: BrickObj
@@ -3780,20 +3751,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.4621806, y: 2.147815, z: 5.2519765}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &1879961561209994075
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596079433047417}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5024368850720719430, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &3621891904604462141
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3810,6 +3767,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6593672085900502141
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596079433047417}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.4621806, y: 2.147815, z: 5.2519765}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596079442587716
 GameObject:
   m_ObjectHideFlags: 0
@@ -3822,8 +3792,8 @@ GameObject:
   - component: {fileID: 6601596079442587713}
   - component: {fileID: 6601596079442587714}
   - component: {fileID: 337381534129382928}
-  - component: {fileID: 1826510143079482029}
   - component: {fileID: 3516738605030254927}
+  - component: {fileID: 8818016720992189731}
   m_Layer: 0
   m_Name: G_Motel_sh_23
   m_TagString: BrickObj
@@ -3907,20 +3877,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.409627, y: 4.184985, z: 3.5964484}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &1826510143079482029
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596079442587716}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8114560545261323094, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &3516738605030254927
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3937,6 +3893,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &8818016720992189731
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596079442587716}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.409627, y: 4.184985, z: 3.5964484}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596079451089494
 GameObject:
   m_ObjectHideFlags: 0
@@ -3949,8 +3918,8 @@ GameObject:
   - component: {fileID: 6601596079451089491}
   - component: {fileID: 6601596079451089492}
   - component: {fileID: 2970568594460416005}
-  - component: {fileID: 186055396136693801}
   - component: {fileID: 5096529521695085818}
+  - component: {fileID: 307631055616404708}
   m_Layer: 0
   m_Name: G_Motel_sh_24
   m_TagString: BrickObj
@@ -4034,20 +4003,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.8703213, y: 3.023174, z: 2.989838}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &186055396136693801
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596079451089494}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4593090437113677488, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &5096529521695085818
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4064,6 +4019,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &307631055616404708
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596079451089494}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.8703213, y: 3.023174, z: 2.989838}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596079578019758
 GameObject:
   m_ObjectHideFlags: 0
@@ -4076,8 +4044,8 @@ GameObject:
   - component: {fileID: 6601596079578019755}
   - component: {fileID: 6601596079578019756}
   - component: {fileID: 4995045360190346033}
-  - component: {fileID: 6460192151927583682}
   - component: {fileID: 1642024554909822737}
+  - component: {fileID: 3037042874422576805}
   m_Layer: 0
   m_Name: G_Motel_sh_25
   m_TagString: BrickObj
@@ -4161,20 +4129,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.7904947, y: 1.1917135, z: 4.09689}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6460192151927583682
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596079578019758}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 319090518862342841, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &1642024554909822737
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4191,6 +4145,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3037042874422576805
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596079578019758}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.7904947, y: 1.1917135, z: 4.09689}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596079708800926
 GameObject:
   m_ObjectHideFlags: 0
@@ -4203,8 +4170,8 @@ GameObject:
   - component: {fileID: 6601596079708800923}
   - component: {fileID: 6601596079708800924}
   - component: {fileID: 4938396790534242715}
-  - component: {fileID: 7483403318129401258}
   - component: {fileID: 5274062690293602678}
+  - component: {fileID: 742880527060630990}
   m_Layer: 0
   m_Name: G_Motel_sh_33
   m_TagString: BrickObj
@@ -4288,20 +4255,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.5071669, y: 0.7473662, z: 1.247658}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &7483403318129401258
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596079708800926}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6782440524553524610, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &5274062690293602678
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4318,6 +4271,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &742880527060630990
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596079708800926}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5071669, y: 0.7473662, z: 1.247658}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596079774638652
 GameObject:
   m_ObjectHideFlags: 0
@@ -4330,8 +4296,8 @@ GameObject:
   - component: {fileID: 6601596079774638649}
   - component: {fileID: 6601596079774638650}
   - component: {fileID: 2490217023728732465}
-  - component: {fileID: 2496465936858529499}
   - component: {fileID: 3043467317752948689}
+  - component: {fileID: 2223248032971649732}
   m_Layer: 0
   m_Name: G_Motel_sh_44
   m_TagString: BrickObj
@@ -4415,20 +4381,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.1463473, y: 3.2641702, z: 3.262332}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2496465936858529499
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596079774638652}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8697023096336227859, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &3043467317752948689
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4445,6 +4397,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2223248032971649732
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596079774638652}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.1463473, y: 3.2641702, z: 3.262332}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596079794792133
 GameObject:
   m_ObjectHideFlags: 0
@@ -4457,8 +4422,8 @@ GameObject:
   - component: {fileID: 6601596079794792130}
   - component: {fileID: 6601596079794792131}
   - component: {fileID: 8367199813212635469}
-  - component: {fileID: 6456061119475142305}
   - component: {fileID: 7782679083876716224}
+  - component: {fileID: 5287493485801096628}
   m_Layer: 0
   m_Name: G_Motel_sh_29
   m_TagString: BrickObj
@@ -4542,20 +4507,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.6411505, y: 2.383413, z: 3.2147684}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6456061119475142305
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596079794792133}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3212806503354098067, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &7782679083876716224
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4572,6 +4523,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &5287493485801096628
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596079794792133}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.6411505, y: 2.383413, z: 3.2147684}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596079797835960
 GameObject:
   m_ObjectHideFlags: 0
@@ -4584,8 +4548,8 @@ GameObject:
   - component: {fileID: 6601596079797835845}
   - component: {fileID: 6601596079797835846}
   - component: {fileID: 8007617946306127935}
-  - component: {fileID: 6927628837087481950}
   - component: {fileID: 5414173424045753344}
+  - component: {fileID: 8399666285202774037}
   m_Layer: 0
   m_Name: G_Motel_sh_9
   m_TagString: BrickObj
@@ -4669,20 +4633,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.9748983, y: 2.2255974, z: 5.42105}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6927628837087481950
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596079797835960}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -82961986196779311, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &5414173424045753344
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4699,6 +4649,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &8399666285202774037
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596079797835960}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.9748983, y: 2.2255974, z: 5.42105}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596079804885672
 GameObject:
   m_ObjectHideFlags: 0
@@ -4711,8 +4674,8 @@ GameObject:
   - component: {fileID: 6601596079804885685}
   - component: {fileID: 6601596079804885686}
   - component: {fileID: 4127669782882137526}
-  - component: {fileID: 1631400279137369399}
   - component: {fileID: 8514221638495239182}
+  - component: {fileID: 4741902499337203327}
   m_Layer: 0
   m_Name: G_Motel_sh_17
   m_TagString: BrickObj
@@ -4796,20 +4759,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.35245, y: 2.777995, z: 4.2956104}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &1631400279137369399
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596079804885672}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7320187587016753607, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &8514221638495239182
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4826,6 +4775,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4741902499337203327
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596079804885672}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.35245, y: 2.777995, z: 4.2956104}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596079824544796
 GameObject:
   m_ObjectHideFlags: 0
@@ -4916,8 +4878,8 @@ GameObject:
   - component: {fileID: 6601596079855337577}
   - component: {fileID: 6601596079855337578}
   - component: {fileID: 3572370343311340100}
-  - component: {fileID: 7127807570175393097}
   - component: {fileID: 5387737751929350590}
+  - component: {fileID: 6013002381292434653}
   m_Layer: 0
   m_Name: G_Motel_sh_48
   m_TagString: BrickObj
@@ -5001,20 +4963,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.449732, y: 1.449261, z: 2.2377038}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &7127807570175393097
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596079855337580}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1800096161480086038, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &5387737751929350590
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5031,6 +4979,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6013002381292434653
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596079855337580}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.449732, y: 1.449261, z: 2.2377038}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596079923141281
 GameObject:
   m_ObjectHideFlags: 0
@@ -5043,8 +5004,8 @@ GameObject:
   - component: {fileID: 6601596079923141294}
   - component: {fileID: 6601596079923141295}
   - component: {fileID: 1179889802370989841}
-  - component: {fileID: 3771246068542198948}
   - component: {fileID: 7657835002618357554}
+  - component: {fileID: 5879410558000053758}
   m_Layer: 0
   m_Name: G_Motel_sh_43
   m_TagString: BrickObj
@@ -5128,20 +5089,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0833633, y: 2.9908857, z: 3.1239}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &3771246068542198948
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596079923141281}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4748787649802803659, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &7657835002618357554
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5158,6 +5105,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &5879410558000053758
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596079923141281}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0833633, y: 2.9908857, z: 3.1239}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596079929181266
 GameObject:
   m_ObjectHideFlags: 0
@@ -5170,8 +5130,8 @@ GameObject:
   - component: {fileID: 6601596079929181279}
   - component: {fileID: 6601596079929181264}
   - component: {fileID: 3260785748410487474}
-  - component: {fileID: 7461532059750479039}
   - component: {fileID: 3886516403913872990}
+  - component: {fileID: 5906334679345220007}
   m_Layer: 0
   m_Name: G_Motel_sh_38
   m_TagString: BrickObj
@@ -5255,20 +5215,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.5249383, y: 2.0592158, z: 3.125908}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &7461532059750479039
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596079929181266}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -42825288539403946, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &3886516403913872990
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5285,6 +5231,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &5906334679345220007
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596079929181266}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.5249383, y: 2.0592158, z: 3.125908}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596080040127436
 GameObject:
   m_ObjectHideFlags: 0
@@ -5297,8 +5256,8 @@ GameObject:
   - component: {fileID: 6601596080040127433}
   - component: {fileID: 6601596080040127434}
   - component: {fileID: 7454186022750580396}
-  - component: {fileID: 6876246206325447147}
   - component: {fileID: 6274363931081072384}
+  - component: {fileID: 1278092873474352861}
   m_Layer: 0
   m_Name: G_Motel_sh_39
   m_TagString: BrickObj
@@ -5382,20 +5341,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.4300723, y: 2.5821183, z: 2.4511771}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6876246206325447147
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596080040127436}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 956498800945637265, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &6274363931081072384
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5412,6 +5357,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1278092873474352861
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596080040127436}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.4300723, y: 2.5821183, z: 2.4511771}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596080059008629
 GameObject:
   m_ObjectHideFlags: 0
@@ -5424,8 +5382,8 @@ GameObject:
   - component: {fileID: 6601596080059008626}
   - component: {fileID: 6601596080059008627}
   - component: {fileID: 1704832454907205727}
-  - component: {fileID: 773885476318047185}
   - component: {fileID: 4718912301033817644}
+  - component: {fileID: 7458140130819617719}
   m_Layer: 0
   m_Name: G_Motel_sh_22
   m_TagString: BrickObj
@@ -5509,20 +5467,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.21386, y: 3.0283701, z: 3.8969355}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &773885476318047185
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596080059008629}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5487744993368855291, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &4718912301033817644
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5539,6 +5483,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7458140130819617719
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596080059008629}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.21386, y: 3.0283701, z: 3.8969355}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596080091072852
 GameObject:
   m_ObjectHideFlags: 0
@@ -5551,8 +5508,8 @@ GameObject:
   - component: {fileID: 6601596080091072849}
   - component: {fileID: 6601596080091072850}
   - component: {fileID: 4738622481867545936}
-  - component: {fileID: 6933540300315346892}
   - component: {fileID: 4247581550736663929}
+  - component: {fileID: 3293280434647054367}
   m_Layer: 0
   m_Name: G_Motel_sh_13
   m_TagString: BrickObj
@@ -5636,20 +5593,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.094096, y: 1.5324086, z: 4.712344}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6933540300315346892
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596080091072852}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2770814787408854508, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &4247581550736663929
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5666,6 +5609,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3293280434647054367
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596080091072852}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.094096, y: 1.5324086, z: 4.712344}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596080113255955
 GameObject:
   m_ObjectHideFlags: 0
@@ -5678,8 +5634,8 @@ GameObject:
   - component: {fileID: 6601596080113255952}
   - component: {fileID: 6601596080113255953}
   - component: {fileID: 3954009146277318694}
-  - component: {fileID: 2148393115783360104}
   - component: {fileID: 3857784661036629058}
+  - component: {fileID: 1788475967909824487}
   m_Layer: 0
   m_Name: G_Motel_sh_37
   m_TagString: BrickObj
@@ -5763,20 +5719,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.5627456, y: 0.8786207, z: 4.7064905}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2148393115783360104
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596080113255955}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4537500835849141089, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &3857784661036629058
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5793,6 +5735,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1788475967909824487
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596080113255955}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.5627456, y: 0.8786207, z: 4.7064905}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596080125429825
 GameObject:
   m_ObjectHideFlags: 0
@@ -5805,8 +5760,8 @@ GameObject:
   - component: {fileID: 6601596080125429838}
   - component: {fileID: 6601596080125429839}
   - component: {fileID: 7735417284086538499}
-  - component: {fileID: 4046194209820800083}
   - component: {fileID: 2173852926538171463}
+  - component: {fileID: 3646445547577875383}
   m_Layer: 0
   m_Name: G_Motel_sh_21
   m_TagString: BrickObj
@@ -5890,20 +5845,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.6151075, y: 4.1730504, z: 4.0506}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4046194209820800083
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596080125429825}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5558721957792271500, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &2173852926538171463
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5920,6 +5861,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3646445547577875383
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596080125429825}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.6151075, y: 4.1730504, z: 4.0506}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596080138003429
 GameObject:
   m_ObjectHideFlags: 0
@@ -5932,8 +5886,8 @@ GameObject:
   - component: {fileID: 6601596080138003426}
   - component: {fileID: 6601596080138003427}
   - component: {fileID: 4124592615109517921}
-  - component: {fileID: 2313940966712009852}
   - component: {fileID: 8827409488271567219}
+  - component: {fileID: 7876108429387488769}
   m_Layer: 0
   m_Name: G_Motel_sh_27
   m_TagString: BrickObj
@@ -6017,20 +5971,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.020765, y: 0.20748878, z: 4.1738496}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2313940966712009852
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596080138003429}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5777057207092219547, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &8827409488271567219
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6047,6 +5987,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7876108429387488769
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596080138003429}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.020765, y: 0.20748878, z: 4.1738496}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6601596080158654783
 GameObject:
   m_ObjectHideFlags: 0
@@ -6059,8 +6012,8 @@ GameObject:
   - component: {fileID: 6601596080158654780}
   - component: {fileID: 6601596080158654781}
   - component: {fileID: 6001756801427612884}
-  - component: {fileID: 8214787450196457581}
   - component: {fileID: 411530405227024095}
+  - component: {fileID: 3430430869871136813}
   m_Layer: 0
   m_Name: G_Motel_sh_10
   m_TagString: BrickObj
@@ -6144,20 +6097,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.3832824, y: 1.979608, z: 1.3328676}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &8214787450196457581
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601596080158654783}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4922394623688369091, guid: 5d9ec01fe01dc744491853135c3b7665, type: 2}
 --- !u!54 &411530405227024095
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6174,3 +6113,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3430430869871136813
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601596080158654783}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.3832824, y: 1.979608, z: 1.3328676}
+  m_Center: {x: 0, y: 0, z: 0}

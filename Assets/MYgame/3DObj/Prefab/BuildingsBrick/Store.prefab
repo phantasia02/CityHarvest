@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 8250334444196124773}
   - component: {fileID: 4303684427191620918}
   - component: {fileID: 6859575769496244053}
-  - component: {fileID: 8065470389678533880}
+  - component: {fileID: 8089550322702302748}
   m_Layer: 0
   m_Name: G_Store_sh_26
   m_TagString: BrickObj
@@ -193,8 +193,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.2618923, y: 1.4150256, z: 1.233267}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &8065470389678533880
-MeshCollider:
+--- !u!65 &8089550322702302748
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -203,10 +203,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6039874099553518331, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 2.2618923, y: 1.4150256, z: 1.233267}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334444227307180
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,7 +219,7 @@ GameObject:
   - component: {fileID: 8250334444227307170}
   - component: {fileID: 8855653276127128382}
   - component: {fileID: 1348783441540842288}
-  - component: {fileID: 109995187931778591}
+  - component: {fileID: 2439129377161159132}
   m_Layer: 0
   m_Name: G_Store_sh_17
   m_TagString: BrickObj
@@ -320,8 +319,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.5016472, y: 1.3101354, z: 1.3815045}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &109995187931778591
-MeshCollider:
+--- !u!65 &2439129377161159132
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -330,10 +329,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4912326990871593880, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.5016472, y: 1.3101354, z: 1.3815045}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334444249663581
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,7 +345,7 @@ GameObject:
   - component: {fileID: 8250334444249663571}
   - component: {fileID: 7510548845730161925}
   - component: {fileID: 8495817347058016132}
-  - component: {fileID: 8780280699388977077}
+  - component: {fileID: 530559187164386503}
   m_Layer: 0
   m_Name: G_Store_sh_7
   m_TagString: BrickObj
@@ -447,8 +445,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.1616585, y: 0.8827083, z: 1.1712701}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &8780280699388977077
-MeshCollider:
+--- !u!65 &530559187164386503
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -457,10 +455,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5778773523734488019, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 2.1616585, y: 0.8827083, z: 1.1712701}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334444277609025
 GameObject:
   m_ObjectHideFlags: 0
@@ -474,7 +471,7 @@ GameObject:
   - component: {fileID: 8250334444277609031}
   - component: {fileID: 1790933562620947389}
   - component: {fileID: 6606585994727856550}
-  - component: {fileID: 5521601256973460604}
+  - component: {fileID: 608528409470511544}
   m_Layer: 0
   m_Name: G_Store_sh_11
   m_TagString: BrickObj
@@ -574,8 +571,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.8453709, y: 1.4600191, z: 1.1721323}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5521601256973460604
-MeshCollider:
+--- !u!65 &608528409470511544
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -584,10 +581,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1226411613832253161, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.8453709, y: 1.4600191, z: 1.1721323}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334444300236804
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,7 +597,7 @@ GameObject:
   - component: {fileID: 8250334444300236826}
   - component: {fileID: 1983670779724121406}
   - component: {fileID: 7720664946802353492}
-  - component: {fileID: 6882000852364924715}
+  - component: {fileID: 208814952318060946}
   m_Layer: 0
   m_Name: G_Store_sh_46
   m_TagString: BrickObj
@@ -701,8 +697,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2167222, y: 1.5880934, z: 0.5360919}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6882000852364924715
-MeshCollider:
+--- !u!65 &208814952318060946
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -711,10 +707,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2476563444583510565, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.2167222, y: 1.5880934, z: 0.5360919}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334444397376640
 GameObject:
   m_ObjectHideFlags: 0
@@ -728,7 +723,7 @@ GameObject:
   - component: {fileID: 8250334444397376646}
   - component: {fileID: 6731501863107308601}
   - component: {fileID: 1106131581473252256}
-  - component: {fileID: 1272655396989211327}
+  - component: {fileID: 8878250290120679092}
   m_Layer: 0
   m_Name: G_Store_sh_48
   m_TagString: BrickObj
@@ -828,8 +823,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.4574976, y: 1.4150256, z: 1.374159}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &1272655396989211327
-MeshCollider:
+--- !u!65 &8878250290120679092
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -838,10 +833,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1172547494302315299, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.4574976, y: 1.4150256, z: 1.374159}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334444459540185
 GameObject:
   m_ObjectHideFlags: 0
@@ -855,7 +849,7 @@ GameObject:
   - component: {fileID: 8250334444459540191}
   - component: {fileID: 2136757338276669032}
   - component: {fileID: 8530053373917975555}
-  - component: {fileID: 6074141558514008215}
+  - component: {fileID: 749279768872625896}
   m_Layer: 0
   m_Name: G_Store_sh_29
   m_TagString: BrickObj
@@ -955,8 +949,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2853962, y: 0.6124525, z: 0.56553864}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6074141558514008215
-MeshCollider:
+--- !u!65 &749279768872625896
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -965,10 +959,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5475924879230986397, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.2853962, y: 0.6124525, z: 0.56553864}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334444459940378
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,7 +975,7 @@ GameObject:
   - component: {fileID: 8250334444459940376}
   - component: {fileID: 2849654825136549732}
   - component: {fileID: 1000781948860242691}
-  - component: {fileID: 627170932007182366}
+  - component: {fileID: 5626167559552101078}
   m_Layer: 0
   m_Name: G_Store_sh_4
   m_TagString: BrickObj
@@ -1082,8 +1075,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.5352368, y: 0.623735, z: 2.3900511}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &627170932007182366
-MeshCollider:
+--- !u!65 &5626167559552101078
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1092,10 +1085,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2812754161173008302, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.5352368, y: 0.623735, z: 2.3900511}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334444524215156
 GameObject:
   m_ObjectHideFlags: 0
@@ -1109,7 +1101,7 @@ GameObject:
   - component: {fileID: 8250334444524215114}
   - component: {fileID: 2931082660764195733}
   - component: {fileID: 1556975857516079128}
-  - component: {fileID: 5590191587907999541}
+  - component: {fileID: 3048710957226153596}
   m_Layer: 0
   m_Name: G_Store_sh_41
   m_TagString: BrickObj
@@ -1209,8 +1201,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.7673515, y: 1.1381702, z: 1.5257759}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5590191587907999541
-MeshCollider:
+--- !u!65 &3048710957226153596
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1219,10 +1211,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 925312230563978319, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 0.7673515, y: 1.1381702, z: 1.5257759}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334444606065523
 GameObject:
   m_ObjectHideFlags: 0
@@ -1236,7 +1227,7 @@ GameObject:
   - component: {fileID: 8250334444606065521}
   - component: {fileID: 4968059599489564670}
   - component: {fileID: 6590966932290994991}
-  - component: {fileID: 8148222820396673064}
+  - component: {fileID: 6893766952489984775}
   m_Layer: 0
   m_Name: G_Store_sh_37
   m_TagString: BrickObj
@@ -1336,8 +1327,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.21242881, y: 0.71712536, z: 0.19885421}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &8148222820396673064
-MeshCollider:
+--- !u!65 &6893766952489984775
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1346,10 +1337,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -257047671104905876, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 0.21242881, y: 0.71712536, z: 0.19885421}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334444692078735
 GameObject:
   m_ObjectHideFlags: 0
@@ -1363,7 +1353,7 @@ GameObject:
   - component: {fileID: 8250334444692078733}
   - component: {fileID: 3140913386931382671}
   - component: {fileID: 6053644190423633550}
-  - component: {fileID: 6009241362718792412}
+  - component: {fileID: 4545902130754263999}
   m_Layer: 0
   m_Name: G_Store_sh_10
   m_TagString: BrickObj
@@ -1463,8 +1453,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.9579091, y: 0.9259488, z: 2.3323452}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6009241362718792412
-MeshCollider:
+--- !u!65 &4545902130754263999
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1473,10 +1463,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2205172966394098101, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.9579091, y: 0.9259488, z: 2.3323452}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334444712979640
 GameObject:
   m_ObjectHideFlags: 0
@@ -1490,7 +1479,7 @@ GameObject:
   - component: {fileID: 8250334444712979646}
   - component: {fileID: 4401046025758994013}
   - component: {fileID: 502977412313753051}
-  - component: {fileID: 572549557414292716}
+  - component: {fileID: 5540350175553197981}
   m_Layer: 0
   m_Name: G_Store_sh_40
   m_TagString: BrickObj
@@ -1590,8 +1579,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.2091255, y: 1.1040415, z: 1.9155984}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &572549557414292716
-MeshCollider:
+--- !u!65 &5540350175553197981
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1600,10 +1589,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6718990141757394476, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 2.2091255, y: 1.1040415, z: 1.9155984}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334444717156316
 GameObject:
   m_ObjectHideFlags: 0
@@ -1617,7 +1605,7 @@ GameObject:
   - component: {fileID: 8250334444717156306}
   - component: {fileID: 6697182204943191713}
   - component: {fileID: 6377361135968188317}
-  - component: {fileID: 5492891732530734349}
+  - component: {fileID: 4676385152423280476}
   m_Layer: 0
   m_Name: G_Store_sh_36
   m_TagString: BrickObj
@@ -1717,8 +1705,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.47426915, y: 1.6830521, z: 1.6347637}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5492891732530734349
-MeshCollider:
+--- !u!65 &4676385152423280476
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1727,10 +1715,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6130272783137319905, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 0.47426915, y: 1.6830521, z: 1.6347637}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334444753674458
 GameObject:
   m_ObjectHideFlags: 0
@@ -1744,7 +1731,7 @@ GameObject:
   - component: {fileID: 8250334444753674456}
   - component: {fileID: 161322211225118296}
   - component: {fileID: 6183229697438729434}
-  - component: {fileID: 4296662564085004316}
+  - component: {fileID: 8131403010055767484}
   m_Layer: 0
   m_Name: G_Store_sh_15
   m_TagString: BrickObj
@@ -1844,8 +1831,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.3789415, y: 1.839381, z: 0.9272196}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4296662564085004316
-MeshCollider:
+--- !u!65 &8131403010055767484
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1854,10 +1841,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6937790840292479285, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 2.3789415, y: 1.839381, z: 0.9272196}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334444825942575
 GameObject:
   m_ObjectHideFlags: 0
@@ -1871,7 +1857,7 @@ GameObject:
   - component: {fileID: 8250334444825942573}
   - component: {fileID: 8855578948219278413}
   - component: {fileID: 3284192957897760713}
-  - component: {fileID: 1572254381607714828}
+  - component: {fileID: 7745174088312018487}
   m_Layer: 0
   m_Name: G_Store_sh_45
   m_TagString: BrickObj
@@ -1971,8 +1957,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.8917619, y: 1.4243206, z: 1.294486}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &1572254381607714828
-MeshCollider:
+--- !u!65 &7745174088312018487
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1981,10 +1967,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2651518142692352084, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 0.8917619, y: 1.4243206, z: 1.294486}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334444847239613
 GameObject:
   m_ObjectHideFlags: 0
@@ -1998,7 +1983,7 @@ GameObject:
   - component: {fileID: 8250334444847239603}
   - component: {fileID: 8978794323110933756}
   - component: {fileID: 7049645376612769904}
-  - component: {fileID: 3885333793056447978}
+  - component: {fileID: 4612473488778573480}
   m_Layer: 0
   m_Name: G_Store_sh_27
   m_TagString: BrickObj
@@ -2098,8 +2083,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.5595797, y: 0.6942834, z: 1.7364419}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &3885333793056447978
-MeshCollider:
+--- !u!65 &4612473488778573480
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2108,10 +2093,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1160668368283750623, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.5595797, y: 0.6942834, z: 1.7364419}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334444924248953
 GameObject:
   m_ObjectHideFlags: 0
@@ -2125,7 +2109,7 @@ GameObject:
   - component: {fileID: 8250334444924248959}
   - component: {fileID: 2977413255825979162}
   - component: {fileID: 7669970799114774455}
-  - component: {fileID: 5801130813742010256}
+  - component: {fileID: 1932253549320447788}
   m_Layer: 0
   m_Name: G_Store_sh_9
   m_TagString: BrickObj
@@ -2225,8 +2209,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.7570102, y: 1.3608434, z: 0.9682791}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5801130813742010256
-MeshCollider:
+--- !u!65 &1932253549320447788
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2235,10 +2219,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2264313450844751137, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.7570102, y: 1.3608434, z: 0.9682791}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334444962819945
 GameObject:
   m_ObjectHideFlags: 0
@@ -2252,7 +2235,7 @@ GameObject:
   - component: {fileID: 8250334444962819951}
   - component: {fileID: 8745689504281276736}
   - component: {fileID: 5356369430646391473}
-  - component: {fileID: 2401093517822613134}
+  - component: {fileID: 7054051604720073902}
   m_Layer: 0
   m_Name: G_Store_sh_19
   m_TagString: BrickObj
@@ -2352,8 +2335,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.45288062, y: 1.1881263, z: 1.4451844}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2401093517822613134
-MeshCollider:
+--- !u!65 &7054051604720073902
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2362,10 +2345,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4749925060889066008, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 0.45288062, y: 1.1881263, z: 1.4451844}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445092000581
 GameObject:
   m_ObjectHideFlags: 0
@@ -2379,7 +2361,7 @@ GameObject:
   - component: {fileID: 8250334445092000603}
   - component: {fileID: 6760322008134650125}
   - component: {fileID: 4958945697172452324}
-  - component: {fileID: 5910208668273240916}
+  - component: {fileID: 6177866847948245390}
   m_Layer: 0
   m_Name: G_Store_sh_20
   m_TagString: BrickObj
@@ -2479,8 +2461,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.25514793, y: 0.31999993, z: 0.03213346}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5910208668273240916
-MeshCollider:
+--- !u!65 &6177866847948245390
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2489,10 +2471,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8212658825953785363, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 0.25514793, y: 0.31999993, z: 0.03213346}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445137528379
 GameObject:
   m_ObjectHideFlags: 0
@@ -2506,7 +2487,7 @@ GameObject:
   - component: {fileID: 8250334445137528377}
   - component: {fileID: 9205873162404783646}
   - component: {fileID: 8865567537726262167}
-  - component: {fileID: 6592941354239723740}
+  - component: {fileID: 6201405376962383645}
   m_Layer: 0
   m_Name: G_Store_sh_8
   m_TagString: BrickObj
@@ -2606,8 +2587,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.898792, y: 0.16468048, z: 1.4855402}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6592941354239723740
-MeshCollider:
+--- !u!65 &6201405376962383645
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2616,10 +2597,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3633533938636645920, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.898792, y: 0.16468048, z: 1.4855402}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445201823493
 GameObject:
   m_ObjectHideFlags: 0
@@ -2633,7 +2613,7 @@ GameObject:
   - component: {fileID: 8250334445201823515}
   - component: {fileID: 5082481526623272475}
   - component: {fileID: 4243341788542743020}
-  - component: {fileID: 6697908787015471277}
+  - component: {fileID: 4929232551212100500}
   m_Layer: 0
   m_Name: G_Store_sh_30
   m_TagString: BrickObj
@@ -2733,8 +2713,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.785541, y: 0.19286565, z: 1.8341986}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6697908787015471277
-MeshCollider:
+--- !u!65 &4929232551212100500
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2743,10 +2723,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2715993652901958020, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.785541, y: 0.19286565, z: 1.8341986}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445210542197
 GameObject:
   m_ObjectHideFlags: 0
@@ -2760,7 +2739,7 @@ GameObject:
   - component: {fileID: 8250334445210542155}
   - component: {fileID: 1581327655084533014}
   - component: {fileID: 4185538072767581806}
-  - component: {fileID: 22620447198654500}
+  - component: {fileID: 6090755437121604542}
   m_Layer: 0
   m_Name: G_Store_sh_21
   m_TagString: BrickObj
@@ -2860,8 +2839,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.0077493, y: 0.82751256, z: 1.1916101}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &22620447198654500
-MeshCollider:
+--- !u!65 &6090755437121604542
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2870,10 +2849,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2917746735557563549, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.0077493, y: 0.82751256, z: 1.1916101}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445215080801
 GameObject:
   m_ObjectHideFlags: 0
@@ -2887,7 +2865,7 @@ GameObject:
   - component: {fileID: 8250334445215080807}
   - component: {fileID: 5572667935101905932}
   - component: {fileID: 3517001566850256615}
-  - component: {fileID: 8578884386022413828}
+  - component: {fileID: 8604346546338099842}
   m_Layer: 0
   m_Name: G_Store_sh_22
   m_TagString: BrickObj
@@ -2987,8 +2965,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.0886943, y: 1.7298915, z: 0.8299054}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &8578884386022413828
-MeshCollider:
+--- !u!65 &8604346546338099842
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2997,10 +2975,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7345734396180658199, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.0886943, y: 1.7298915, z: 0.8299054}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445231718633
 GameObject:
   m_ObjectHideFlags: 0
@@ -3014,7 +2991,7 @@ GameObject:
   - component: {fileID: 8250334445231718639}
   - component: {fileID: 2720787061168889455}
   - component: {fileID: 8126199206784510610}
-  - component: {fileID: 8281669240751578719}
+  - component: {fileID: 4271026043276814184}
   m_Layer: 0
   m_Name: G_Store_sh_31
   m_TagString: BrickObj
@@ -3114,8 +3091,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.9993541, y: 1.0663922, z: 1.037144}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &8281669240751578719
-MeshCollider:
+--- !u!65 &4271026043276814184
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3124,10 +3101,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8486953181919991988, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 0.9993541, y: 1.0663922, z: 1.037144}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445239667901
 GameObject:
   m_ObjectHideFlags: 0
@@ -3141,7 +3117,7 @@ GameObject:
   - component: {fileID: 8250334445239667891}
   - component: {fileID: 8554951695002122226}
   - component: {fileID: 1837586979722840500}
-  - component: {fileID: 9124013991018377188}
+  - component: {fileID: 4293033880776896946}
   m_Layer: 0
   m_Name: G_Store_sh_13
   m_TagString: BrickObj
@@ -3241,8 +3217,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.8392535, y: 2.0227728, z: 1.161344}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &9124013991018377188
-MeshCollider:
+--- !u!65 &4293033880776896946
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3251,10 +3227,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6786343602646109029, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.8392535, y: 2.0227728, z: 1.161344}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445244776417
 GameObject:
   m_ObjectHideFlags: 0
@@ -3268,7 +3243,7 @@ GameObject:
   - component: {fileID: 8250334445244776423}
   - component: {fileID: 2141814942265262025}
   - component: {fileID: 3157498757986345135}
-  - component: {fileID: 9216386915284607315}
+  - component: {fileID: 8135716616875055870}
   m_Layer: 0
   m_Name: G_Store_sh_43
   m_TagString: BrickObj
@@ -3368,8 +3343,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2674236, y: 0.88335025, z: 1.0941697}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &9216386915284607315
-MeshCollider:
+--- !u!65 &8135716616875055870
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3378,10 +3353,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4683032855097770290, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.2674236, y: 0.88335025, z: 1.0941697}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445264552649
 GameObject:
   m_ObjectHideFlags: 0
@@ -3395,7 +3369,7 @@ GameObject:
   - component: {fileID: 8250334445264552655}
   - component: {fileID: 3705753544538719550}
   - component: {fileID: 7743390678566185077}
-  - component: {fileID: 1868518480095535198}
+  - component: {fileID: 2056139970709589733}
   m_Layer: 0
   m_Name: G_Store_sh_39
   m_TagString: BrickObj
@@ -3495,8 +3469,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5435777, y: 0.76074827, z: 0.8580701}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &1868518480095535198
-MeshCollider:
+--- !u!65 &2056139970709589733
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3505,10 +3479,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2824355755714869418, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 0.5435777, y: 0.76074827, z: 0.8580701}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445278707301
 GameObject:
   m_ObjectHideFlags: 0
@@ -3522,7 +3495,7 @@ GameObject:
   - component: {fileID: 8250334445278707323}
   - component: {fileID: 4079593837766451774}
   - component: {fileID: 7319178162612677822}
-  - component: {fileID: 5412444908699182712}
+  - component: {fileID: 7174237140474753905}
   m_Layer: 0
   m_Name: G_Store_sh_3
   m_TagString: BrickObj
@@ -3622,8 +3595,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.5009996, y: 0.90685594, z: 1.7150906}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5412444908699182712
-MeshCollider:
+--- !u!65 &7174237140474753905
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3632,10 +3605,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1469263191207250647, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.5009996, y: 0.90685594, z: 1.7150906}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445312304562
 GameObject:
   m_ObjectHideFlags: 0
@@ -3649,7 +3621,7 @@ GameObject:
   - component: {fileID: 8250334445312304560}
   - component: {fileID: 1889415071621485072}
   - component: {fileID: 4618855165695488567}
-  - component: {fileID: 8268851034289407086}
+  - component: {fileID: 3652015001745955585}
   m_Layer: 0
   m_Name: G_Store_sh_32
   m_TagString: BrickObj
@@ -3749,8 +3721,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.4103326, y: 1.8755594, z: 0.88245505}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &8268851034289407086
-MeshCollider:
+--- !u!65 &3652015001745955585
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3759,10 +3731,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 136156309480619616, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.4103326, y: 1.8755594, z: 0.88245505}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445316841475
 GameObject:
   m_ObjectHideFlags: 0
@@ -3776,7 +3747,7 @@ GameObject:
   - component: {fileID: 8250334445316841473}
   - component: {fileID: 5887078253502099153}
   - component: {fileID: 6564994638596048530}
-  - component: {fileID: 69010917566928441}
+  - component: {fileID: 5891189892582367599}
   m_Layer: 0
   m_Name: G_Store_sh_35
   m_TagString: BrickObj
@@ -3876,8 +3847,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0237105, y: 1.5730264, z: 0.49960172}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &69010917566928441
-MeshCollider:
+--- !u!65 &5891189892582367599
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3886,10 +3857,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8695948101255374517, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 2.0237105, y: 1.5730264, z: 0.49960172}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445337002257
 GameObject:
   m_ObjectHideFlags: 0
@@ -3903,7 +3873,7 @@ GameObject:
   - component: {fileID: 8250334445337002263}
   - component: {fileID: 1001936017055181207}
   - component: {fileID: 1374331804824066524}
-  - component: {fileID: 568152899161677751}
+  - component: {fileID: 5848485546195966136}
   m_Layer: 0
   m_Name: G_Store_sh_38
   m_TagString: BrickObj
@@ -4003,8 +3973,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.321593, y: 0.892303, z: 2.063186}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &568152899161677751
-MeshCollider:
+--- !u!65 &5848485546195966136
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4013,10 +3983,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3143951083720800983, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 2.321593, y: 0.892303, z: 2.063186}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445355097319
 GameObject:
   m_ObjectHideFlags: 0
@@ -4030,7 +3999,7 @@ GameObject:
   - component: {fileID: 8250334445355097317}
   - component: {fileID: 1786133337472571898}
   - component: {fileID: 7056640266365714299}
-  - component: {fileID: 1484470806033103861}
+  - component: {fileID: 4453436322637898518}
   m_Layer: 0
   m_Name: G_Store_sh_34
   m_TagString: BrickObj
@@ -4130,8 +4099,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.203341, y: 1.1386832, z: 2.1441028}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &1484470806033103861
-MeshCollider:
+--- !u!65 &4453436322637898518
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4140,10 +4109,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2078947782056921721, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 2.203341, y: 1.1386832, z: 2.1441028}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445405559399
 GameObject:
   m_ObjectHideFlags: 0
@@ -4157,7 +4125,7 @@ GameObject:
   - component: {fileID: 8250334445405559397}
   - component: {fileID: 8113031544446161000}
   - component: {fileID: 5126009561437011945}
-  - component: {fileID: 6508022710691179742}
+  - component: {fileID: 6411085650755991900}
   m_Layer: 0
   m_Name: G_Store_sh_16
   m_TagString: BrickObj
@@ -4257,8 +4225,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.1886185, y: 1.7506733, z: 0.6567538}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6508022710691179742
-MeshCollider:
+--- !u!65 &6411085650755991900
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4267,10 +4235,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6908858912239952633, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.1886185, y: 1.7506733, z: 0.6567538}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445435523316
 GameObject:
   m_ObjectHideFlags: 0
@@ -4284,7 +4251,7 @@ GameObject:
   - component: {fileID: 8250334445435523274}
   - component: {fileID: 5847714648945647705}
   - component: {fileID: 3969978056126978351}
-  - component: {fileID: 8272232678193347554}
+  - component: {fileID: 5947903922807382209}
   m_Layer: 0
   m_Name: G_Store_sh_5
   m_TagString: BrickObj
@@ -4384,8 +4351,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2544273, y: 1.5492752, z: 0.49960172}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &8272232678193347554
-MeshCollider:
+--- !u!65 &5947903922807382209
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4394,10 +4361,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7037998205809198883, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.2544273, y: 1.5492752, z: 0.49960172}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445472929099
 GameObject:
   m_ObjectHideFlags: 0
@@ -4411,7 +4377,7 @@ GameObject:
   - component: {fileID: 8250334445472929097}
   - component: {fileID: 6070678558159401578}
   - component: {fileID: 5566745906451339172}
-  - component: {fileID: 6592117865187404258}
+  - component: {fileID: 5248726884322941449}
   m_Layer: 0
   m_Name: G_Store_sh_47
   m_TagString: BrickObj
@@ -4511,8 +4477,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.4756575, y: 1.4187015, z: 1.7887185}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6592117865187404258
-MeshCollider:
+--- !u!65 &5248726884322941449
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4521,10 +4487,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2822264278394799200, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.4756575, y: 1.4187015, z: 1.7887185}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445507862356
 GameObject:
   m_ObjectHideFlags: 0
@@ -4538,7 +4503,7 @@ GameObject:
   - component: {fileID: 8250334445507862314}
   - component: {fileID: 4691997300940023996}
   - component: {fileID: 8514393194994964784}
-  - component: {fileID: 4795812984967675045}
+  - component: {fileID: 3081250063916766625}
   m_Layer: 0
   m_Name: G_Store_sh_42
   m_TagString: BrickObj
@@ -4638,8 +4603,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.13286626, y: 0.15089607, z: 0.07684004}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4795812984967675045
-MeshCollider:
+--- !u!65 &3081250063916766625
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4648,10 +4613,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6125177872024252693, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 0.13286626, y: 0.15089607, z: 0.07684004}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445533123869
 GameObject:
   m_ObjectHideFlags: 0
@@ -4665,7 +4629,7 @@ GameObject:
   - component: {fileID: 8250334445533123859}
   - component: {fileID: 628761529289730527}
   - component: {fileID: 6345317773807346844}
-  - component: {fileID: 3478853640688613682}
+  - component: {fileID: 5759269848208106056}
   m_Layer: 0
   m_Name: G_Store_sh_12
   m_TagString: BrickObj
@@ -4765,8 +4729,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0872698, y: 0.98276865, z: 1.0301843}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &3478853640688613682
-MeshCollider:
+--- !u!65 &5759269848208106056
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4775,10 +4739,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7585719720727132514, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 2.0872698, y: 0.98276865, z: 1.0301843}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445553120628
 GameObject:
   m_ObjectHideFlags: 0
@@ -4792,7 +4755,7 @@ GameObject:
   - component: {fileID: 8250334445553120586}
   - component: {fileID: 2119238982572731395}
   - component: {fileID: 5354457298008846475}
-  - component: {fileID: 5298964062327850747}
+  - component: {fileID: 5918282331420102052}
   m_Layer: 0
   m_Name: G_Store_sh_6
   m_TagString: BrickObj
@@ -4892,8 +4855,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.0794399, y: 1.4150256, z: 1.4929471}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5298964062327850747
-MeshCollider:
+--- !u!65 &5918282331420102052
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4902,10 +4865,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4976509327419176912, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.0794399, y: 1.4150256, z: 1.4929471}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445577740405
 GameObject:
   m_ObjectHideFlags: 0
@@ -4919,7 +4881,7 @@ GameObject:
   - component: {fileID: 8250334445577740363}
   - component: {fileID: 5070462058646798919}
   - component: {fileID: 7795468606040087374}
-  - component: {fileID: 719757763555001245}
+  - component: {fileID: 7488171462564879211}
   m_Layer: 0
   m_Name: G_Store_sh_1
   m_TagString: BrickObj
@@ -5019,8 +4981,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.7437496, y: 0.70377684, z: 1.6802754}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &719757763555001245
-MeshCollider:
+--- !u!65 &7488171462564879211
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5029,10 +4991,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5459020390722393222, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.7437496, y: 0.70377684, z: 1.6802754}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445604029583
 GameObject:
   m_ObjectHideFlags: 0
@@ -5046,7 +5007,7 @@ GameObject:
   - component: {fileID: 8250334445604029581}
   - component: {fileID: 5275427520901187554}
   - component: {fileID: 6629347471131887120}
-  - component: {fileID: 5519109403852391205}
+  - component: {fileID: 4331004493411134558}
   m_Layer: 0
   m_Name: G_Store_sh_2
   m_TagString: BrickObj
@@ -5146,8 +5107,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.7483709, y: 0.19286565, z: 1.6307216}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5519109403852391205
-MeshCollider:
+--- !u!65 &4331004493411134558
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5156,10 +5117,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3067790182872426652, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.7483709, y: 0.19286565, z: 1.6307216}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445629376286
 GameObject:
   m_ObjectHideFlags: 0
@@ -5173,7 +5133,7 @@ GameObject:
   - component: {fileID: 8250334445629376284}
   - component: {fileID: 2970565103017942990}
   - component: {fileID: 8541843203475698432}
-  - component: {fileID: 7752123919731278130}
+  - component: {fileID: 8907729467676675191}
   m_Layer: 0
   m_Name: G_Store_sh_23
   m_TagString: BrickObj
@@ -5273,8 +5233,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2272729, y: 2.2345872, z: 1.6750424}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &7752123919731278130
-MeshCollider:
+--- !u!65 &8907729467676675191
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5283,10 +5243,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5379566344408610700, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.2272729, y: 2.2345872, z: 1.6750424}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445754501316
 GameObject:
   m_ObjectHideFlags: 0
@@ -5300,7 +5259,7 @@ GameObject:
   - component: {fileID: 8250334445754501338}
   - component: {fileID: 30460203138398686}
   - component: {fileID: 8466933407668236937}
-  - component: {fileID: 8486242281247764555}
+  - component: {fileID: 4795814305719973854}
   m_Layer: 0
   m_Name: G_Store_sh_44
   m_TagString: BrickObj
@@ -5400,8 +5359,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.0998003, y: 0.19286564, z: 0.7489494}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &8486242281247764555
-MeshCollider:
+--- !u!65 &4795814305719973854
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5410,10 +5369,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2700049961666009925, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.0998003, y: 0.19286564, z: 0.7489494}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445814204650
 GameObject:
   m_ObjectHideFlags: 0
@@ -5427,7 +5385,7 @@ GameObject:
   - component: {fileID: 8250334445814204648}
   - component: {fileID: 2746746501908174077}
   - component: {fileID: 8665512017057559207}
-  - component: {fileID: 5830041695177011604}
+  - component: {fileID: 1688146824930737552}
   m_Layer: 0
   m_Name: G_Store_sh_14
   m_TagString: BrickObj
@@ -5527,8 +5485,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.2592165, y: 0.19286565, z: 2.2343404}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5830041695177011604
-MeshCollider:
+--- !u!65 &1688146824930737552
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5537,10 +5495,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 913421729718086, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 2.2592165, y: 0.19286565, z: 2.2343404}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445850750409
 GameObject:
   m_ObjectHideFlags: 0
@@ -5554,7 +5511,7 @@ GameObject:
   - component: {fileID: 8250334445850750415}
   - component: {fileID: 8826644005530660979}
   - component: {fileID: 7541347328263625338}
-  - component: {fileID: 8809467692189846754}
+  - component: {fileID: 529367256789716374}
   m_Layer: 0
   m_Name: G_Store_sh_50
   m_TagString: BrickObj
@@ -5654,8 +5611,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.3607483, y: 1.7661388, z: 1.2234616}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &8809467692189846754
-MeshCollider:
+--- !u!65 &529367256789716374
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5664,10 +5621,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3363421520462110244, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.3607483, y: 1.7661388, z: 1.2234616}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334445904821486
 GameObject:
   m_ObjectHideFlags: 0
@@ -5681,7 +5637,7 @@ GameObject:
   - component: {fileID: 8250334445904821484}
   - component: {fileID: 2063174048779752500}
   - component: {fileID: 5442352305716998652}
-  - component: {fileID: 5050577584921337487}
+  - component: {fileID: 7780046329184985946}
   m_Layer: 0
   m_Name: G_Store_sh_33
   m_TagString: BrickObj
@@ -5781,8 +5737,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.184045, y: 0.5923791, z: 1.3630333}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5050577584921337487
-MeshCollider:
+--- !u!65 &7780046329184985946
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5791,10 +5747,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7254041185869658693, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.184045, y: 0.5923791, z: 1.3630333}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334446027984031
 GameObject:
   m_ObjectHideFlags: 0
@@ -5808,7 +5763,7 @@ GameObject:
   - component: {fileID: 8250334446027984029}
   - component: {fileID: 5261540257451838511}
   - component: {fileID: 224766083083221775}
-  - component: {fileID: 2856566231391849461}
+  - component: {fileID: 5026177081023834164}
   m_Layer: 0
   m_Name: G_Store_sh_24
   m_TagString: BrickObj
@@ -5908,8 +5863,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.3307745, y: 1.4150256, z: 1.8634933}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2856566231391849461
-MeshCollider:
+--- !u!65 &5026177081023834164
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5918,10 +5873,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 9109000051413482039, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.3307745, y: 1.4150256, z: 1.8634933}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334446128181801
 GameObject:
   m_ObjectHideFlags: 0
@@ -5935,7 +5889,7 @@ GameObject:
   - component: {fileID: 8250334446128181807}
   - component: {fileID: 4371060006155986995}
   - component: {fileID: 3243075984983846235}
-  - component: {fileID: 8371616592300852201}
+  - component: {fileID: 7770214544370661260}
   m_Layer: 0
   m_Name: G_Store_sh_25
   m_TagString: BrickObj
@@ -6035,8 +5989,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.3482232, y: 2.217411, z: 1.2294478}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &8371616592300852201
-MeshCollider:
+--- !u!65 &7770214544370661260
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6045,10 +5999,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6285148624069822946, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.3482232, y: 2.217411, z: 1.2294478}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334446133984804
 GameObject:
   m_ObjectHideFlags: 0
@@ -6062,7 +6015,7 @@ GameObject:
   - component: {fileID: 8250334446133984826}
   - component: {fileID: 5408253029268783659}
   - component: {fileID: 8038441164809724350}
-  - component: {fileID: 4917538258393511435}
+  - component: {fileID: 5191648573747925083}
   m_Layer: 0
   m_Name: G_Store_sh_18
   m_TagString: BrickObj
@@ -6162,8 +6115,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.1494992, y: 1.3452421, z: 2.1276982}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4917538258393511435
-MeshCollider:
+--- !u!65 &5191648573747925083
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6172,10 +6125,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7790178382572769427, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 2.1494992, y: 1.3452421, z: 2.1276982}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334446192969252
 GameObject:
   m_ObjectHideFlags: 0
@@ -6189,7 +6141,7 @@ GameObject:
   - component: {fileID: 8250334446192969274}
   - component: {fileID: 1375221063325622135}
   - component: {fileID: 4142800863081019815}
-  - component: {fileID: 5092143371798577647}
+  - component: {fileID: 6087090204799190279}
   m_Layer: 0
   m_Name: G_Store_sh_28
   m_TagString: BrickObj
@@ -6289,8 +6241,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.8531742, y: 0.972797, z: 1.8776538}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5092143371798577647
-MeshCollider:
+--- !u!65 &6087090204799190279
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6299,10 +6251,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4997757015261710484, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 1.8531742, y: 0.972797, z: 1.8776538}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8250334446317828515
 GameObject:
   m_ObjectHideFlags: 0
@@ -6316,7 +6267,7 @@ GameObject:
   - component: {fileID: 8250334446317828513}
   - component: {fileID: 8806980708499444303}
   - component: {fileID: 6605277603042839131}
-  - component: {fileID: 7765310083673426685}
+  - component: {fileID: 6974589986699328097}
   m_Layer: 0
   m_Name: G_Store_sh_49
   m_TagString: BrickObj
@@ -6416,8 +6367,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.3752966, y: 0.19286565, z: 1.4068933}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &7765310083673426685
-MeshCollider:
+--- !u!65 &6974589986699328097
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6426,7 +6377,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 142624393556529237, guid: cab9802913c3798449698655f96b98c5, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 2.3752966, y: 0.19286565, z: 1.4068933}
+  m_Center: {x: 0, y: 0, z: 0}

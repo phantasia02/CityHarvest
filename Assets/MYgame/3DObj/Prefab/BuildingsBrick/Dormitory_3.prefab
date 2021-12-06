@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 571461227854587076}
   - component: {fileID: 571461227854587077}
   - component: {fileID: 5170623961971618175}
-  - component: {fileID: 6117042522578255643}
   - component: {fileID: 22280719163968077}
+  - component: {fileID: 3050134828793294865}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_29
   m_TagString: BrickObj
@@ -97,20 +97,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.6320534, y: 4.279295, z: 2.3348913}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6117042522578255643
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461227854587099}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5656371281310508358, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &22280719163968077
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -127,6 +113,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3050134828793294865
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461227854587099}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.6320534, y: 4.279295, z: 2.3348913}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461227916860557
 GameObject:
   m_ObjectHideFlags: 0
@@ -139,8 +138,8 @@ GameObject:
   - component: {fileID: 571461227916860558}
   - component: {fileID: 571461227916860559}
   - component: {fileID: 1357288829575087638}
-  - component: {fileID: 5024221653298883037}
   - component: {fileID: 5167865602187248116}
+  - component: {fileID: 4844055243047287829}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_8
   m_TagString: BrickObj
@@ -224,20 +223,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.8973625, y: 3.2723618, z: 2.3088474}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5024221653298883037
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461227916860557}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3556719349240878403, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &5167865602187248116
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -254,6 +239,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4844055243047287829
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461227916860557}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.8973625, y: 3.2723618, z: 2.3088474}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461227945390494
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,8 +264,8 @@ GameObject:
   - component: {fileID: 571461227945390491}
   - component: {fileID: 571461227945390488}
   - component: {fileID: 6576913985275727032}
-  - component: {fileID: 819431276253007587}
   - component: {fileID: 1077806543334712189}
+  - component: {fileID: 9098574633614142187}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_30
   m_TagString: BrickObj
@@ -351,20 +349,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.6813648, y: 2.1461608, z: 2.1629694}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &819431276253007587
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461227945390494}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5724573501160126045, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &1077806543334712189
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -381,6 +365,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &9098574633614142187
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461227945390494}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6813648, y: 2.1461608, z: 2.1629694}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461228016265250
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,8 +390,8 @@ GameObject:
   - component: {fileID: 571461228016265263}
   - component: {fileID: 571461228016265260}
   - component: {fileID: 5199482278425792220}
-  - component: {fileID: 5102013345528958008}
   - component: {fileID: 2414105535753862707}
+  - component: {fileID: 6139954333750190992}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_32
   m_TagString: BrickObj
@@ -478,20 +475,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.7478354, y: 3.895583, z: 2.683428}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5102013345528958008
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461228016265250}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4939055870798000178, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &2414105535753862707
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -508,6 +491,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6139954333750190992
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461228016265250}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7478354, y: 3.895583, z: 2.683428}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461228126726012
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,8 +516,8 @@ GameObject:
   - component: {fileID: 571461228126726009}
   - component: {fileID: 571461228126726014}
   - component: {fileID: 8539709115478281574}
-  - component: {fileID: 5894151797018586533}
   - component: {fileID: 6829978251152660234}
+  - component: {fileID: 2744720627988576920}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_17
   m_TagString: BrickObj
@@ -605,20 +601,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2137319, y: 1.7451248, z: 1.6287922}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5894151797018586533
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461228126726012}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -305515653905309648, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &6829978251152660234
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -635,6 +617,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2744720627988576920
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461228126726012}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2137319, y: 1.7451248, z: 1.6287922}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461228129474490
 GameObject:
   m_ObjectHideFlags: 0
@@ -647,8 +642,8 @@ GameObject:
   - component: {fileID: 571461228129474471}
   - component: {fileID: 571461228129474468}
   - component: {fileID: 8185374666072632054}
-  - component: {fileID: 431595520370454641}
   - component: {fileID: 9054500473081684844}
+  - component: {fileID: 377787530846529245}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_24
   m_TagString: BrickObj
@@ -732,20 +727,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.3227735, y: 2.9160225, z: 3.8209057}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &431595520370454641
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461228129474490}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1162588348900974017, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &9054500473081684844
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -762,6 +743,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &377787530846529245
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461228129474490}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.3227735, y: 2.9160225, z: 3.8209057}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461228130027992
 GameObject:
   m_ObjectHideFlags: 0
@@ -774,8 +768,8 @@ GameObject:
   - component: {fileID: 571461228130027973}
   - component: {fileID: 571461228130027994}
   - component: {fileID: 4299252075587475198}
-  - component: {fileID: 2731087343050514904}
   - component: {fileID: 2180050477625870859}
+  - component: {fileID: 4435013493054007099}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_15
   m_TagString: BrickObj
@@ -859,20 +853,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.0000484, y: 3.215187, z: 0.9871299}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2731087343050514904
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461228130027992}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7490138808878622772, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &2180050477625870859
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -889,6 +869,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4435013493054007099
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461228130027992}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.0000484, y: 3.215187, z: 0.9871299}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461228230276287
 GameObject:
   m_ObjectHideFlags: 0
@@ -901,8 +894,8 @@ GameObject:
   - component: {fileID: 571461228230276280}
   - component: {fileID: 571461228230276281}
   - component: {fileID: 4405790858879501899}
-  - component: {fileID: 5604652861478113865}
   - component: {fileID: 2909782806490838034}
+  - component: {fileID: 3949709633976285667}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_37
   m_TagString: BrickObj
@@ -986,20 +979,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2940004, y: 4.2923794, z: 4.799163}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5604652861478113865
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461228230276287}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7890905500513981469, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &2909782806490838034
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1016,6 +995,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3949709633976285667
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461228230276287}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2940004, y: 4.2923794, z: 4.799163}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461228339761588
 GameObject:
   m_ObjectHideFlags: 0
@@ -1028,8 +1020,8 @@ GameObject:
   - component: {fileID: 571461228339761585}
   - component: {fileID: 571461228339761590}
   - component: {fileID: 8112063135460455423}
-  - component: {fileID: 5257305410413625569}
   - component: {fileID: 8736961426493689459}
+  - component: {fileID: 8243583780373293025}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_9
   m_TagString: BrickObj
@@ -1113,20 +1105,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.1513668, y: 4.1202984, z: 2.2206533}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5257305410413625569
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461228339761588}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1085767655822783201, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &8736961426493689459
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1143,6 +1121,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &8243583780373293025
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461228339761588}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1513668, y: 4.1202984, z: 2.2206533}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461228409243605
 GameObject:
   m_ObjectHideFlags: 0
@@ -1155,8 +1146,8 @@ GameObject:
   - component: {fileID: 571461228409243606}
   - component: {fileID: 571461228409243607}
   - component: {fileID: 5541843457899870265}
-  - component: {fileID: 6025140546000536989}
   - component: {fileID: 7377045271161195283}
+  - component: {fileID: 8090490492525572049}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_5
   m_TagString: BrickObj
@@ -1240,20 +1231,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.6945682, y: 2.8935635, z: 3.2125585}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6025140546000536989
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461228409243605}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2021500698238359938, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &7377045271161195283
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1270,6 +1247,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &8090490492525572049
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461228409243605}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.6945682, y: 2.8935635, z: 3.2125585}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461228414122435
 GameObject:
   m_ObjectHideFlags: 0
@@ -1282,8 +1272,8 @@ GameObject:
   - component: {fileID: 571461228414122444}
   - component: {fileID: 571461228414122445}
   - component: {fileID: 5371640247405994138}
-  - component: {fileID: 7068383754901144999}
   - component: {fileID: 3074512936654454598}
+  - component: {fileID: 7547799773018355694}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_38
   m_TagString: BrickObj
@@ -1367,20 +1357,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.2930722, y: 3.7654896, z: 3.388453}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &7068383754901144999
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461228414122435}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5119428509697403871, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &3074512936654454598
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1397,6 +1373,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7547799773018355694
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461228414122435}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.2930722, y: 3.7654896, z: 3.388453}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461228429438704
 GameObject:
   m_ObjectHideFlags: 0
@@ -1409,8 +1398,8 @@ GameObject:
   - component: {fileID: 571461228429438717}
   - component: {fileID: 571461228429438706}
   - component: {fileID: 63097831570444296}
-  - component: {fileID: 6837849834549179822}
   - component: {fileID: 3385794848158014846}
+  - component: {fileID: 6386932299816422835}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_6
   m_TagString: BrickObj
@@ -1494,20 +1483,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.2779567, y: 3.2033458, z: 3.3879895}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6837849834549179822
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461228429438704}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4863776902047335889, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &3385794848158014846
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1524,6 +1499,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6386932299816422835
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461228429438704}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.2779567, y: 3.2033458, z: 3.3879895}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461228452568193
 GameObject:
   m_ObjectHideFlags: 0
@@ -1536,8 +1524,8 @@ GameObject:
   - component: {fileID: 571461228452568194}
   - component: {fileID: 571461228452568195}
   - component: {fileID: 2867288408615059471}
-  - component: {fileID: 3867127484954801151}
   - component: {fileID: 1974202889228330122}
+  - component: {fileID: 380226566903718680}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_22
   m_TagString: BrickObj
@@ -1621,20 +1609,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.04979354, y: 0.07162857, z: 0.19040114}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &3867127484954801151
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461228452568193}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5921753537866889545, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &1974202889228330122
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1651,6 +1625,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &380226566903718680
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461228452568193}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.04979354, y: 0.07162857, z: 0.19040114}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461228541624243
 GameObject:
   m_ObjectHideFlags: 0
@@ -1663,8 +1650,8 @@ GameObject:
   - component: {fileID: 571461228541624252}
   - component: {fileID: 571461228541624253}
   - component: {fileID: 1584618991761736600}
-  - component: {fileID: 7561107303018483712}
   - component: {fileID: 6995797324573394976}
+  - component: {fileID: 6964235452148684524}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_33
   m_TagString: BrickObj
@@ -1748,20 +1735,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.8517442, y: 2.071654, z: 3.0011451}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &7561107303018483712
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461228541624243}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2353087259311977899, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &6995797324573394976
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1778,6 +1751,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6964235452148684524
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461228541624243}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8517442, y: 2.071654, z: 3.0011451}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461228552742349
 GameObject:
   m_ObjectHideFlags: 0
@@ -1790,8 +1776,8 @@ GameObject:
   - component: {fileID: 571461228552742350}
   - component: {fileID: 571461228552742351}
   - component: {fileID: 4281348325073373617}
-  - component: {fileID: 2087008813702219819}
   - component: {fileID: 1110777052217765445}
+  - component: {fileID: 4120678973376843490}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_20
   m_TagString: BrickObj
@@ -1875,20 +1861,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.7852259, y: 2.0587263, z: 2.0173473}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2087008813702219819
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461228552742349}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -972420451032931594, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &1110777052217765445
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1905,6 +1877,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4120678973376843490
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461228552742349}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7852259, y: 2.0587263, z: 2.0173473}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461228555089863
 GameObject:
   m_ObjectHideFlags: 0
@@ -1917,8 +1902,8 @@ GameObject:
   - component: {fileID: 571461228555089856}
   - component: {fileID: 571461228555089857}
   - component: {fileID: 2345945914521464252}
-  - component: {fileID: 6180636423453609925}
   - component: {fileID: 8817255239267669334}
+  - component: {fileID: 4582740349776461176}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_35
   m_TagString: BrickObj
@@ -2002,20 +1987,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.7476096, y: 1.3198767, z: 3.2392}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6180636423453609925
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461228555089863}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8704637858040858223, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &8817255239267669334
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2032,6 +2003,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4582740349776461176
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461228555089863}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7476096, y: 1.3198767, z: 3.2392}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461228643684220
 GameObject:
   m_ObjectHideFlags: 0
@@ -2044,8 +2028,8 @@ GameObject:
   - component: {fileID: 571461228643684217}
   - component: {fileID: 571461228643684222}
   - component: {fileID: 6871881921851760213}
-  - component: {fileID: 5058605633137764872}
   - component: {fileID: 4376025221621999540}
+  - component: {fileID: 969778467513505625}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_2
   m_TagString: BrickObj
@@ -2129,20 +2113,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.5405178, y: 1.6753187, z: 2.1628058}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5058605633137764872
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461228643684220}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1124132629339866264, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &4376025221621999540
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2159,6 +2129,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &969778467513505625
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461228643684220}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.5405178, y: 1.6753187, z: 2.1628058}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461228768544160
 GameObject:
   m_ObjectHideFlags: 0
@@ -2171,8 +2154,8 @@ GameObject:
   - component: {fileID: 571461228768544173}
   - component: {fileID: 571461228768544162}
   - component: {fileID: 27508301312296815}
-  - component: {fileID: 4735897633747619862}
   - component: {fileID: 6168503460484987796}
+  - component: {fileID: 7191973054466493332}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_11
   m_TagString: BrickObj
@@ -2256,20 +2239,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0338511, y: 1.0294414, z: 0.9589958}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4735897633747619862
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461228768544160}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6564604599228307494, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &6168503460484987796
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2286,6 +2255,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7191973054466493332
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461228768544160}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0338511, y: 1.0294414, z: 0.9589958}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461228776345037
 GameObject:
   m_ObjectHideFlags: 0
@@ -2298,8 +2280,8 @@ GameObject:
   - component: {fileID: 571461228776345038}
   - component: {fileID: 571461228776345039}
   - component: {fileID: 429943932459911352}
-  - component: {fileID: 1030193896118406866}
   - component: {fileID: 6169156001176531697}
+  - component: {fileID: 1025911229555471043}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_1
   m_TagString: BrickObj
@@ -2383,20 +2365,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.2605658, y: 2.264996, z: 2.2085176}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &1030193896118406866
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461228776345037}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6534313240397445940, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &6169156001176531697
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2413,6 +2381,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1025911229555471043
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461228776345037}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.2605658, y: 2.264996, z: 2.2085176}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461228845850219
 GameObject:
   m_ObjectHideFlags: 0
@@ -2425,8 +2406,8 @@ GameObject:
   - component: {fileID: 571461228845850132}
   - component: {fileID: 571461228845850133}
   - component: {fileID: 1715882641583720060}
-  - component: {fileID: 6833352620990780597}
   - component: {fileID: 1780335997055683556}
+  - component: {fileID: 8525305478110127176}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_27
   m_TagString: BrickObj
@@ -2510,20 +2491,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.3306866, y: 2.4360294, z: 3.15819}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6833352620990780597
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461228845850219}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8701610747609928482, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &1780335997055683556
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2540,6 +2507,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &8525305478110127176
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461228845850219}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.3306866, y: 2.4360294, z: 3.15819}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461228952818295
 GameObject:
   m_ObjectHideFlags: 0
@@ -2552,8 +2532,8 @@ GameObject:
   - component: {fileID: 571461228952818288}
   - component: {fileID: 571461228952818289}
   - component: {fileID: 3899318722153374133}
-  - component: {fileID: 5248082936350963081}
   - component: {fileID: 6589668064357060642}
+  - component: {fileID: 7396048526700062415}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_40
   m_TagString: BrickObj
@@ -2637,20 +2617,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.3107598, y: 3.2951255, z: 3.0774322}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5248082936350963081
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461228952818295}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4055056951488200268, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &6589668064357060642
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2667,6 +2633,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7396048526700062415
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461228952818295}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.3107598, y: 3.2951255, z: 3.0774322}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461228968983549
 GameObject:
   m_ObjectHideFlags: 0
@@ -2679,8 +2658,8 @@ GameObject:
   - component: {fileID: 571461228968983550}
   - component: {fileID: 571461228968983551}
   - component: {fileID: 8295444471078954977}
-  - component: {fileID: 2726887123560752689}
   - component: {fileID: 3444203929013154702}
+  - component: {fileID: 7597299501725139425}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_25
   m_TagString: BrickObj
@@ -2764,20 +2743,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.2056696, y: 2.3947668, z: 3.9885397}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2726887123560752689
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461228968983549}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 784826901789881619, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &3444203929013154702
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2794,6 +2759,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7597299501725139425
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461228968983549}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.2056696, y: 2.3947668, z: 3.9885397}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461228990711487
 GameObject:
   m_ObjectHideFlags: 0
@@ -2806,8 +2784,8 @@ GameObject:
   - component: {fileID: 571461228990711480}
   - component: {fileID: 571461228990711481}
   - component: {fileID: 5368383213827005298}
-  - component: {fileID: 2962364103227876705}
   - component: {fileID: 3183188494336779374}
+  - component: {fileID: 5630841743950864534}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_31
   m_TagString: BrickObj
@@ -2891,20 +2869,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.8448739, y: 4.584254, z: 2.5600882}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2962364103227876705
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461228990711487}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 50115913346065663, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &3183188494336779374
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2921,6 +2885,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &5630841743950864534
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461228990711487}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8448739, y: 4.584254, z: 2.5600882}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461229078620217
 GameObject:
   m_ObjectHideFlags: 0
@@ -2933,8 +2910,8 @@ GameObject:
   - component: {fileID: 571461229078620218}
   - component: {fileID: 571461229078620219}
   - component: {fileID: 3554047407388800572}
-  - component: {fileID: 4460481734444490160}
   - component: {fileID: 1820326882067456997}
+  - component: {fileID: 8070453355770317122}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_26
   m_TagString: BrickObj
@@ -3018,20 +2995,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.7912025, y: 1.319094, z: 1.6651897}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4460481734444490160
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461229078620217}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4037223890654004888, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &1820326882067456997
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3048,6 +3011,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &8070453355770317122
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461229078620217}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7912025, y: 1.319094, z: 1.6651897}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461229092070488
 GameObject:
   m_ObjectHideFlags: 0
@@ -3060,8 +3036,8 @@ GameObject:
   - component: {fileID: 571461229092070469}
   - component: {fileID: 571461229092070490}
   - component: {fileID: 2163266984289023850}
-  - component: {fileID: 6526026008278876105}
   - component: {fileID: 4026802798395173310}
+  - component: {fileID: 9085086801687946953}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_12
   m_TagString: BrickObj
@@ -3145,20 +3121,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.8092663, y: 3.7692003, z: 3.5241854}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6526026008278876105
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461229092070488}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7981012682339933698, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &4026802798395173310
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3175,6 +3137,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &9085086801687946953
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461229092070488}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.8092663, y: 3.7692003, z: 3.5241854}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461229316689688
 GameObject:
   m_ObjectHideFlags: 0
@@ -3187,8 +3162,8 @@ GameObject:
   - component: {fileID: 571461229316689669}
   - component: {fileID: 571461229316689690}
   - component: {fileID: 8363508761855692819}
-  - component: {fileID: 3230159281929526403}
   - component: {fileID: 5371750812689403309}
+  - component: {fileID: 938735700955527376}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_16
   m_TagString: BrickObj
@@ -3272,20 +3247,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.3389668, y: 2.6574845, z: 1.2434222}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &3230159281929526403
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461229316689688}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 229160983115203291, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &5371750812689403309
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3302,6 +3263,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &938735700955527376
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461229316689688}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.3389668, y: 2.6574845, z: 1.2434222}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461229396528531
 GameObject:
   m_ObjectHideFlags: 0
@@ -3314,8 +3288,8 @@ GameObject:
   - component: {fileID: 571461229396528540}
   - component: {fileID: 571461229396528541}
   - component: {fileID: 7511462537101756726}
-  - component: {fileID: 1934729268795949879}
   - component: {fileID: 7719138055702004741}
+  - component: {fileID: 2284951416139872049}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_34
   m_TagString: BrickObj
@@ -3399,20 +3373,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.1128361, y: 2.5501668, z: 2.5422087}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &1934729268795949879
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461229396528531}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8609732459058272292, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &7719138055702004741
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3429,6 +3389,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2284951416139872049
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461229396528531}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.1128361, y: 2.5501668, z: 2.5422087}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461229418685794
 GameObject:
   m_ObjectHideFlags: 0
@@ -3441,8 +3414,8 @@ GameObject:
   - component: {fileID: 571461229418685807}
   - component: {fileID: 571461229418685804}
   - component: {fileID: 5653959719377098908}
-  - component: {fileID: 3864862866915383135}
   - component: {fileID: 696415903644451074}
+  - component: {fileID: 6479830168675322798}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_14
   m_TagString: BrickObj
@@ -3526,20 +3499,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.5694745, y: 2.3795938, z: 2.7218966}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &3864862866915383135
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461229418685794}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5521596630555162242, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &696415903644451074
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3556,6 +3515,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6479830168675322798
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461229418685794}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.5694745, y: 2.3795938, z: 2.7218966}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461229455373533
 GameObject:
   m_ObjectHideFlags: 0
@@ -3568,8 +3540,8 @@ GameObject:
   - component: {fileID: 571461229455373534}
   - component: {fileID: 571461229455373535}
   - component: {fileID: 3323059285860790504}
-  - component: {fileID: 3518010720601851397}
   - component: {fileID: 3758028600907598214}
+  - component: {fileID: 6164581988546204576}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_21
   m_TagString: BrickObj
@@ -3653,20 +3625,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.8251605, y: 2.1841674, z: 1.7249637}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &3518010720601851397
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461229455373533}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5221270106814468300, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &3758028600907598214
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3683,6 +3641,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6164581988546204576
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461229455373533}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.8251605, y: 2.1841674, z: 1.7249637}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461229477716759
 GameObject:
   m_ObjectHideFlags: 0
@@ -3765,8 +3736,8 @@ GameObject:
   - component: {fileID: 571461229557328640}
   - component: {fileID: 571461229557328641}
   - component: {fileID: 7492252227245187362}
-  - component: {fileID: 8848619426058945664}
   - component: {fileID: 4832465875029256813}
+  - component: {fileID: 1634863245189510818}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_10
   m_TagString: BrickObj
@@ -3850,20 +3821,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.041464, y: 2.354009, z: 4.0824056}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &8848619426058945664
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461229557328647}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4386234508724065899, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &4832465875029256813
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3880,6 +3837,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1634863245189510818
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461229557328647}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.041464, y: 2.354009, z: 4.0824056}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461229566820276
 GameObject:
   m_ObjectHideFlags: 0
@@ -3892,8 +3862,8 @@ GameObject:
   - component: {fileID: 571461229566820273}
   - component: {fileID: 571461229566820278}
   - component: {fileID: 8927093487022110116}
-  - component: {fileID: 1810025192167591106}
   - component: {fileID: 7307731364799153449}
+  - component: {fileID: 7456726107894533186}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_36
   m_TagString: BrickObj
@@ -3977,20 +3947,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.8942385, y: 4.8045225, z: 2.7061777}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &1810025192167591106
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461229566820276}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -9012562688799487100, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &7307731364799153449
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4007,6 +3963,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7456726107894533186
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461229566820276}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.8942385, y: 4.8045225, z: 2.7061777}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461229633178406
 GameObject:
   m_ObjectHideFlags: 0
@@ -4019,8 +3988,8 @@ GameObject:
   - component: {fileID: 571461229633178403}
   - component: {fileID: 571461229633178400}
   - component: {fileID: 294914294016596746}
-  - component: {fileID: 6008740429454384647}
   - component: {fileID: 356267057116774303}
+  - component: {fileID: 8952502677489286580}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_23
   m_TagString: BrickObj
@@ -4104,20 +4073,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.667614, y: 3.6839714, z: 4.1963444}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6008740429454384647
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461229633178406}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8040274787167997377, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &356267057116774303
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4134,6 +4089,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &8952502677489286580
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461229633178406}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.667614, y: 3.6839714, z: 4.1963444}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461229696821757
 GameObject:
   m_ObjectHideFlags: 0
@@ -4146,8 +4114,8 @@ GameObject:
   - component: {fileID: 571461229696821758}
   - component: {fileID: 571461229696821759}
   - component: {fileID: 3127560175163085022}
-  - component: {fileID: 6520739720108875196}
   - component: {fileID: 3509279359873206228}
+  - component: {fileID: 7318381883620194300}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_39
   m_TagString: BrickObj
@@ -4231,20 +4199,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.2449508, y: 1.2971015, z: 1.2359138}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6520739720108875196
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461229696821757}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1634436216802659482, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &3509279359873206228
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4261,6 +4215,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7318381883620194300
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461229696821757}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.2449508, y: 1.2971015, z: 1.2359138}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461229713660635
 GameObject:
   m_ObjectHideFlags: 0
@@ -4273,8 +4240,8 @@ GameObject:
   - component: {fileID: 571461229713660612}
   - component: {fileID: 571461229713660613}
   - component: {fileID: 4589938680027142068}
-  - component: {fileID: 8894667253897868032}
   - component: {fileID: 7286274312036227713}
+  - component: {fileID: 2205008711454093400}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_7
   m_TagString: BrickObj
@@ -4358,20 +4325,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.4980145, y: 2.8896413, z: 3.0475864}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &8894667253897868032
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461229713660635}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8264515548216643698, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &7286274312036227713
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4388,6 +4341,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2205008711454093400
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461229713660635}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.4980145, y: 2.8896413, z: 3.0475864}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461229779616747
 GameObject:
   m_ObjectHideFlags: 0
@@ -4400,8 +4366,8 @@ GameObject:
   - component: {fileID: 571461229779616660}
   - component: {fileID: 571461229779616661}
   - component: {fileID: 7726933646813013297}
-  - component: {fileID: 7796995556551038446}
   - component: {fileID: 5198206261943856405}
+  - component: {fileID: 4844023016421270795}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_18
   m_TagString: BrickObj
@@ -4485,20 +4451,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.7758858, y: 2.8205597, z: 3.693842}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &7796995556551038446
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461229779616747}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6913926749370959680, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &5198206261943856405
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4515,6 +4467,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4844023016421270795
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461229779616747}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.7758858, y: 2.8205597, z: 3.693842}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461229785807007
 GameObject:
   m_ObjectHideFlags: 0
@@ -4527,8 +4492,8 @@ GameObject:
   - component: {fileID: 571461229785807000}
   - component: {fileID: 571461229785807001}
   - component: {fileID: 4104854366920818156}
-  - component: {fileID: 8961496027575836228}
   - component: {fileID: 3545575633510942807}
+  - component: {fileID: 3156119203108455415}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_13
   m_TagString: BrickObj
@@ -4612,20 +4577,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.3406048, y: 1.2946577, z: 2.0888383}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &8961496027575836228
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461229785807007}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3627772539460821276, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &3545575633510942807
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4642,6 +4593,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3156119203108455415
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461229785807007}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.3406048, y: 1.2946577, z: 2.0888383}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461229794505512
 GameObject:
   m_ObjectHideFlags: 0
@@ -4654,8 +4618,8 @@ GameObject:
   - component: {fileID: 571461229794505429}
   - component: {fileID: 571461229794505514}
   - component: {fileID: 2617600678484109223}
-  - component: {fileID: 1185784100618712514}
   - component: {fileID: 6479483599332107333}
+  - component: {fileID: 734482004968400061}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_4
   m_TagString: BrickObj
@@ -4739,20 +4703,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.7813787, y: 2.505555, z: 4.028394}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &1185784100618712514
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461229794505512}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5194528087500869153, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &6479483599332107333
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4769,6 +4719,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &734482004968400061
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461229794505512}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7813787, y: 2.505555, z: 4.028394}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461229813934608
 GameObject:
   m_ObjectHideFlags: 0
@@ -4781,8 +4744,8 @@ GameObject:
   - component: {fileID: 571461229813934621}
   - component: {fileID: 571461229813934610}
   - component: {fileID: 2257821211011787532}
-  - component: {fileID: 409035652147272999}
   - component: {fileID: 2195260799102325145}
+  - component: {fileID: 6247980471401357206}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_19
   m_TagString: BrickObj
@@ -4866,20 +4829,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.6613947, y: 3.9297621, z: 1.1521399}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &409035652147272999
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461229813934608}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4879452094637258533, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &2195260799102325145
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4896,6 +4845,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6247980471401357206
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461229813934608}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6613947, y: 3.9297621, z: 1.1521399}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461229869871533
 GameObject:
   m_ObjectHideFlags: 0
@@ -4908,8 +4870,8 @@ GameObject:
   - component: {fileID: 571461229869871534}
   - component: {fileID: 571461229869871535}
   - component: {fileID: 2791700170401613174}
-  - component: {fileID: 8818593913139914959}
   - component: {fileID: 4407945604639231434}
+  - component: {fileID: 2487474121057803505}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_3
   m_TagString: BrickObj
@@ -4993,20 +4955,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0555987, y: 1.5968246, z: 1.60431}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &8818593913139914959
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461229869871533}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7771340212071175824, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &4407945604639231434
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5023,6 +4971,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2487474121057803505
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461229869871533}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0555987, y: 1.5968246, z: 1.60431}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &571461229966834418
 GameObject:
   m_ObjectHideFlags: 0
@@ -5035,8 +4996,8 @@ GameObject:
   - component: {fileID: 571461229966834431}
   - component: {fileID: 571461229966834428}
   - component: {fileID: 7270488430531973345}
-  - component: {fileID: 4991901681686849542}
   - component: {fileID: 5838281086514584174}
+  - component: {fileID: 2348240577613757332}
   m_Layer: 0
   m_Name: G_Dormitory_3_sh_28
   m_TagString: BrickObj
@@ -5120,20 +5081,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.225394, y: 3.3239985, z: 3.1411326}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4991901681686849542
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571461229966834418}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3076756400099471255, guid: de7331169bf9da5438d340ff0167e522, type: 2}
 --- !u!54 &5838281086514584174
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5150,3 +5097,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2348240577613757332
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571461229966834418}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.225394, y: 3.3239985, z: 3.1411326}
+  m_Center: {x: 0, y: 0, z: 0}

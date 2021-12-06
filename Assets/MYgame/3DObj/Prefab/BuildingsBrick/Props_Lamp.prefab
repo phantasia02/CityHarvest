@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 7858251564932955796}
   - component: {fileID: 7715649483703714088}
   - component: {fileID: 2972929741784474578}
-  - component: {fileID: 8411065378407119921}
   - component: {fileID: 8670316617132020909}
+  - component: {fileID: 995705179474436968}
   m_Layer: 0
   m_Name: Props_Lamp_sh_1
   m_TagString: BrickObj
@@ -98,20 +98,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.112774, y: 2.3586679, z: 0.014459438}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &8411065378407119921
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1596474854692422069}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4974920023597481982, guid: c87e1a977141fd240a2f9dbafdd688a3, type: 2}
 --- !u!54 &8670316617132020909
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -128,6 +114,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &995705179474436968
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596474854692422069}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.112774, y: 2.3586679, z: 0.014459438}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6766116004228805726
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,8 +172,8 @@ GameObject:
   - component: {fileID: 2489348086998968544}
   - component: {fileID: 6522740332858143403}
   - component: {fileID: 150679483147705654}
-  - component: {fileID: 7709916655253366487}
   - component: {fileID: 7242053989582048496}
+  - component: {fileID: 2061261787428937229}
   m_Layer: 0
   m_Name: Props_Lamp_sh_2
   m_TagString: BrickObj
@@ -259,20 +258,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0269703, y: 2.3454669, z: 0.031142626}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &7709916655253366487
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7094479641649675681}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5671136665083256278, guid: c87e1a977141fd240a2f9dbafdd688a3, type: 2}
 --- !u!54 &7242053989582048496
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -289,6 +274,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2061261787428937229
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7094479641649675681}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0269703, y: 2.3454669, z: 0.031142626}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7741305497920215536
 GameObject:
   m_ObjectHideFlags: 0
@@ -301,8 +299,8 @@ GameObject:
   - component: {fileID: 5728380493992121395}
   - component: {fileID: 7725931866576052718}
   - component: {fileID: 6220317601976950245}
-  - component: {fileID: 2061565102266245990}
   - component: {fileID: 9185540642330886067}
+  - component: {fileID: 3655341653010192513}
   m_Layer: 0
   m_Name: Props_Lamp_sh_3
   m_TagString: BrickObj
@@ -387,20 +385,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.047753353, y: 0.25693035, z: 0.008681459}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2061565102266245990
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7741305497920215536}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2140859604145289237, guid: c87e1a977141fd240a2f9dbafdd688a3, type: 2}
 --- !u!54 &9185540642330886067
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -417,3 +401,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3655341653010192513
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7741305497920215536}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.047753353, y: 0.25693035, z: 0.008681459}
+  m_Center: {x: 0, y: 0, z: 0}

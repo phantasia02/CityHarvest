@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 1827549771037591354}
   - component: {fileID: 1827549771037591353}
   - component: {fileID: 964045508950683161}
-  - component: {fileID: 5358459973141407270}
   - component: {fileID: 37787549006899644}
+  - component: {fileID: 1546199850326070203}
   m_Layer: 0
   m_Name: G_Hospital_sh_24
   m_TagString: BrickObj
@@ -97,20 +97,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.9920487, y: 3.997542, z: 4.386386}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5358459973141407270
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771037591303}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5030382499419381973, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &37787549006899644
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -127,6 +113,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1546199850326070203
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771037591303}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.9920487, y: 3.997542, z: 4.386386}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771096087293
 GameObject:
   m_ObjectHideFlags: 0
@@ -139,8 +138,8 @@ GameObject:
   - component: {fileID: 1827549771096087280}
   - component: {fileID: 1827549771096087295}
   - component: {fileID: 8944308924771875722}
-  - component: {fileID: 6162094187286796602}
   - component: {fileID: 1832437933282420315}
+  - component: {fileID: 9211119722019002777}
   m_Layer: 0
   m_Name: G_Hospital_sh_5
   m_TagString: BrickObj
@@ -224,20 +223,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.581931, y: 4.128072, z: 4.6485047}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6162094187286796602
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771096087293}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4091405218178715005, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &1832437933282420315
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -254,6 +239,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &9211119722019002777
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771096087293}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.581931, y: 4.128072, z: 4.6485047}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771115651896
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,8 +264,8 @@ GameObject:
   - component: {fileID: 1827549771115651899}
   - component: {fileID: 1827549771115651898}
   - component: {fileID: 5248417487538569553}
-  - component: {fileID: 2668646244952361039}
   - component: {fileID: 2108188406723355935}
+  - component: {fileID: 1274131123112155354}
   m_Layer: 0
   m_Name: G_Hospital_sh_44
   m_TagString: BrickObj
@@ -351,20 +349,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.2401721, y: 4.4580984, z: 5.6335588}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2668646244952361039
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771115651896}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3716156181037141183, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &2108188406723355935
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -381,6 +365,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1274131123112155354
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771115651896}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.2401721, y: 4.4580984, z: 5.6335588}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771131180063
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,8 +390,8 @@ GameObject:
   - component: {fileID: 1827549771131180050}
   - component: {fileID: 1827549771131180049}
   - component: {fileID: 6460921026098172313}
-  - component: {fileID: 9013680821081413360}
   - component: {fileID: 6060325219952474478}
+  - component: {fileID: 3702322721938180566}
   m_Layer: 0
   m_Name: G_Hospital_sh_31
   m_TagString: BrickObj
@@ -478,20 +475,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.7810383, y: 4.373036, z: 4.258994}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &9013680821081413360
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771131180063}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4572765201220141262, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &6060325219952474478
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -508,6 +491,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3702322721938180566
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771131180063}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.7810383, y: 4.373036, z: 4.258994}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771137935802
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,8 +516,8 @@ GameObject:
   - component: {fileID: 1827549771137935805}
   - component: {fileID: 1827549771137935804}
   - component: {fileID: 9110384533601079366}
-  - component: {fileID: 3196453527541245193}
   - component: {fileID: 3491443225050836021}
+  - component: {fileID: 7564746328709811943}
   m_Layer: 0
   m_Name: G_Hospital_sh_2
   m_TagString: BrickObj
@@ -605,20 +601,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.5595527, y: 0.19444016, z: 3.6338677}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &3196453527541245193
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771137935802}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1823843535266122312, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &3491443225050836021
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -635,6 +617,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7564746328709811943
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771137935802}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.5595527, y: 0.19444016, z: 3.6338677}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771140845133
 GameObject:
   m_ObjectHideFlags: 0
@@ -647,8 +642,8 @@ GameObject:
   - component: {fileID: 1827549771140845120}
   - component: {fileID: 1827549771140845135}
   - component: {fileID: 664225609634232232}
-  - component: {fileID: 6734194528659287293}
   - component: {fileID: 3382283445710057694}
+  - component: {fileID: 5546539259150816730}
   m_Layer: 0
   m_Name: G_Hospital_sh_20
   m_TagString: BrickObj
@@ -732,20 +727,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.9245863, y: 3.402666, z: 3.1988046}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6734194528659287293
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771140845133}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3710264273243936529, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &3382283445710057694
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -762,6 +743,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &5546539259150816730
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771140845133}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.9245863, y: 3.402666, z: 3.1988046}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771178655287
 GameObject:
   m_ObjectHideFlags: 0
@@ -774,8 +768,8 @@ GameObject:
   - component: {fileID: 1827549771178655274}
   - component: {fileID: 1827549771178655273}
   - component: {fileID: 5058930256094749620}
-  - component: {fileID: 8821242222461602835}
   - component: {fileID: 1884743070189600357}
+  - component: {fileID: 6680707629496571108}
   m_Layer: 0
   m_Name: G_Hospital_sh_47
   m_TagString: BrickObj
@@ -859,20 +853,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.4610913, y: 3.6704917, z: 3.181455}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &8821242222461602835
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771178655287}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 383086076577956569, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &1884743070189600357
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -889,6 +869,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6680707629496571108
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771178655287}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.4610913, y: 3.6704917, z: 3.181455}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771190095707
 GameObject:
   m_ObjectHideFlags: 0
@@ -901,8 +894,8 @@ GameObject:
   - component: {fileID: 1827549771190095710}
   - component: {fileID: 1827549771190095709}
   - component: {fileID: 8930008300222906294}
-  - component: {fileID: 4604253417901885246}
   - component: {fileID: 4614582803061765092}
+  - component: {fileID: 5091431259292468211}
   m_Layer: 0
   m_Name: G_Hospital_sh_10
   m_TagString: BrickObj
@@ -986,20 +979,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.9930997, y: 2.843022, z: 5.3746767}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4604253417901885246
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771190095707}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4433036256488679949, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &4614582803061765092
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1016,6 +995,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &5091431259292468211
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771190095707}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.9930997, y: 2.843022, z: 5.3746767}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771200390143
 GameObject:
   m_ObjectHideFlags: 0
@@ -1028,8 +1020,8 @@ GameObject:
   - component: {fileID: 1827549771200390130}
   - component: {fileID: 1827549771200390129}
   - component: {fileID: 1816892169197934685}
-  - component: {fileID: 391838982884788014}
   - component: {fileID: 4127831159845310037}
+  - component: {fileID: 3938944985165753250}
   m_Layer: 0
   m_Name: G_Hospital_sh_33
   m_TagString: BrickObj
@@ -1113,20 +1105,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.369818, y: 2.285593, z: 3.1681113}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &391838982884788014
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771200390143}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2583550171532504854, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &4127831159845310037
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1143,6 +1121,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3938944985165753250
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771200390143}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.369818, y: 2.285593, z: 3.1681113}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771214421903
 GameObject:
   m_ObjectHideFlags: 0
@@ -1155,8 +1146,8 @@ GameObject:
   - component: {fileID: 1827549771214421890}
   - component: {fileID: 1827549771214421889}
   - component: {fileID: 3581803600863038804}
-  - component: {fileID: 7893676155561977473}
   - component: {fileID: 137743329579180816}
+  - component: {fileID: 620945756664910696}
   m_Layer: 0
   m_Name: G_Hospital_sh_27
   m_TagString: BrickObj
@@ -1240,20 +1231,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.9840484, y: 6.489215, z: 2.3020642}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &7893676155561977473
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771214421903}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8049350566000628564, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &137743329579180816
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1270,6 +1247,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &620945756664910696
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771214421903}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.9840484, y: 6.489215, z: 2.3020642}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771223969567
 GameObject:
   m_ObjectHideFlags: 0
@@ -1282,8 +1272,8 @@ GameObject:
   - component: {fileID: 1827549771223969554}
   - component: {fileID: 1827549771223969553}
   - component: {fileID: 2467030628347449784}
-  - component: {fileID: 4247268200785126979}
   - component: {fileID: 3665315842983244772}
+  - component: {fileID: 385617399727557888}
   m_Layer: 0
   m_Name: G_Hospital_sh_49
   m_TagString: BrickObj
@@ -1367,20 +1357,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.4707394, y: 4.6522164, z: 3.666728}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4247268200785126979
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771223969567}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4850763213920693314, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &3665315842983244772
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1397,6 +1373,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &385617399727557888
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771223969567}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.4707394, y: 4.6522164, z: 3.666728}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771238966240
 GameObject:
   m_ObjectHideFlags: 0
@@ -1409,8 +1398,8 @@ GameObject:
   - component: {fileID: 1827549771238966243}
   - component: {fileID: 1827549771238966242}
   - component: {fileID: 4426273388446821489}
-  - component: {fileID: 5965427096744172781}
   - component: {fileID: 5590932354912355901}
+  - component: {fileID: 8123664292256449893}
   m_Layer: 0
   m_Name: G_Hospital_sh_15
   m_TagString: BrickObj
@@ -1494,20 +1483,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.9509062, y: 0.764225, z: 0.12147665}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5965427096744172781
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771238966240}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6609909735881451147, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &5590932354912355901
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1524,6 +1499,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &8123664292256449893
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771238966240}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9509062, y: 0.764225, z: 0.12147665}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771266415320
 GameObject:
   m_ObjectHideFlags: 0
@@ -1536,8 +1524,8 @@ GameObject:
   - component: {fileID: 1827549771266415323}
   - component: {fileID: 1827549771266415322}
   - component: {fileID: 6171820857824372463}
-  - component: {fileID: 4579805792174069251}
   - component: {fileID: 485131753524287076}
+  - component: {fileID: 4220656738743337518}
   m_Layer: 0
   m_Name: G_Hospital_sh_51
   m_TagString: BrickObj
@@ -1621,20 +1609,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0388489, y: 0.7642255, z: 0.28276467}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4579805792174069251
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771266415320}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7628553782416503800, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &485131753524287076
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1651,6 +1625,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4220656738743337518
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771266415320}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0388489, y: 0.7642255, z: 0.28276467}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771386042361
 GameObject:
   m_ObjectHideFlags: 0
@@ -1663,8 +1650,8 @@ GameObject:
   - component: {fileID: 1827549771386042364}
   - component: {fileID: 1827549771386042363}
   - component: {fileID: 5859946808918812135}
-  - component: {fileID: 447209189892400337}
   - component: {fileID: 4859802460321553410}
+  - component: {fileID: 4362774825698576383}
   m_Layer: 0
   m_Name: G_Hospital_sh_1
   m_TagString: BrickObj
@@ -1748,20 +1735,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.6256924, y: 1.3499012, z: 2.8658638}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &447209189892400337
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771386042361}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7003357891239000748, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &4859802460321553410
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1778,6 +1751,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4362774825698576383
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771386042361}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.6256924, y: 1.3499012, z: 2.8658638}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771418943686
 GameObject:
   m_ObjectHideFlags: 0
@@ -1790,8 +1776,8 @@ GameObject:
   - component: {fileID: 1827549771418943737}
   - component: {fileID: 1827549771418943736}
   - component: {fileID: 9053346299983539344}
-  - component: {fileID: 391626489068428316}
   - component: {fileID: 7448037691674322822}
+  - component: {fileID: 2392144387903610586}
   m_Layer: 0
   m_Name: G_Hospital_sh_18
   m_TagString: BrickObj
@@ -1875,20 +1861,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.891718, y: 5.3343053, z: 2.313446}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &391626489068428316
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771418943686}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2538867547585382868, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &7448037691674322822
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1905,6 +1877,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2392144387903610586
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771418943686}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.891718, y: 5.3343053, z: 2.313446}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771509769255
 GameObject:
   m_ObjectHideFlags: 0
@@ -1917,8 +1902,8 @@ GameObject:
   - component: {fileID: 1827549771509770202}
   - component: {fileID: 1827549771509770201}
   - component: {fileID: 5982205373060530242}
-  - component: {fileID: 3299785747949062403}
   - component: {fileID: 7356831273785154881}
+  - component: {fileID: 5700742066497259423}
   m_Layer: 0
   m_Name: G_Hospital_sh_7
   m_TagString: BrickObj
@@ -2002,20 +1987,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.350872, y: 2.013256, z: 4.3065143}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &3299785747949062403
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771509769255}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -41426825263300817, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &7356831273785154881
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2032,6 +2003,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &5700742066497259423
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771509769255}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.350872, y: 2.013256, z: 4.3065143}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771515284118
 GameObject:
   m_ObjectHideFlags: 0
@@ -2044,8 +2028,8 @@ GameObject:
   - component: {fileID: 1827549771515284105}
   - component: {fileID: 1827549771515284104}
   - component: {fileID: 1382588743092753406}
-  - component: {fileID: 1866448021044796686}
   - component: {fileID: 8813922767033140249}
+  - component: {fileID: 4832519239569064601}
   m_Layer: 0
   m_Name: G_Hospital_sh_41
   m_TagString: BrickObj
@@ -2129,20 +2113,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.9934435, y: 2.8843422, z: 4.1209235}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &1866448021044796686
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771515284118}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5640529411642941929, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &8813922767033140249
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2159,6 +2129,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4832519239569064601
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771515284118}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.9934435, y: 2.8843422, z: 4.1209235}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771546427236
 GameObject:
   m_ObjectHideFlags: 0
@@ -2171,8 +2154,8 @@ GameObject:
   - component: {fileID: 1827549771546427239}
   - component: {fileID: 1827549771546427238}
   - component: {fileID: 5392710779076729563}
-  - component: {fileID: 4134675359283038760}
   - component: {fileID: 5730087755173582941}
+  - component: {fileID: 9196530191947206179}
   m_Layer: 0
   m_Name: G_Hospital_sh_19
   m_TagString: BrickObj
@@ -2256,20 +2239,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.2691865, y: 3.0408804, z: 1.4174839}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4134675359283038760
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771546427236}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8446153366208055319, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &5730087755173582941
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2286,6 +2255,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &9196530191947206179
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771546427236}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.2691865, y: 3.0408804, z: 1.4174839}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771602747797
 GameObject:
   m_ObjectHideFlags: 0
@@ -2298,8 +2280,8 @@ GameObject:
   - component: {fileID: 1827549771602747784}
   - component: {fileID: 1827549771602747799}
   - component: {fileID: 3040768287219924412}
-  - component: {fileID: 8794858941907577906}
   - component: {fileID: 8596122674882132623}
+  - component: {fileID: 488644338400409967}
   m_Layer: 0
   m_Name: G_Hospital_sh_35
   m_TagString: BrickObj
@@ -2383,20 +2365,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.3298187, y: 3.3789024, z: 2.8875484}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &8794858941907577906
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771602747797}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2584210230104434583, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &8596122674882132623
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2413,6 +2381,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &488644338400409967
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771602747797}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.3298187, y: 3.3789024, z: 2.8875484}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771609285206
 GameObject:
   m_ObjectHideFlags: 0
@@ -2425,8 +2406,8 @@ GameObject:
   - component: {fileID: 1827549771609285193}
   - component: {fileID: 1827549771609285192}
   - component: {fileID: 505740561666143355}
-  - component: {fileID: 6593552694205479102}
   - component: {fileID: 6974042823404800177}
+  - component: {fileID: 565206569716238962}
   m_Layer: 0
   m_Name: G_Hospital_sh_48
   m_TagString: BrickObj
@@ -2510,20 +2491,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.7287357, y: 5.1245112, z: 4.606531}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6593552694205479102
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771609285206}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2283959260261504298, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &6974042823404800177
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2540,6 +2507,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &565206569716238962
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771609285206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.7287357, y: 5.1245112, z: 4.606531}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771624779649
 GameObject:
   m_ObjectHideFlags: 0
@@ -2552,8 +2532,8 @@ GameObject:
   - component: {fileID: 1827549771624779652}
   - component: {fileID: 1827549771624779651}
   - component: {fileID: 6556945769025534029}
-  - component: {fileID: 1319369639966271884}
   - component: {fileID: 5825134382901138588}
+  - component: {fileID: 2757458968311127090}
   m_Layer: 0
   m_Name: G_Hospital_sh_50
   m_TagString: BrickObj
@@ -2637,20 +2617,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.783834, y: 2.3607416, z: 3.2956123}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &1319369639966271884
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771624779649}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -751901284563227354, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &5825134382901138588
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2667,6 +2633,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2757458968311127090
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771624779649}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.783834, y: 2.3607416, z: 3.2956123}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771694071823
 GameObject:
   m_ObjectHideFlags: 0
@@ -2679,8 +2658,8 @@ GameObject:
   - component: {fileID: 1827549771694071810}
   - component: {fileID: 1827549771694071809}
   - component: {fileID: 6185920846254695790}
-  - component: {fileID: 5567500313222790281}
   - component: {fileID: 7764122793273435655}
+  - component: {fileID: 7738277863251177346}
   m_Layer: 0
   m_Name: G_Hospital_sh_23
   m_TagString: BrickObj
@@ -2764,20 +2743,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.271925, y: 2.1789784, z: 2.8653579}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5567500313222790281
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771694071823}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1489335638778917981, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &7764122793273435655
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2794,6 +2759,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7738277863251177346
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771694071823}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.271925, y: 2.1789784, z: 2.8653579}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771697475720
 GameObject:
   m_ObjectHideFlags: 0
@@ -2806,8 +2784,8 @@ GameObject:
   - component: {fileID: 1827549771697475723}
   - component: {fileID: 1827549771697475722}
   - component: {fileID: 5494914177144234019}
-  - component: {fileID: 4391879628208153244}
   - component: {fileID: 7910246466593854307}
+  - component: {fileID: 4632854055375393552}
   m_Layer: 0
   m_Name: G_Hospital_sh_45
   m_TagString: BrickObj
@@ -2891,20 +2869,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.7961867, y: 3.8960788, z: 1.7391849}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4391879628208153244
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771697475720}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3240978366640261502, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &7910246466593854307
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2921,6 +2885,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4632854055375393552
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771697475720}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7961867, y: 3.8960788, z: 1.7391849}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771803283479
 GameObject:
   m_ObjectHideFlags: 0
@@ -2933,8 +2910,8 @@ GameObject:
   - component: {fileID: 1827549771803283466}
   - component: {fileID: 1827549771803283465}
   - component: {fileID: 7165444535255662823}
-  - component: {fileID: 7965229218406018556}
   - component: {fileID: 2313749470525718718}
+  - component: {fileID: 5717041940361763362}
   m_Layer: 0
   m_Name: G_Hospital_sh_46
   m_TagString: BrickObj
@@ -3018,20 +2995,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.4955966, y: 2.5191507, z: 3.2338521}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &7965229218406018556
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771803283479}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7711563366998929568, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &2313749470525718718
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3048,6 +3011,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &5717041940361763362
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771803283479}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.4955966, y: 2.5191507, z: 3.2338521}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771829647642
 GameObject:
   m_ObjectHideFlags: 0
@@ -3060,8 +3036,8 @@ GameObject:
   - component: {fileID: 1827549771829647645}
   - component: {fileID: 1827549771829647644}
   - component: {fileID: 4582401978690241614}
-  - component: {fileID: 4155231028153588992}
   - component: {fileID: 5792689240957876506}
+  - component: {fileID: 3275525581691830524}
   m_Layer: 0
   m_Name: G_Hospital_sh_29
   m_TagString: BrickObj
@@ -3145,20 +3121,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0938783, y: 2.0126188, z: 4.130726}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4155231028153588992
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771829647642}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 137689729158220236, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &5792689240957876506
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3175,6 +3137,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3275525581691830524
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771829647642}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0938783, y: 2.0126188, z: 4.130726}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771840922503
 GameObject:
   m_ObjectHideFlags: 0
@@ -3187,8 +3162,8 @@ GameObject:
   - component: {fileID: 1827549771840922554}
   - component: {fileID: 1827549771840922553}
   - component: {fileID: 7295916691737500306}
-  - component: {fileID: 4379014531775768892}
   - component: {fileID: 7462271493108111819}
+  - component: {fileID: 6016709156126247326}
   m_Layer: 0
   m_Name: G_Hospital_sh_12
   m_TagString: BrickObj
@@ -3272,20 +3247,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.104079, y: 3.9968243, z: 5.375389}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4379014531775768892
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771840922503}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2615100936984364478, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &7462271493108111819
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3302,6 +3263,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6016709156126247326
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771840922503}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.104079, y: 3.9968243, z: 5.375389}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549771996219536
 GameObject:
   m_ObjectHideFlags: 0
@@ -3314,8 +3288,8 @@ GameObject:
   - component: {fileID: 1827549771996219539}
   - component: {fileID: 1827549771996219538}
   - component: {fileID: 1515046044860135003}
-  - component: {fileID: 6682185764330825020}
   - component: {fileID: 2848825728667215916}
+  - component: {fileID: 7057021084449181557}
   m_Layer: 0
   m_Name: G_Hospital_sh_40
   m_TagString: BrickObj
@@ -3399,20 +3373,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.3059406, y: 3.5148091, z: 4.53349}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6682185764330825020
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549771996219536}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 501598208436778629, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &2848825728667215916
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3429,6 +3389,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7057021084449181557
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549771996219536}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.3059406, y: 3.5148091, z: 4.53349}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549772039639898
 GameObject:
   m_ObjectHideFlags: 0
@@ -3441,8 +3414,8 @@ GameObject:
   - component: {fileID: 1827549772039639901}
   - component: {fileID: 1827549772039639900}
   - component: {fileID: 4967518967272270014}
-  - component: {fileID: 2893311493315170096}
   - component: {fileID: 202603370793746638}
+  - component: {fileID: 7918286456054421284}
   m_Layer: 0
   m_Name: G_Hospital_sh_36
   m_TagString: BrickObj
@@ -3526,20 +3499,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.2568526, y: 3.4080415, z: 1.2320151}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2893311493315170096
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549772039639898}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7683563529937001572, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &202603370793746638
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3556,6 +3515,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7918286456054421284
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549772039639898}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.2568526, y: 3.4080415, z: 1.2320151}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549772084849164
 GameObject:
   m_ObjectHideFlags: 0
@@ -3568,8 +3540,8 @@ GameObject:
   - component: {fileID: 1827549772084849167}
   - component: {fileID: 1827549772084849166}
   - component: {fileID: 5240135624249365528}
-  - component: {fileID: 4645098122744998396}
   - component: {fileID: 5486956961045511104}
+  - component: {fileID: 1713529247694360550}
   m_Layer: 0
   m_Name: G_Hospital_sh_16
   m_TagString: BrickObj
@@ -3653,20 +3625,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.015191, y: 5.641444, z: 2.266447}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4645098122744998396
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549772084849164}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -9155698806177549567, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &5486956961045511104
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3683,6 +3641,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1713529247694360550
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549772084849164}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.015191, y: 5.641444, z: 2.266447}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549772090754952
 GameObject:
   m_ObjectHideFlags: 0
@@ -3695,8 +3666,8 @@ GameObject:
   - component: {fileID: 1827549772090754955}
   - component: {fileID: 1827549772090754954}
   - component: {fileID: 9026575051025162749}
-  - component: {fileID: 142657076742563320}
   - component: {fileID: 2648646013644169512}
+  - component: {fileID: 7934708478052008704}
   m_Layer: 0
   m_Name: G_Hospital_sh_4
   m_TagString: BrickObj
@@ -3780,20 +3751,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.1485767, y: 2.6413865, z: 5.3441997}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &142657076742563320
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549772090754952}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3706318413465190385, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &2648646013644169512
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3810,6 +3767,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7934708478052008704
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549772090754952}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.1485767, y: 2.6413865, z: 5.3441997}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549772128973061
 GameObject:
   m_ObjectHideFlags: 0
@@ -3822,8 +3792,8 @@ GameObject:
   - component: {fileID: 1827549772128973112}
   - component: {fileID: 1827549772128973063}
   - component: {fileID: 421946669424968780}
-  - component: {fileID: 4704944350479975783}
   - component: {fileID: 2820306088559956925}
+  - component: {fileID: 3591707978907101075}
   m_Layer: 0
   m_Name: G_Hospital_sh_17
   m_TagString: BrickObj
@@ -3907,20 +3877,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.497699, y: 2.6951497, z: 5.5977483}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4704944350479975783
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549772128973061}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6615778491355762965, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &2820306088559956925
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3937,6 +3893,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3591707978907101075
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549772128973061}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.497699, y: 2.6951497, z: 5.5977483}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549772159087479
 GameObject:
   m_ObjectHideFlags: 0
@@ -3949,8 +3918,8 @@ GameObject:
   - component: {fileID: 1827549772159087466}
   - component: {fileID: 1827549772159087465}
   - component: {fileID: 5475552010354150528}
-  - component: {fileID: 8305936686868707082}
   - component: {fileID: 5828671356431138535}
+  - component: {fileID: 273724077798534542}
   m_Layer: 0
   m_Name: G_Hospital_sh_13
   m_TagString: BrickObj
@@ -4034,20 +4003,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.4158278, y: 3.126091, z: 2.746929}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &8305936686868707082
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549772159087479}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -503946907272205668, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &5828671356431138535
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4064,6 +4019,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &273724077798534542
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549772159087479}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.4158278, y: 3.126091, z: 2.746929}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549772298975947
 GameObject:
   m_ObjectHideFlags: 0
@@ -4076,8 +4044,8 @@ GameObject:
   - component: {fileID: 1827549772298975950}
   - component: {fileID: 1827549772298975949}
   - component: {fileID: 5181987582436571216}
-  - component: {fileID: 8466750763666361851}
   - component: {fileID: 6996013706163252844}
+  - component: {fileID: 1863946050031966610}
   m_Layer: 0
   m_Name: G_Hospital_sh_14
   m_TagString: BrickObj
@@ -4161,20 +4129,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.036456, y: 1.3337164, z: 2.1754718}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &8466750763666361851
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549772298975947}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7577588635380317581, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &6996013706163252844
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4191,6 +4145,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1863946050031966610
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549772298975947}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.036456, y: 1.3337164, z: 2.1754718}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549772383432954
 GameObject:
   m_ObjectHideFlags: 0
@@ -4203,8 +4170,8 @@ GameObject:
   - component: {fileID: 1827549772383432957}
   - component: {fileID: 1827549772383432956}
   - component: {fileID: 4464740455483457310}
-  - component: {fileID: 9205167333048300779}
   - component: {fileID: 771933648358750999}
+  - component: {fileID: 7908347027520863984}
   m_Layer: 0
   m_Name: G_Hospital_sh_26
   m_TagString: BrickObj
@@ -4288,20 +4255,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.2090702, y: 3.0889015, z: 4.1965513}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &9205167333048300779
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549772383432954}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4708695998916463147, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &771933648358750999
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4318,6 +4271,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7908347027520863984
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549772383432954}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.2090702, y: 3.0889015, z: 4.1965513}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549772499700951
 GameObject:
   m_ObjectHideFlags: 0
@@ -4411,8 +4377,8 @@ GameObject:
   - component: {fileID: 1827549772537967490}
   - component: {fileID: 1827549772537967489}
   - component: {fileID: 148368853746398877}
-  - component: {fileID: 6902842283193789159}
   - component: {fileID: 3197413785998219309}
+  - component: {fileID: 2732916645299341451}
   m_Layer: 0
   m_Name: G_Hospital_sh_6
   m_TagString: BrickObj
@@ -4496,20 +4462,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.9845004, y: 0.19444016, z: 2.750575}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6902842283193789159
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549772537967503}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 244898520943363168, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &3197413785998219309
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4526,6 +4478,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2732916645299341451
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549772537967503}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9845004, y: 0.19444016, z: 2.750575}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549772628034032
 GameObject:
   m_ObjectHideFlags: 0
@@ -4538,8 +4503,8 @@ GameObject:
   - component: {fileID: 1827549772628034035}
   - component: {fileID: 1827549772628034034}
   - component: {fileID: 8358137546856554953}
-  - component: {fileID: 5254115899187781160}
   - component: {fileID: 2351489318254683623}
+  - component: {fileID: 8827372152587468000}
   m_Layer: 0
   m_Name: G_Hospital_sh_32
   m_TagString: BrickObj
@@ -4623,20 +4588,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.275878, y: 4.3693504, z: 5.0978775}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5254115899187781160
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549772628034032}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6048369983831590163, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &2351489318254683623
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4653,6 +4604,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &8827372152587468000
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549772628034032}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.275878, y: 4.3693504, z: 5.0978775}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549772725733407
 GameObject:
   m_ObjectHideFlags: 0
@@ -4665,8 +4629,8 @@ GameObject:
   - component: {fileID: 1827549772725733394}
   - component: {fileID: 1827549772725733393}
   - component: {fileID: 8724979451284249735}
-  - component: {fileID: 3722948568544734975}
   - component: {fileID: 5961162532444419593}
+  - component: {fileID: 3058142713274525867}
   m_Layer: 0
   m_Name: G_Hospital_sh_25
   m_TagString: BrickObj
@@ -4750,20 +4714,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.9012423, y: 5.117301, z: 4.3887806}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &3722948568544734975
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549772725733407}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1363280496772224143, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &5961162532444419593
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4780,6 +4730,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3058142713274525867
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549772725733407}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.9012423, y: 5.117301, z: 4.3887806}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549772782405474
 GameObject:
   m_ObjectHideFlags: 0
@@ -4792,8 +4755,8 @@ GameObject:
   - component: {fileID: 1827549772782405477}
   - component: {fileID: 1827549772782405476}
   - component: {fileID: 3069599153679237318}
-  - component: {fileID: 5297023203194012743}
   - component: {fileID: 4060135224647854724}
+  - component: {fileID: 8393787684427751756}
   m_Layer: 0
   m_Name: G_Hospital_sh_37
   m_TagString: BrickObj
@@ -4877,20 +4840,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.4002385, y: 4.396703, z: 3.2729385}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5297023203194012743
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549772782405474}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4520359645287705519, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &4060135224647854724
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4907,6 +4856,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &8393787684427751756
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549772782405474}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.4002385, y: 4.396703, z: 3.2729385}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549772834176267
 GameObject:
   m_ObjectHideFlags: 0
@@ -4919,8 +4881,8 @@ GameObject:
   - component: {fileID: 1827549772834176270}
   - component: {fileID: 1827549772834176269}
   - component: {fileID: 1307699890516346623}
-  - component: {fileID: 2857267824622712311}
   - component: {fileID: 1135483988431052562}
+  - component: {fileID: 3161060914561583772}
   m_Layer: 0
   m_Name: G_Hospital_sh_3
   m_TagString: BrickObj
@@ -5004,20 +4966,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.1076465, y: 1.7173085, z: 2.6995678}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2857267824622712311
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549772834176267}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6479542838405220816, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &1135483988431052562
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5034,6 +4982,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3161060914561583772
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549772834176267}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.1076465, y: 1.7173085, z: 2.6995678}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549772862772267
 GameObject:
   m_ObjectHideFlags: 0
@@ -5046,8 +5007,8 @@ GameObject:
   - component: {fileID: 1827549772862772270}
   - component: {fileID: 1827549772862772269}
   - component: {fileID: 8252511164333829765}
-  - component: {fileID: 6649633745599190062}
   - component: {fileID: 5249109345103965883}
+  - component: {fileID: 3815799391204020441}
   m_Layer: 0
   m_Name: G_Hospital_sh_38
   m_TagString: BrickObj
@@ -5131,20 +5092,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.264249, y: 4.1952167, z: 5.184478}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6649633745599190062
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549772862772267}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 156394196414121125, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &5249109345103965883
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5161,6 +5108,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3815799391204020441
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549772862772267}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.264249, y: 4.1952167, z: 5.184478}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549772868403445
 GameObject:
   m_ObjectHideFlags: 0
@@ -5173,8 +5133,8 @@ GameObject:
   - component: {fileID: 1827549772868403432}
   - component: {fileID: 1827549772868403447}
   - component: {fileID: 5949351880772383624}
-  - component: {fileID: 5188606052740395525}
   - component: {fileID: 4397905670267730685}
+  - component: {fileID: 5039367205206362148}
   m_Layer: 0
   m_Name: G_Hospital_sh_34
   m_TagString: BrickObj
@@ -5258,20 +5218,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.657445, y: 3.4019105, z: 4.875199}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5188606052740395525
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549772868403445}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8506704175094181057, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &4397905670267730685
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5288,6 +5234,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &5039367205206362148
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549772868403445}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.657445, y: 3.4019105, z: 4.875199}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549772883295366
 GameObject:
   m_ObjectHideFlags: 0
@@ -5300,8 +5259,8 @@ GameObject:
   - component: {fileID: 1827549772883295417}
   - component: {fileID: 1827549772883295416}
   - component: {fileID: 6173430384040454569}
-  - component: {fileID: 1117125793395287809}
   - component: {fileID: 3615207455279031051}
+  - component: {fileID: 5327468836628573824}
   m_Layer: 0
   m_Name: G_Hospital_sh_43
   m_TagString: BrickObj
@@ -5385,20 +5344,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.205789, y: 3.4999728, z: 4.1627836}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &1117125793395287809
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549772883295366}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7573809642880775526, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &3615207455279031051
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5415,6 +5360,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &5327468836628573824
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549772883295366}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.205789, y: 3.4999728, z: 4.1627836}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549772902174370
 GameObject:
   m_ObjectHideFlags: 0
@@ -5427,8 +5385,8 @@ GameObject:
   - component: {fileID: 1827549772902174373}
   - component: {fileID: 1827549772902174372}
   - component: {fileID: 6297750118400015880}
-  - component: {fileID: 1113000481451086010}
   - component: {fileID: 2083013107224063113}
+  - component: {fileID: 4048891734381020839}
   m_Layer: 0
   m_Name: G_Hospital_sh_21
   m_TagString: BrickObj
@@ -5512,20 +5470,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.6824584, y: 3.6788518, z: 5.6287975}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &1113000481451086010
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549772902174370}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4609297147857028723, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &2083013107224063113
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5542,6 +5486,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4048891734381020839
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549772902174370}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.6824584, y: 3.6788518, z: 5.6287975}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549772912978778
 GameObject:
   m_ObjectHideFlags: 0
@@ -5554,8 +5511,8 @@ GameObject:
   - component: {fileID: 1827549772912978781}
   - component: {fileID: 1827549772912978780}
   - component: {fileID: 6926198871232294740}
-  - component: {fileID: 2125220802971520205}
   - component: {fileID: 6918250896663112274}
+  - component: {fileID: 2239626312321042942}
   m_Layer: 0
   m_Name: G_Hospital_sh_22
   m_TagString: BrickObj
@@ -5639,20 +5596,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.4077406, y: 3.640637, z: 3.1453218}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2125220802971520205
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549772912978778}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2781155425430334010, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &6918250896663112274
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5669,6 +5612,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2239626312321042942
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549772912978778}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.4077406, y: 3.640637, z: 3.1453218}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549772940571625
 GameObject:
   m_ObjectHideFlags: 0
@@ -5681,8 +5637,8 @@ GameObject:
   - component: {fileID: 1827549772940571628}
   - component: {fileID: 1827549772940571627}
   - component: {fileID: 5674682460903257067}
-  - component: {fileID: 4919259159514381624}
   - component: {fileID: 2474604897120626624}
+  - component: {fileID: 7654213852609979053}
   m_Layer: 0
   m_Name: G_Hospital_sh_8
   m_TagString: BrickObj
@@ -5766,20 +5722,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.298177, y: 3.0829568, z: 3.5664697}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4919259159514381624
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549772940571625}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4781437202271054773, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &2474604897120626624
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5796,6 +5738,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7654213852609979053
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549772940571625}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.298177, y: 3.0829568, z: 3.5664697}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549772952483392
 GameObject:
   m_ObjectHideFlags: 0
@@ -5808,8 +5763,8 @@ GameObject:
   - component: {fileID: 1827549772952483395}
   - component: {fileID: 1827549772952483394}
   - component: {fileID: 2140658938293719621}
-  - component: {fileID: 7785047857757707937}
   - component: {fileID: 3296145510460931112}
+  - component: {fileID: 5827181096544318766}
   m_Layer: 0
   m_Name: G_Hospital_sh_9
   m_TagString: BrickObj
@@ -5893,20 +5848,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.5736175, y: 3.1970067, z: 3.334836}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &7785047857757707937
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549772952483392}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6824001364393096704, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &3296145510460931112
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5923,6 +5864,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &5827181096544318766
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549772952483392}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.5736175, y: 3.1970067, z: 3.334836}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549772994554077
 GameObject:
   m_ObjectHideFlags: 0
@@ -5935,8 +5889,8 @@ GameObject:
   - component: {fileID: 1827549772994554064}
   - component: {fileID: 1827549772994554079}
   - component: {fileID: 2893978073746823669}
-  - component: {fileID: 3728481235672951853}
   - component: {fileID: 1187163984595483089}
+  - component: {fileID: 1908627180107879530}
   m_Layer: 0
   m_Name: G_Hospital_sh_11
   m_TagString: BrickObj
@@ -6020,20 +5974,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.3397288, y: 2.431745, z: 2.4315405}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &3728481235672951853
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549772994554077}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -827508356384451698, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &1187163984595483089
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6050,6 +5990,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1908627180107879530
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549772994554077}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.3397288, y: 2.431745, z: 2.4315405}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549773035050270
 GameObject:
   m_ObjectHideFlags: 0
@@ -6062,8 +6015,8 @@ GameObject:
   - component: {fileID: 1827549773035050257}
   - component: {fileID: 1827549773035050256}
   - component: {fileID: 2829307143463667612}
-  - component: {fileID: 388573320895752575}
   - component: {fileID: 6010325207367948152}
+  - component: {fileID: 6907676711249565803}
   m_Layer: 0
   m_Name: G_Hospital_sh_28
   m_TagString: BrickObj
@@ -6147,20 +6100,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.374924, y: 4.1870875, z: 2.98216}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &388573320895752575
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549773035050270}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8237227631003115642, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &6010325207367948152
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6177,6 +6116,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6907676711249565803
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549773035050270}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.374924, y: 4.1870875, z: 2.98216}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549773041445286
 GameObject:
   m_ObjectHideFlags: 0
@@ -6189,8 +6141,8 @@ GameObject:
   - component: {fileID: 1827549773041445209}
   - component: {fileID: 1827549773041445208}
   - component: {fileID: 8302993564517453898}
-  - component: {fileID: 7860805315867014374}
   - component: {fileID: 8546725751079270352}
+  - component: {fileID: 6915417683828027916}
   m_Layer: 0
   m_Name: G_Hospital_sh_39
   m_TagString: BrickObj
@@ -6274,20 +6226,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.5407705, y: 0.625648, z: 0.38121808}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &7860805315867014374
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549773041445286}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1984143619388368741, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &8546725751079270352
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6304,6 +6242,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6915417683828027916
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549773041445286}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.5407705, y: 0.625648, z: 0.38121808}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549773049738799
 GameObject:
   m_ObjectHideFlags: 0
@@ -6316,8 +6267,8 @@ GameObject:
   - component: {fileID: 1827549773049738786}
   - component: {fileID: 1827549773049738785}
   - component: {fileID: 6363898657559578997}
-  - component: {fileID: 7389600629746724762}
   - component: {fileID: 2913615086091910690}
+  - component: {fileID: 1813240443485039204}
   m_Layer: 0
   m_Name: G_Hospital_sh_42
   m_TagString: BrickObj
@@ -6401,20 +6352,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.89902, y: 3.5450015, z: 4.648216}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &7389600629746724762
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549773049738799}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4305416666069400115, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &2913615086091910690
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6431,6 +6368,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1813240443485039204
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549773049738799}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.89902, y: 3.5450015, z: 4.648216}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1827549773120296804
 GameObject:
   m_ObjectHideFlags: 0
@@ -6443,8 +6393,8 @@ GameObject:
   - component: {fileID: 1827549773120296807}
   - component: {fileID: 1827549773120296806}
   - component: {fileID: 2161888042657919461}
-  - component: {fileID: 3802964655003220511}
   - component: {fileID: 8125315805382224200}
+  - component: {fileID: 5038514247107639637}
   m_Layer: 0
   m_Name: G_Hospital_sh_30
   m_TagString: BrickObj
@@ -6528,20 +6478,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.650437, y: 0.19444016, z: 4.194021}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &3802964655003220511
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827549773120296804}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -638666983477503555, guid: 216da4af40408144ab666745d62bacec, type: 2}
 --- !u!54 &8125315805382224200
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6558,3 +6494,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &5038514247107639637
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827549773120296804}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.650437, y: 0.19444016, z: 4.194021}
+  m_Center: {x: 0, y: 0, z: 0}

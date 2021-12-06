@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 3916221542892843401}
   - component: {fileID: 3916221542892843400}
   - component: {fileID: 2496148145705734709}
-  - component: {fileID: 7180083350247940168}
   - component: {fileID: 8021988929491249224}
+  - component: {fileID: 2046407273114449275}
   m_Layer: 0
   m_Name: G_Bus_station_sh_30
   m_TagString: BrickObj
@@ -97,20 +97,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.3100936, y: 2.1663327, z: 1.7440835}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &7180083350247940168
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221542892843398}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4967268510036400718, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &8021988929491249224
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -127,6 +113,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2046407273114449275
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221542892843398}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.3100936, y: 2.1663327, z: 1.7440835}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221542939949446
 GameObject:
   m_ObjectHideFlags: 0
@@ -139,8 +138,8 @@ GameObject:
   - component: {fileID: 3916221542939949449}
   - component: {fileID: 3916221542939949448}
   - component: {fileID: 1565339574680556582}
-  - component: {fileID: 46413975220991222}
   - component: {fileID: 7344366707568952612}
+  - component: {fileID: 6622843427226685462}
   m_Layer: 0
   m_Name: G_Bus_station_sh_21
   m_TagString: BrickObj
@@ -224,20 +223,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.2831748, y: 1.704152, z: 3.2027407}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &46413975220991222
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221542939949446}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1590168289304583045, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &7344366707568952612
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -254,6 +239,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6622843427226685462
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221542939949446}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.2831748, y: 1.704152, z: 3.2027407}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221543055741001
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,8 +264,8 @@ GameObject:
   - component: {fileID: 3916221543055741004}
   - component: {fileID: 3916221543055741003}
   - component: {fileID: 1975186910182196709}
-  - component: {fileID: 9172545363817298745}
   - component: {fileID: 5905446506723962361}
+  - component: {fileID: 5769070039181818511}
   m_Layer: 0
   m_Name: G_Bus_station_sh_18
   m_TagString: BrickObj
@@ -351,20 +349,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.4418988, y: 2.1743135, z: 0.9690354}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &9172545363817298745
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221543055741001}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8543147750034603826, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &5905446506723962361
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -381,6 +365,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &5769070039181818511
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221543055741001}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.4418988, y: 2.1743135, z: 0.9690354}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221543169106668
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,8 +390,8 @@ GameObject:
   - component: {fileID: 3916221543169106671}
   - component: {fileID: 3916221543169106670}
   - component: {fileID: 4799818863722846567}
-  - component: {fileID: 3246704231232853508}
   - component: {fileID: 5212670288358795278}
+  - component: {fileID: 7517788441339571903}
   m_Layer: 0
   m_Name: G_Bus_station_sh_6
   m_TagString: BrickObj
@@ -478,20 +475,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.6020944, y: 2.13439, z: 1.6753627}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &3246704231232853508
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221543169106668}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8402817195947088790, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &5212670288358795278
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -508,6 +491,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7517788441339571903
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221543169106668}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6020944, y: 2.13439, z: 1.6753627}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221543252121993
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,8 +516,8 @@ GameObject:
   - component: {fileID: 3916221543252121996}
   - component: {fileID: 3916221543252121995}
   - component: {fileID: 5997816113123617807}
-  - component: {fileID: 6696941887164987780}
   - component: {fileID: 3369673387845506388}
+  - component: {fileID: 6651390554022340339}
   m_Layer: 0
   m_Name: G_Bus_station_sh_20
   m_TagString: BrickObj
@@ -605,20 +601,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.9729738, y: 1.5647991, z: 1.2090725}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6696941887164987780
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221543252121993}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4518820516747573885, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &3369673387845506388
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -635,6 +617,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6651390554022340339
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221543252121993}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9729738, y: 1.5647991, z: 1.2090725}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221543316874436
 GameObject:
   m_ObjectHideFlags: 0
@@ -647,8 +642,8 @@ GameObject:
   - component: {fileID: 3916221543316874439}
   - component: {fileID: 3916221543316874438}
   - component: {fileID: 721731239763045455}
-  - component: {fileID: 4125321866133024325}
   - component: {fileID: 8464945318149295774}
+  - component: {fileID: 4267490267514760344}
   m_Layer: 0
   m_Name: G_Bus_station_sh_23
   m_TagString: BrickObj
@@ -732,20 +727,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.7212294, y: 1.6704499, z: 0.51931024}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4125321866133024325
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221543316874436}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5668094426988378855, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &8464945318149295774
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -762,6 +743,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4267490267514760344
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221543316874436}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7212294, y: 1.6704499, z: 0.51931024}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221543325648125
 GameObject:
   m_ObjectHideFlags: 0
@@ -774,8 +768,8 @@ GameObject:
   - component: {fileID: 3916221543325648096}
   - component: {fileID: 3916221543325648127}
   - component: {fileID: 8219288182789954423}
-  - component: {fileID: 2722135922895838127}
   - component: {fileID: 9103425609301997698}
+  - component: {fileID: 6873320584454282976}
   m_Layer: 0
   m_Name: G_Bus_station_sh_10
   m_TagString: BrickObj
@@ -859,20 +853,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.1970303, y: 1.2579615, z: 2.9468274}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2722135922895838127
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221543325648125}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7500512879258875160, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &9103425609301997698
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -889,6 +869,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6873320584454282976
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221543325648125}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.1970303, y: 1.2579615, z: 2.9468274}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221543374167150
 GameObject:
   m_ObjectHideFlags: 0
@@ -901,8 +894,8 @@ GameObject:
   - component: {fileID: 3916221543374167057}
   - component: {fileID: 3916221543374167056}
   - component: {fileID: 490363196515271247}
-  - component: {fileID: 8584607511761788220}
   - component: {fileID: 899566669197437284}
+  - component: {fileID: 2093015838331962320}
   m_Layer: 0
   m_Name: G_Bus_station_sh_2
   m_TagString: BrickObj
@@ -986,20 +979,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.9815519, y: 0.28226864, z: 1.5036706}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &8584607511761788220
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221543374167150}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -290624354962691812, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &899566669197437284
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1016,6 +995,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2093015838331962320
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221543374167150}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9815519, y: 0.28226864, z: 1.5036706}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221543410409315
 GameObject:
   m_ObjectHideFlags: 0
@@ -1028,8 +1020,8 @@ GameObject:
   - component: {fileID: 3916221543410409318}
   - component: {fileID: 3916221543410409317}
   - component: {fileID: 3289007779806014275}
-  - component: {fileID: 5633215450968165054}
   - component: {fileID: 4621899421420531005}
+  - component: {fileID: 7490400348820990117}
   m_Layer: 0
   m_Name: G_Bus_station_sh_28
   m_TagString: BrickObj
@@ -1113,20 +1105,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.3223765, y: 1.5250586, z: 1.7185197}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &5633215450968165054
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221543410409315}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3143092289735613213, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &4621899421420531005
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1143,6 +1121,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7490400348820990117
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221543410409315}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.3223765, y: 1.5250586, z: 1.7185197}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221543410825991
 GameObject:
   m_ObjectHideFlags: 0
@@ -1155,8 +1146,8 @@ GameObject:
   - component: {fileID: 3916221543410825994}
   - component: {fileID: 3916221543410825993}
   - component: {fileID: 7269370031933652384}
-  - component: {fileID: 2040919199722536270}
   - component: {fileID: 97575452024798893}
+  - component: {fileID: 9142173727806257381}
   m_Layer: 0
   m_Name: G_Bus_station_sh_26
   m_TagString: BrickObj
@@ -1240,20 +1231,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.9493918, y: 1.5793493, z: 1.7752807}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2040919199722536270
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221543410825991}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8536873136208834417, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &97575452024798893
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1270,6 +1247,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &9142173727806257381
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221543410825991}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9493918, y: 1.5793493, z: 1.7752807}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221543445273988
 GameObject:
   m_ObjectHideFlags: 0
@@ -1282,8 +1272,8 @@ GameObject:
   - component: {fileID: 3916221543445273991}
   - component: {fileID: 3916221543445273990}
   - component: {fileID: 6178455919066888319}
-  - component: {fileID: 7793038530047617422}
   - component: {fileID: 6860503162325764894}
+  - component: {fileID: 5312009804129157186}
   m_Layer: 0
   m_Name: G_Bus_station_sh_34
   m_TagString: BrickObj
@@ -1367,20 +1357,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.7600496, y: 0.8537102, z: 2.1479754}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &7793038530047617422
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221543445273988}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1566853372480186172, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &6860503162325764894
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1397,6 +1373,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &5312009804129157186
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221543445273988}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7600496, y: 0.8537102, z: 2.1479754}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221543469731301
 GameObject:
   m_ObjectHideFlags: 0
@@ -1409,8 +1398,8 @@ GameObject:
   - component: {fileID: 3916221543469731304}
   - component: {fileID: 3916221543469731303}
   - component: {fileID: 469839041172981727}
-  - component: {fileID: 8302086405899912820}
   - component: {fileID: 2398578457838541487}
+  - component: {fileID: 5888883114093775964}
   m_Layer: 0
   m_Name: G_Bus_station_sh_32
   m_TagString: BrickObj
@@ -1494,20 +1483,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.459211, y: 1.1553243, z: 1.7562041}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &8302086405899912820
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221543469731301}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3244187489134223087, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &2398578457838541487
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1524,6 +1499,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &5888883114093775964
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221543469731301}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.459211, y: 1.1553243, z: 1.7562041}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221543550325728
 GameObject:
   m_ObjectHideFlags: 0
@@ -1536,8 +1524,8 @@ GameObject:
   - component: {fileID: 3916221543550325731}
   - component: {fileID: 3916221543550325730}
   - component: {fileID: 7490381739367180301}
-  - component: {fileID: 1230490679918067874}
   - component: {fileID: 9046501826278208263}
+  - component: {fileID: 6152733998738790104}
   m_Layer: 0
   m_Name: G_Bus_station_sh_22
   m_TagString: BrickObj
@@ -1621,20 +1609,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.2607725, y: 1.6542394, z: 2.345546}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &1230490679918067874
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221543550325728}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3657763578982212217, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &9046501826278208263
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1651,6 +1625,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6152733998738790104
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221543550325728}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.2607725, y: 1.6542394, z: 2.345546}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221543551120685
 GameObject:
   m_ObjectHideFlags: 0
@@ -1663,8 +1650,8 @@ GameObject:
   - component: {fileID: 3916221543551120848}
   - component: {fileID: 3916221543551120687}
   - component: {fileID: 8877623485277805089}
-  - component: {fileID: 7112951949266521447}
   - component: {fileID: 5052336712721366152}
+  - component: {fileID: 3812409339668259326}
   m_Layer: 0
   m_Name: G_Bus_station_sh_3
   m_TagString: BrickObj
@@ -1748,20 +1735,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.38999963, y: 0.2480607, z: 0.81780076}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &7112951949266521447
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221543551120685}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1880620074725512533, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &5052336712721366152
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1778,6 +1751,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3812409339668259326
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221543551120685}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.38999963, y: 0.2480607, z: 0.81780076}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221543559802428
 GameObject:
   m_ObjectHideFlags: 0
@@ -1790,8 +1776,8 @@ GameObject:
   - component: {fileID: 3916221543559802431}
   - component: {fileID: 3916221543559802430}
   - component: {fileID: 5610423466636266886}
-  - component: {fileID: 2064197385798090724}
   - component: {fileID: 6515446684594946059}
+  - component: {fileID: 4893492386383932171}
   m_Layer: 0
   m_Name: G_Bus_station_sh_35
   m_TagString: BrickObj
@@ -1875,20 +1861,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.6593981, y: 1.469486, z: 3.2011936}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2064197385798090724
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221543559802428}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4855252842348139216, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &6515446684594946059
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1905,6 +1877,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4893492386383932171
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221543559802428}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6593981, y: 1.469486, z: 3.2011936}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221543743137324
 GameObject:
   m_ObjectHideFlags: 0
@@ -1917,8 +1902,8 @@ GameObject:
   - component: {fileID: 3916221543743137327}
   - component: {fileID: 3916221543743137326}
   - component: {fileID: 267645204627106335}
-  - component: {fileID: 1390803087771757897}
   - component: {fileID: 3083350278639908777}
+  - component: {fileID: 6736387930014686188}
   m_Layer: 0
   m_Name: G_Bus_station_sh_11
   m_TagString: BrickObj
@@ -2002,20 +1987,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2485185, y: 0.51999986, z: 0.8654486}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &1390803087771757897
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221543743137324}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 544594711641705806, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &3083350278639908777
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2032,6 +2003,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6736387930014686188
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221543743137324}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2485185, y: 0.51999986, z: 0.8654486}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221543801297339
 GameObject:
   m_ObjectHideFlags: 0
@@ -2044,8 +2028,8 @@ GameObject:
   - component: {fileID: 3916221543801297342}
   - component: {fileID: 3916221543801297341}
   - component: {fileID: 457631439781702777}
-  - component: {fileID: 6204355729101564540}
   - component: {fileID: 1583551486340648845}
+  - component: {fileID: 7921304236163400568}
   m_Layer: 0
   m_Name: G_Bus_station_sh_12
   m_TagString: BrickObj
@@ -2129,20 +2113,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.2691522, y: 2.287755, z: 2.0227716}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6204355729101564540
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221543801297339}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7867133358976359911, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &1583551486340648845
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2159,6 +2129,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7921304236163400568
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221543801297339}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.2691522, y: 2.287755, z: 2.0227716}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221543891448519
 GameObject:
   m_ObjectHideFlags: 0
@@ -2171,8 +2154,8 @@ GameObject:
   - component: {fileID: 3916221543891448522}
   - component: {fileID: 3916221543891448521}
   - component: {fileID: 3826345545466657101}
-  - component: {fileID: 6202377873074914339}
   - component: {fileID: 2734871488963201155}
+  - component: {fileID: 3037277443595018387}
   m_Layer: 0
   m_Name: G_Bus_station_sh_8
   m_TagString: BrickObj
@@ -2256,20 +2239,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.8913563, y: 1.1637607, z: 1.3251065}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6202377873074914339
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221543891448519}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6656224108818268496, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &2734871488963201155
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2286,6 +2255,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3037277443595018387
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221543891448519}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8913563, y: 1.1637607, z: 1.3251065}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221543997125740
 GameObject:
   m_ObjectHideFlags: 0
@@ -2298,8 +2280,8 @@ GameObject:
   - component: {fileID: 3916221543997125743}
   - component: {fileID: 3916221543997125742}
   - component: {fileID: 2152280398449109679}
-  - component: {fileID: 1008057651774539508}
   - component: {fileID: 715763451881728401}
+  - component: {fileID: 2230663860639654472}
   m_Layer: 0
   m_Name: G_Bus_station_sh_19
   m_TagString: BrickObj
@@ -2383,20 +2365,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.8013811, y: 0.9854326, z: 0.8333776}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &1008057651774539508
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221543997125740}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3849070265869280109, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &715763451881728401
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2413,6 +2381,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2230663860639654472
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221543997125740}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8013811, y: 0.9854326, z: 0.8333776}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221544016302604
 GameObject:
   m_ObjectHideFlags: 0
@@ -2425,8 +2406,8 @@ GameObject:
   - component: {fileID: 3916221544016302607}
   - component: {fileID: 3916221544016302606}
   - component: {fileID: 5363207125884428537}
-  - component: {fileID: 6165068535085494554}
   - component: {fileID: 1476847608499950541}
+  - component: {fileID: 516346390605402527}
   m_Layer: 0
   m_Name: G_Bus_station_sh_25
   m_TagString: BrickObj
@@ -2510,20 +2491,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.62760615, y: 0.51999986, z: 0.42742848}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6165068535085494554
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221544016302604}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3293885803670195636, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &1476847608499950541
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2540,6 +2507,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &516346390605402527
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221544016302604}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.62760615, y: 0.51999986, z: 0.42742848}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221544094308216
 GameObject:
   m_ObjectHideFlags: 0
@@ -2619,8 +2599,8 @@ GameObject:
   - component: {fileID: 3916221544122805646}
   - component: {fileID: 3916221544122805645}
   - component: {fileID: 5922231916963365387}
-  - component: {fileID: 2405653607684797049}
   - component: {fileID: 5712291885757982093}
+  - component: {fileID: 517931529834292307}
   m_Layer: 0
   m_Name: G_Bus_station_sh_24
   m_TagString: BrickObj
@@ -2704,20 +2684,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.93631816, y: 1.065885, z: 1.2628459}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2405653607684797049
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221544122805643}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6271129136200108761, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &5712291885757982093
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2734,6 +2700,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &517931529834292307
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221544122805643}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.93631816, y: 1.065885, z: 1.2628459}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221544319118536
 GameObject:
   m_ObjectHideFlags: 0
@@ -2746,8 +2725,8 @@ GameObject:
   - component: {fileID: 3916221544319118539}
   - component: {fileID: 3916221544319118538}
   - component: {fileID: 6417403147761929143}
-  - component: {fileID: 9123086627609170803}
   - component: {fileID: 4466485169215234019}
+  - component: {fileID: 7381826493217189954}
   m_Layer: 0
   m_Name: G_Bus_station_sh_9
   m_TagString: BrickObj
@@ -2831,20 +2810,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.810091, y: 2.3596532, z: 1.5703465}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &9123086627609170803
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221544319118536}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7260409527080974698, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &4466485169215234019
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2861,6 +2826,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7381826493217189954
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221544319118536}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.810091, y: 2.3596532, z: 1.5703465}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221544353344983
 GameObject:
   m_ObjectHideFlags: 0
@@ -2873,8 +2851,8 @@ GameObject:
   - component: {fileID: 3916221544353344986}
   - component: {fileID: 3916221544353344985}
   - component: {fileID: 5083738612480230087}
-  - component: {fileID: 1954037866610323406}
   - component: {fileID: 1932562925219244634}
+  - component: {fileID: 2612282038352008786}
   m_Layer: 0
   m_Name: G_Bus_station_sh_27
   m_TagString: BrickObj
@@ -2958,20 +2936,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.9152465, y: 2.2583296, z: 2.3064365}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &1954037866610323406
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221544353344983}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3663411087792246622, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &1932562925219244634
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2988,6 +2952,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2612282038352008786
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221544353344983}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9152465, y: 2.2583296, z: 2.3064365}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221544471345428
 GameObject:
   m_ObjectHideFlags: 0
@@ -3000,8 +2977,8 @@ GameObject:
   - component: {fileID: 3916221544471345431}
   - component: {fileID: 3916221544471345430}
   - component: {fileID: 981643147116322296}
-  - component: {fileID: 3909477134176204852}
   - component: {fileID: 8504302001041368569}
+  - component: {fileID: 1607355228847031957}
   m_Layer: 0
   m_Name: G_Bus_station_sh_1
   m_TagString: BrickObj
@@ -3085,20 +3062,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.1673297, y: 0.95323443, z: 0.3849954}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &3909477134176204852
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221544471345428}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7802057964474095896, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &8504302001041368569
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3115,6 +3078,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1607355228847031957
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221544471345428}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1673297, y: 0.95323443, z: 0.3849954}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221544528889091
 GameObject:
   m_ObjectHideFlags: 0
@@ -3127,8 +3103,8 @@ GameObject:
   - component: {fileID: 3916221544528889094}
   - component: {fileID: 3916221544528889093}
   - component: {fileID: 1711932021636862001}
-  - component: {fileID: 6971249907052794644}
   - component: {fileID: 7608362168439937423}
+  - component: {fileID: 5846352071329652976}
   m_Layer: 0
   m_Name: G_Bus_station_sh_5
   m_TagString: BrickObj
@@ -3212,20 +3188,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0341647, y: 1.7008948, z: 2.0803466}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6971249907052794644
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221544528889091}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3873489947212141225, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &7608362168439937423
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3242,6 +3204,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &5846352071329652976
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221544528889091}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0341647, y: 1.7008948, z: 2.0803466}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221544582161212
 GameObject:
   m_ObjectHideFlags: 0
@@ -3254,8 +3229,8 @@ GameObject:
   - component: {fileID: 3916221544582161215}
   - component: {fileID: 3916221544582161214}
   - component: {fileID: 8489480161990998482}
-  - component: {fileID: 946399223198151101}
   - component: {fileID: 4199396284123828824}
+  - component: {fileID: 130892883564940227}
   m_Layer: 0
   m_Name: G_Bus_station_sh_33
   m_TagString: BrickObj
@@ -3339,20 +3314,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.5985821, y: 0.51999986, z: 1.4408653}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &946399223198151101
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221544582161212}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 9094063574992315813, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &4199396284123828824
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3369,6 +3330,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &130892883564940227
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221544582161212}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5985821, y: 0.51999986, z: 1.4408653}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221544589836260
 GameObject:
   m_ObjectHideFlags: 0
@@ -3381,8 +3355,8 @@ GameObject:
   - component: {fileID: 3916221544589836263}
   - component: {fileID: 3916221544589836262}
   - component: {fileID: 1679203643281281642}
-  - component: {fileID: 4426695083910886176}
   - component: {fileID: 6888341857384420919}
+  - component: {fileID: 3427683403800842308}
   m_Layer: 0
   m_Name: G_Bus_station_sh_4
   m_TagString: BrickObj
@@ -3466,20 +3440,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.8557436, y: 1.2011402, z: 3.0896373}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4426695083910886176
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221544589836260}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4143977692649857830, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &6888341857384420919
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3496,6 +3456,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3427683403800842308
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221544589836260}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8557436, y: 1.2011402, z: 3.0896373}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221544635347627
 GameObject:
   m_ObjectHideFlags: 0
@@ -3508,8 +3481,8 @@ GameObject:
   - component: {fileID: 3916221544635347630}
   - component: {fileID: 3916221544635347629}
   - component: {fileID: 6204604024340545289}
-  - component: {fileID: 4636657443887387840}
   - component: {fileID: 2302377830444444208}
+  - component: {fileID: 6645825887265216894}
   m_Layer: 0
   m_Name: G_Bus_station_sh_13
   m_TagString: BrickObj
@@ -3593,20 +3566,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.3089488, y: 0.3897221, z: 0.6903839}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4636657443887387840
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221544635347627}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1749241403497322703, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &2302377830444444208
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3623,6 +3582,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6645825887265216894
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221544635347627}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.3089488, y: 0.3897221, z: 0.6903839}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221544643998392
 GameObject:
   m_ObjectHideFlags: 0
@@ -3635,8 +3607,8 @@ GameObject:
   - component: {fileID: 3916221544643998395}
   - component: {fileID: 3916221544643998394}
   - component: {fileID: 4001009162325905542}
-  - component: {fileID: 429671786946497298}
   - component: {fileID: 3671416720155904054}
+  - component: {fileID: 7888846999277683864}
   m_Layer: 0
   m_Name: G_Bus_station_sh_14
   m_TagString: BrickObj
@@ -3720,20 +3692,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5750104, y: 0.9393401, z: 0.25088346}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &429671786946497298
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221544643998392}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5534353287987199068, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &3671416720155904054
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3750,6 +3708,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7888846999277683864
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221544643998392}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5750104, y: 0.9393401, z: 0.25088346}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221544695871050
 GameObject:
   m_ObjectHideFlags: 0
@@ -3762,8 +3733,8 @@ GameObject:
   - component: {fileID: 3916221544695871053}
   - component: {fileID: 3916221544695871052}
   - component: {fileID: 4426699899927620037}
-  - component: {fileID: 564938118427775829}
   - component: {fileID: 8624981308423042751}
+  - component: {fileID: 7216169461342546224}
   m_Layer: 0
   m_Name: G_Bus_station_sh_7
   m_TagString: BrickObj
@@ -3847,20 +3818,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.4631693, y: 0.4894662, z: 0.69843125}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &564938118427775829
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221544695871050}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -762493290957095344, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &8624981308423042751
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3877,6 +3834,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7216169461342546224
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221544695871050}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.4631693, y: 0.4894662, z: 0.69843125}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221544715192814
 GameObject:
   m_ObjectHideFlags: 0
@@ -3889,8 +3859,8 @@ GameObject:
   - component: {fileID: 3916221544715192721}
   - component: {fileID: 3916221544715192720}
   - component: {fileID: 8419129028758218655}
-  - component: {fileID: 4835768020349836820}
   - component: {fileID: 9167261481284147992}
+  - component: {fileID: 47798819298312258}
   m_Layer: 0
   m_Name: G_Bus_station_sh_36
   m_TagString: BrickObj
@@ -3974,20 +3944,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.2366135, y: 2.1234481, z: 2.319817}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4835768020349836820
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221544715192814}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3685770425034401554, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &9167261481284147992
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4004,6 +3960,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &47798819298312258
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221544715192814}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.2366135, y: 2.1234481, z: 2.319817}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221544720901556
 GameObject:
   m_ObjectHideFlags: 0
@@ -4016,8 +3985,8 @@ GameObject:
   - component: {fileID: 3916221544720901559}
   - component: {fileID: 3916221544720901558}
   - component: {fileID: 7197157282155859121}
-  - component: {fileID: 1182284150830145177}
   - component: {fileID: 4162529930233394407}
+  - component: {fileID: 750447811035777823}
   m_Layer: 0
   m_Name: G_Bus_station_sh_16
   m_TagString: BrickObj
@@ -4101,20 +4070,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.6851099, y: 1.3827858, z: 0.83668566}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &1182284150830145177
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221544720901556}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2486450643005434822, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &4162529930233394407
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4131,6 +4086,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &750447811035777823
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221544720901556}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6851099, y: 1.3827858, z: 0.83668566}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221544779711055
 GameObject:
   m_ObjectHideFlags: 0
@@ -4143,8 +4111,8 @@ GameObject:
   - component: {fileID: 3916221544779711090}
   - component: {fileID: 3916221544779711089}
   - component: {fileID: 1793824803328023249}
-  - component: {fileID: 3826249636111877285}
   - component: {fileID: 3539876057981722146}
+  - component: {fileID: 6232142575439137552}
   m_Layer: 0
   m_Name: G_Bus_station_sh_37
   m_TagString: BrickObj
@@ -4228,20 +4196,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.8971131, y: 1.0717953, z: 2.2462053}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &3826249636111877285
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221544779711055}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7894945439771030790, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &3539876057981722146
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4258,6 +4212,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6232142575439137552
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221544779711055}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8971131, y: 1.0717953, z: 2.2462053}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221544781330343
 GameObject:
   m_ObjectHideFlags: 0
@@ -4270,8 +4237,8 @@ GameObject:
   - component: {fileID: 3916221544781330346}
   - component: {fileID: 3916221544781330345}
   - component: {fileID: 1606924588610519019}
-  - component: {fileID: 2771431741689264330}
   - component: {fileID: 3717570005476786311}
+  - component: {fileID: 5876058163627689953}
   m_Layer: 0
   m_Name: G_Bus_station_sh_29
   m_TagString: BrickObj
@@ -4355,20 +4322,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.8556838, y: 2.4035583, z: 1.5547886}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2771431741689264330
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221544781330343}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8058401283894188293, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &3717570005476786311
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4385,6 +4338,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &5876058163627689953
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221544781330343}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8556838, y: 2.4035583, z: 1.5547886}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221544868017507
 GameObject:
   m_ObjectHideFlags: 0
@@ -4397,8 +4363,8 @@ GameObject:
   - component: {fileID: 3916221544868017510}
   - component: {fileID: 3916221544868017509}
   - component: {fileID: 1418202438991986247}
-  - component: {fileID: 4770689558655838086}
   - component: {fileID: 9055051170689830756}
+  - component: {fileID: 2114687505345626705}
   m_Layer: 0
   m_Name: G_Bus_station_sh_31
   m_TagString: BrickObj
@@ -4482,20 +4448,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.8164423, y: 0.8004194, z: 1.924639}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4770689558655838086
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221544868017507}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3446930752132051393, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &9055051170689830756
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4512,6 +4464,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2114687505345626705
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221544868017507}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8164423, y: 0.8004194, z: 1.924639}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221544870295650
 GameObject:
   m_ObjectHideFlags: 0
@@ -4524,8 +4489,8 @@ GameObject:
   - component: {fileID: 3916221544870295653}
   - component: {fileID: 3916221544870295652}
   - component: {fileID: 3516678583275109084}
-  - component: {fileID: 738270426537662886}
   - component: {fileID: 5180075818105373048}
+  - component: {fileID: 4691579761166447563}
   m_Layer: 0
   m_Name: G_Bus_station_sh_17
   m_TagString: BrickObj
@@ -4609,20 +4574,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.470004, y: 0.3821556, z: 2.3243022}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &738270426537662886
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221544870295650}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8981515842170613327, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &5180075818105373048
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4639,6 +4590,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4691579761166447563
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221544870295650}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.470004, y: 0.3821556, z: 2.3243022}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3916221544939928137
 GameObject:
   m_ObjectHideFlags: 0
@@ -4651,8 +4615,8 @@ GameObject:
   - component: {fileID: 3916221544939928140}
   - component: {fileID: 3916221544939928139}
   - component: {fileID: 2491701543660584577}
-  - component: {fileID: 2090924789640224170}
   - component: {fileID: 1940538239617303189}
+  - component: {fileID: 1031907995114502215}
   m_Layer: 0
   m_Name: G_Bus_station_sh_15
   m_TagString: BrickObj
@@ -4736,20 +4700,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.7854595, y: 0.47791445, z: 0.07125002}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2090924789640224170
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3916221544939928137}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8118957202534178485, guid: 2e14992fe76489e4a84fac8f0de1c5b7, type: 2}
 --- !u!54 &1940538239617303189
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4766,3 +4716,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1031907995114502215
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916221544939928137}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.7854595, y: 0.47791445, z: 0.07125002}
+  m_Center: {x: 0, y: 0, z: 0}

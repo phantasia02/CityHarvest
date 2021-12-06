@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 3584965977422666666}
   - component: {fileID: 3584965977422666665}
   - component: {fileID: 7077104131365356972}
-  - component: {fileID: 3689863656043839176}
   - component: {fileID: 6745248891895781403}
+  - component: {fileID: 5317984073079502453}
   m_Layer: 0
   m_Name: G_Gazebo_sh_14
   m_TagString: BrickObj
@@ -97,20 +97,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.5010874, y: 1.3719912, z: 1.4781651}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &3689863656043839176
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3584965977422666663}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8577781289071370471, guid: fc046295632d4d548ba8cc0a0cb414c7, type: 2}
 --- !u!54 &6745248891895781403
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -127,6 +113,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &5317984073079502453
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3584965977422666663}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5010874, y: 1.3719912, z: 1.4781651}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3584965977542417664
 GameObject:
   m_ObjectHideFlags: 0
@@ -139,8 +138,8 @@ GameObject:
   - component: {fileID: 3584965977542417667}
   - component: {fileID: 3584965977542417666}
   - component: {fileID: 7113282218352268335}
-  - component: {fileID: 6408220953691863850}
   - component: {fileID: 777215817352501489}
+  - component: {fileID: 2457270101368280563}
   m_Layer: 0
   m_Name: G_Gazebo_sh_8
   m_TagString: BrickObj
@@ -224,20 +223,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.722825, y: 0.990868, z: 1.5900698}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6408220953691863850
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3584965977542417664}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -836510167233148686, guid: fc046295632d4d548ba8cc0a0cb414c7, type: 2}
 --- !u!54 &777215817352501489
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -254,6 +239,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2457270101368280563
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3584965977542417664}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.722825, y: 0.990868, z: 1.5900698}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3584965977720563663
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,8 +264,8 @@ GameObject:
   - component: {fileID: 3584965977720563666}
   - component: {fileID: 3584965977720563665}
   - component: {fileID: 3442638014783526449}
-  - component: {fileID: 1921604201068159138}
   - component: {fileID: 7017844267344046638}
+  - component: {fileID: 5420358021557326230}
   m_Layer: 0
   m_Name: G_Gazebo_sh_9
   m_TagString: BrickObj
@@ -351,20 +349,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.0012712, y: 2.3665202, z: 1.3479769}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &1921604201068159138
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3584965977720563663}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2988572359966166202, guid: fc046295632d4d548ba8cc0a0cb414c7, type: 2}
 --- !u!54 &7017844267344046638
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -381,6 +365,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &5420358021557326230
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3584965977720563663}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0012712, y: 2.3665202, z: 1.3479769}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3584965977732637622
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,8 +390,8 @@ GameObject:
   - component: {fileID: 3584965977732637625}
   - component: {fileID: 3584965977732637624}
   - component: {fileID: 6947589316808452280}
-  - component: {fileID: 913898936030232419}
   - component: {fileID: 3761054560323531364}
+  - component: {fileID: 3329855364274395685}
   m_Layer: 0
   m_Name: G_Gazebo_sh_7
   m_TagString: BrickObj
@@ -478,20 +475,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.9555548, y: 1.0404774, z: 1.168755}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &913898936030232419
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3584965977732637622}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3731581768732735492, guid: fc046295632d4d548ba8cc0a0cb414c7, type: 2}
 --- !u!54 &3761054560323531364
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -508,6 +491,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3329855364274395685
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3584965977732637622}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9555548, y: 1.0404774, z: 1.168755}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3584965977741258806
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,8 +516,8 @@ GameObject:
   - component: {fileID: 3584965977741258809}
   - component: {fileID: 3584965977741258808}
   - component: {fileID: 2233953080971013987}
-  - component: {fileID: 4773452404299304742}
   - component: {fileID: 2676875290203834772}
+  - component: {fileID: 4479825334806314650}
   m_Layer: 0
   m_Name: G_Gazebo_sh_11
   m_TagString: BrickObj
@@ -605,20 +601,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.8633446, y: 0.83975625, z: 0.95430076}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4773452404299304742
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3584965977741258806}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -614906884739770231, guid: fc046295632d4d548ba8cc0a0cb414c7, type: 2}
 --- !u!54 &2676875290203834772
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -635,6 +617,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4479825334806314650
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3584965977741258806}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8633446, y: 0.83975625, z: 0.95430076}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3584965977782867179
 GameObject:
   m_ObjectHideFlags: 0
@@ -647,8 +642,8 @@ GameObject:
   - component: {fileID: 3584965977782867182}
   - component: {fileID: 3584965977782867181}
   - component: {fileID: 7779099593195556129}
-  - component: {fileID: 8022530260567548801}
   - component: {fileID: 37666810035889015}
+  - component: {fileID: 2020713290757923702}
   m_Layer: 0
   m_Name: G_Gazebo_sh_3
   m_TagString: BrickObj
@@ -732,20 +727,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.1023655, y: 0.92195857, z: 1.2426045}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &8022530260567548801
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3584965977782867179}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7542127851805408895, guid: fc046295632d4d548ba8cc0a0cb414c7, type: 2}
 --- !u!54 &37666810035889015
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -762,6 +743,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2020713290757923702
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3584965977782867179}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1023655, y: 0.92195857, z: 1.2426045}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3584965978115161269
 GameObject:
   m_ObjectHideFlags: 0
@@ -774,8 +768,8 @@ GameObject:
   - component: {fileID: 3584965978115161272}
   - component: {fileID: 3584965978115161271}
   - component: {fileID: 8447135101114346}
-  - component: {fileID: 7280818465437793835}
   - component: {fileID: 5943865431271176892}
+  - component: {fileID: 4537552981761829582}
   m_Layer: 0
   m_Name: G_Gazebo_sh_15
   m_TagString: BrickObj
@@ -859,20 +853,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.6824856, y: 1.4832011, z: 1.0087993}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &7280818465437793835
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3584965978115161269}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7804192822839834859, guid: fc046295632d4d548ba8cc0a0cb414c7, type: 2}
 --- !u!54 &5943865431271176892
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -889,6 +869,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4537552981761829582
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3584965978115161269}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6824856, y: 1.4832011, z: 1.0087993}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3584965978528211882
 GameObject:
   m_ObjectHideFlags: 0
@@ -901,8 +894,8 @@ GameObject:
   - component: {fileID: 3584965978528211885}
   - component: {fileID: 3584965978528211884}
   - component: {fileID: 6994165345488002203}
-  - component: {fileID: 1769096978473634153}
   - component: {fileID: 5508643424721330963}
+  - component: {fileID: 1406844990306523238}
   m_Layer: 0
   m_Name: G_Gazebo_sh_4
   m_TagString: BrickObj
@@ -986,20 +979,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.5256131, y: 0.71213317, z: 1.9709635}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &1769096978473634153
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3584965978528211882}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4085544443321058949, guid: fc046295632d4d548ba8cc0a0cb414c7, type: 2}
 --- !u!54 &5508643424721330963
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1016,6 +995,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1406844990306523238
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3584965978528211882}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5256131, y: 0.71213317, z: 1.9709635}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3584965978599584226
 GameObject:
   m_ObjectHideFlags: 0
@@ -1073,8 +1065,8 @@ GameObject:
   - component: {fileID: 3584965978631942585}
   - component: {fileID: 3584965978631942584}
   - component: {fileID: 1849858090569396806}
-  - component: {fileID: 2828867286468113875}
   - component: {fileID: 7481384060221832916}
+  - component: {fileID: 1402911539350518285}
   m_Layer: 0
   m_Name: G_Gazebo_sh_10
   m_TagString: BrickObj
@@ -1158,20 +1150,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.5404491, y: 0.7853704, z: 2.1653094}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2828867286468113875
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3584965978631942582}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2277427009289706781, guid: fc046295632d4d548ba8cc0a0cb414c7, type: 2}
 --- !u!54 &7481384060221832916
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1188,6 +1166,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1402911539350518285
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3584965978631942582}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5404491, y: 0.7853704, z: 2.1653094}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3584965978927176801
 GameObject:
   m_ObjectHideFlags: 0
@@ -1200,8 +1191,8 @@ GameObject:
   - component: {fileID: 3584965978927176804}
   - component: {fileID: 3584965978927176803}
   - component: {fileID: 5665556586870481284}
-  - component: {fileID: 6284671726836369098}
   - component: {fileID: 2208497682966019232}
+  - component: {fileID: 8002789112658044185}
   m_Layer: 0
   m_Name: G_Gazebo_sh_13
   m_TagString: BrickObj
@@ -1285,20 +1276,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.3577596, y: 0.9150077, z: 0.9661726}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6284671726836369098
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3584965978927176801}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8457527267083849045, guid: fc046295632d4d548ba8cc0a0cb414c7, type: 2}
 --- !u!54 &2208497682966019232
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1315,6 +1292,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &8002789112658044185
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3584965978927176801}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.3577596, y: 0.9150077, z: 0.9661726}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3584965979071565788
 GameObject:
   m_ObjectHideFlags: 0
@@ -1327,8 +1317,8 @@ GameObject:
   - component: {fileID: 3584965979071565791}
   - component: {fileID: 3584965979071565790}
   - component: {fileID: 5508345889727243136}
-  - component: {fileID: 2348394201266128367}
   - component: {fileID: 3432941159067588444}
+  - component: {fileID: 6425902755836345858}
   m_Layer: 0
   m_Name: G_Gazebo_sh_5
   m_TagString: BrickObj
@@ -1412,20 +1402,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.5384425, y: 1.483671, z: 1.4160676}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2348394201266128367
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3584965979071565788}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7109342896854131445, guid: fc046295632d4d548ba8cc0a0cb414c7, type: 2}
 --- !u!54 &3432941159067588444
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1442,6 +1418,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6425902755836345858
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3584965979071565788}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5384425, y: 1.483671, z: 1.4160676}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3584965979137653284
 GameObject:
   m_ObjectHideFlags: 0
@@ -1454,8 +1443,8 @@ GameObject:
   - component: {fileID: 3584965979137653287}
   - component: {fileID: 3584965979137653286}
   - component: {fileID: 9080925651378824015}
-  - component: {fileID: 9195209421702175982}
   - component: {fileID: 9140265567706225428}
+  - component: {fileID: 2131844410667175496}
   m_Layer: 0
   m_Name: G_Gazebo_sh_2
   m_TagString: BrickObj
@@ -1539,20 +1528,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.9778912, y: 1.27673, z: 1.5144701}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &9195209421702175982
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3584965979137653284}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1808750415449734813, guid: fc046295632d4d548ba8cc0a0cb414c7, type: 2}
 --- !u!54 &9140265567706225428
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1569,6 +1544,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2131844410667175496
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3584965979137653284}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9778912, y: 1.27673, z: 1.5144701}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3584965979201188738
 GameObject:
   m_ObjectHideFlags: 0
@@ -1581,8 +1569,8 @@ GameObject:
   - component: {fileID: 3584965979201188741}
   - component: {fileID: 3584965979201188740}
   - component: {fileID: 2910718355543075698}
-  - component: {fileID: 4250586934531382847}
   - component: {fileID: 5788432514929886455}
+  - component: {fileID: 1261501396475018152}
   m_Layer: 0
   m_Name: G_Gazebo_sh_6
   m_TagString: BrickObj
@@ -1666,20 +1654,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2477343, y: 2.169797, z: 1.7851082}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &4250586934531382847
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3584965979201188738}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5738799665009504916, guid: fc046295632d4d548ba8cc0a0cb414c7, type: 2}
 --- !u!54 &5788432514929886455
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1696,6 +1670,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1261501396475018152
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3584965979201188738}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2477343, y: 2.169797, z: 1.7851082}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3584965979272570562
 GameObject:
   m_ObjectHideFlags: 0
@@ -1708,8 +1695,8 @@ GameObject:
   - component: {fileID: 3584965979272570565}
   - component: {fileID: 3584965979272570564}
   - component: {fileID: 8879601212487829951}
-  - component: {fileID: 2673569719414604320}
   - component: {fileID: 3572549921555341893}
+  - component: {fileID: 8818720829992678988}
   m_Layer: 0
   m_Name: G_Gazebo_sh_12
   m_TagString: BrickObj
@@ -1793,20 +1780,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2978351, y: 1.4115288, z: 1.0954494}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2673569719414604320
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3584965979272570562}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7560296604024834760, guid: fc046295632d4d548ba8cc0a0cb414c7, type: 2}
 --- !u!54 &3572549921555341893
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1823,6 +1796,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &8818720829992678988
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3584965979272570562}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2978351, y: 1.4115288, z: 1.0954494}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3584965979349003445
 GameObject:
   m_ObjectHideFlags: 0
@@ -1835,8 +1821,8 @@ GameObject:
   - component: {fileID: 3584965979349003448}
   - component: {fileID: 3584965979349003447}
   - component: {fileID: 6650882409223011016}
-  - component: {fileID: 6284315759072049785}
   - component: {fileID: 2479206836984180741}
+  - component: {fileID: 6932811024918639141}
   m_Layer: 0
   m_Name: G_Gazebo_sh_1
   m_TagString: BrickObj
@@ -1920,20 +1906,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.4521899, y: 0.8966737, z: 1.5930907}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &6284315759072049785
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3584965979349003445}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8676295243258553701, guid: fc046295632d4d548ba8cc0a0cb414c7, type: 2}
 --- !u!54 &2479206836984180741
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1950,3 +1922,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6932811024918639141
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3584965979349003445}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.4521899, y: 0.8966737, z: 1.5930907}
+  m_Center: {x: 0, y: 0, z: 0}
