@@ -52,7 +52,8 @@ public class COriginBuilding : CGameObjBas
                 lTempBrickObj.MyBrickColor = MyBrickColor;
 
                 lTempRigidbody = lTempchildTransform.GetComponent<Rigidbody>();
-              //  lTempRigidbody.AddForce(Vector3.up * 500.0f);
+                //  lTempRigidbody.AddForce(Vector3.up * 500.0f);
+                lTempRigidbody.AddForce(Vector3.up * 500.0f);
                 lTempRigidbody.AddExplosionForce(500.0f, other.transform.position, 1000.0f);
                // lTempTransformRenderer.gameObject.tag = StaticGlobalDel.TagBrickObj;
             }
