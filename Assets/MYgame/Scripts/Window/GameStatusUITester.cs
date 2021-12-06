@@ -35,10 +35,10 @@ namespace MYgame.Scripts.Window
         private void UpdateNumber()
         {
             _number += 1;
-            _statusUI.UpdateTotalBricksNumber(StaticGlobalDel.EBrickColor.eRed, _number);
-            _statusUI.UpdateTotalBricksNumber(StaticGlobalDel.EBrickColor.eYellow, _number * 2);
-            _statusUI.UpdateTotalBricksNumber(StaticGlobalDel.EBrickColor.eGreen, _number * 3);
-            _statusUI.UpdateTotalBricksNumber(StaticGlobalDel.EBrickColor.eWhite, _number * 4);
+            _statusUI.IncreaseBrickNumber(StaticGlobalDel.EBrickColor.eRed);
+            _statusUI.IncreaseBrickNumber(StaticGlobalDel.EBrickColor.eYellow);
+            _statusUI.IncreaseBrickNumber(StaticGlobalDel.EBrickColor.eGreen);
+            _statusUI.IncreaseBrickNumber(StaticGlobalDel.EBrickColor.eWhite);
         }
 
         private void SetBuildingRecipe()

@@ -16,6 +16,7 @@ namespace MYgame.Scripts.Window
         private bool _showMaxNum;
 
         private int _maxNumber;
+        private int _currentNumber = 0;
 
         public StaticGlobalDel.EBrickColor color => _color;
 
@@ -23,6 +24,8 @@ namespace MYgame.Scripts.Window
 
         public void Activate()
         {
+            if (!_showMaxNum)
+                _currentNumber = 0;
             gameObject.SetActive(true);
         }
 
@@ -44,6 +47,12 @@ namespace MYgame.Scripts.Window
                 _showMaxNum ?
                     $"{Mathf.Min(number, _maxNumber)}/{_maxNumber}" :
                     $"{number}";
+        }
+
+        public void IncreaseNumber()
+        {
+            ++_currentNumber;
+            _text.text = _currentNumber.ToString();
         }
     }
 }
