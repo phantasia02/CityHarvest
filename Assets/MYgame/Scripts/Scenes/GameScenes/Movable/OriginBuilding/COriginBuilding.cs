@@ -35,6 +35,7 @@ public class COriginBuilding : CGameObjBas
             lTempGameObject.transform.position = this.transform.position;
             lTempGameObject.transform.localScale = this.transform.localScale;
             lTempGameObject.transform.parent = m_MyGameManager.AllBrickObj;
+            lTempGameObject.transform.rotation = this.transform.rotation;
 
             Transform lTempchildTransform = null;
             Renderer lTempTransformRenderer = null;
