@@ -348,6 +348,12 @@ public class CPlayer : CActor
 
         CGameSceneWindow lTempCGameSceneWindow = CGameSceneWindow.SharedInstance;
         lTempCGameSceneWindow.MyGameStatusUI.SetBuildingRecipe(lTempCurBuildingRecipeData.buildingSprite, lTempCurBuildingRecipeData.brickAmounts, lTempNextBuildingRecipeData.buildingSprite);
+        int lTempColorIndex = 0;
+        for (int i = 0; i < lTempCurBuildingRecipeData.brickAmounts.Length; i++)
+        {
+            //lTempColorIndex = (int)lTempCurBuildingRecipeData.brickAmounts[i].color;
+            lTempCGameSceneWindow.MyGameStatusUI.UpdateTotalBricksNumber(lTempCurBuildingRecipeData.brickAmounts[i].color, m_MyPlayerMemoryShare.m_CurBrickAmount[i].amount);
+        }
 
         GameObject lTempCurBuilding =  GameObject.Instantiate(lTempCurBuildingRecipeData.Prefab3DMode);
         lTempCurBuilding.transform.parent = m_MyPlayerMemoryShare.m_BuildingPos;
