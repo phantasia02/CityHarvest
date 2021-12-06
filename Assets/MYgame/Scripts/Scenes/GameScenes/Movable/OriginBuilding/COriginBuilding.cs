@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class COriginBuilding : CGameObjBas
 {
@@ -41,6 +42,8 @@ public class COriginBuilding : CGameObjBas
             Renderer lTempTransformRenderer = null;
             CBrickObj lTempBrickObj = null;
             Rigidbody lTempRigidbody = null;
+            float lTempTime = 1.0f;
+           // Sequence lTempSequence;
 
             int lTempchildCount = lTempGameObject.transform.childCount;
             for (int i = 0; i < lTempchildCount; i++)
@@ -52,10 +55,10 @@ public class COriginBuilding : CGameObjBas
                 lTempBrickObj.MyBrickColor = MyBrickColor;
 
                 lTempRigidbody = lTempchildTransform.GetComponent<Rigidbody>();
-                //  lTempRigidbody.AddForce(Vector3.up * 500.0f);
-                lTempRigidbody.AddForce(Vector3.up * 500.0f);
+
                 lTempRigidbody.AddExplosionForce(500.0f, other.transform.position, 1000.0f);
-               // lTempTransformRenderer.gameObject.tag = StaticGlobalDel.TagBrickObj;
+
+                lTempBrickObj.BrickObjToPlayToStartCoroutine(lTempTime);
             }
 
             lTempGameObject.SetActive(true);

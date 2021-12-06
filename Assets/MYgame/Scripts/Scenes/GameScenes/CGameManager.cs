@@ -49,10 +49,11 @@ public class CGameManager : MonoBehaviour
 
     [SerializeField] protected Transform m_AllCompleteBuilding = null;
     public Transform AllCompleteBuilding => m_AllCompleteBuilding;
-    
+
     public StageData MyTargetBuilding { get { return m_MyTargetBuilding; } }
     // ==================== SerializeField ===========================================
 
+    protected CinemachineTargetGroup m_EndCinemachineTargetGroup = null;
     protected bool isApplicationQuitting = false;
     public bool GetisApplicationQuitting { get { return isApplicationQuitting; } }
 
@@ -86,6 +87,8 @@ public class CGameManager : MonoBehaviour
         GameObject lTempCameraObj = GameObject.FindGameObjectWithTag("MainCamera");
         if (lTempCameraObj != null)
             m_Camera = lTempCameraObj.GetComponent<Camera>();
+
+        m_EndCinemachineTargetGroup = this.GetComponentInChildren<CinemachineTargetGroup>();
     }
 
     // Start is called before the first frame update
@@ -307,8 +310,11 @@ public class CGameManager : MonoBehaviour
             SetState(EState.eGameOver);
         else
         {
-            CinemachineVirtualCamera lTempCinemachineVirtualCamera = m_WinObjAnima.GetComponent<CinemachineVirtualCamera>();
-            lTempCinemachineVirtualCamera.Follow = m_AllCompleteBuilding.GetChild(m_AllCompleteBuilding.childCount - 1);
+            //CinemachineVirtualCamera lTempCinemachineVirtualCamera = m_WinObjAnima.GetComponent<CinemachineVirtualCamera>();
+            //lTempCinemachineVirtualCamera.Follow = m_AllCompleteBuilding.GetChild(m_AllCompleteBuilding.childCount - 1);
+
+            for (int i = 0; i < m_AllCompleteBuilding.childCount; i++)
+                m_EndCinemachineTargetGroup.AddMember(m_AllCompleteBuilding.GetChild(i), 0.1f, 2.0f);
 
             Physics.gravity = new Vector3(0.0f, -9.81f, 0.0f);
             m_WinObjAnima.SetActive(true);
