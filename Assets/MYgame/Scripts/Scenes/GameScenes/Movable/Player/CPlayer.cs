@@ -254,7 +254,8 @@ public class CPlayer : CActor
 
         CGameSceneWindow lTempCGameSceneWindow = CGameSceneWindow.SharedInstance;
         lTempCGameSceneWindow.MyGameStatusUI.UpdateTotalBricksNumber(setBrickColor, m_MyPlayerMemoryShare.m_CurBrickAmount[lTempindex].amount);
-
+        lTempCGameSceneWindow.MyGameStatusUI.IncreaseBrickNumber(setBrickColor);
+        
         CheckBrickIsTarget();
         
     }
@@ -290,16 +291,9 @@ public class CPlayer : CActor
 
     public void SetNextBuildings()
     {
-        int lTempCurIndex = m_MyPlayerMemoryShare.m_BuildingRecipeDataIndex;
-        BuildingRecipeData lTempCurBuildingRecipeData = m_MyPlayerMemoryShare.m_CurStageData.buildings[lTempCurIndex];
-        int lTempColorIndex = 0;
+        for (int i = 0; i < m_MyPlayerMemoryShare.m_CurBrickAmount.Length; i++)
+            m_MyPlayerMemoryShare.m_CurBrickAmount[i].amount = 0;
 
-        for (int i = 0; i < lTempCurBuildingRecipeData.brickAmounts.Length; i++)
-        {
-            lTempColorIndex = (int)lTempCurBuildingRecipeData.brickAmounts[i].color;
-            m_MyPlayerMemoryShare.m_CurBrickAmount[lTempColorIndex].amount -= lTempCurBuildingRecipeData.brickAmounts[i].amount;
-        }
-       
         Vector3 lTemppoint = Vector3.zero;
         Vector3 lTempTargetpos = Vector3.zero;
         Collider[] lTempAllCollider = null;
@@ -326,6 +320,7 @@ public class CPlayer : CActor
         Tween lTempTween = m_MyPlayerMemoryShare.m_CurBuildingProgress.transform.DOJump(lTempTargetpos, 20.0f, 1, 1.0f);
         m_MyPlayerMemoryShare.m_CurBuildingProgress.transform.DOScale(Vector3.one * 0.3f, 3.0f).SetEase( Ease.OutBounce);
 
+        int lTempCurIndex = m_MyPlayerMemoryShare.m_BuildingRecipeDataIndex;
         lTempCurIndex++;
         if (m_MyPlayerMemoryShare.m_CurStageData.buildings.Length <= lTempCurIndex)
             lTempCurIndex = 0;
@@ -348,12 +343,8 @@ public class CPlayer : CActor
 
         CGameSceneWindow lTempCGameSceneWindow = CGameSceneWindow.SharedInstance;
         lTempCGameSceneWindow.MyGameStatusUI.SetBuildingRecipe(lTempCurBuildingRecipeData.buildingSprite, lTempCurBuildingRecipeData.brickAmounts, lTempNextBuildingRecipeData.buildingSprite);
-        int lTempColorIndex = 0;
         for (int i = 0; i < lTempCurBuildingRecipeData.brickAmounts.Length; i++)
-        {
-            //lTempColorIndex = (int)lTempCurBuildingRecipeData.brickAmounts[i].color;
-            lTempCGameSceneWindow.MyGameStatusUI.UpdateTotalBricksNumber(lTempCurBuildingRecipeData.brickAmounts[i].color, m_MyPlayerMemoryShare.m_CurBrickAmount[i].amount);
-        }
+            lTempCGameSceneWindow.MyGameStatusUI.UpdateTotalBricksNumber(lTempCurBuildingRecipeData.brickAmounts[i].color, 0);
 
         GameObject lTempCurBuilding =  GameObject.Instantiate(lTempCurBuildingRecipeData.Prefab3DMode);
         lTempCurBuilding.transform.parent = m_MyPlayerMemoryShare.m_BuildingPos;
