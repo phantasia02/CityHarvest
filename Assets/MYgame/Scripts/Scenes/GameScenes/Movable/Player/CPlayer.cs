@@ -62,7 +62,7 @@ public class CPlayer : CActor
     public override float DefSpeed { get { return 1000.0f; } }
 
     int m_MoveingHash = 0;
- 
+
 
     protected override void AddInitState()
     {
@@ -97,7 +97,7 @@ public class CPlayer : CActor
             m_MyPlayerMemoryShare.m_CurBrickAmount[i].color = (StaticGlobalDel.EBrickColor)i;
         }
 
-        
+
     }
 
     // Start is called before the first frame update
@@ -127,7 +127,7 @@ public class CPlayer : CActor
        // if (m_MyPlayerMemoryShare.m_isupdateAnimation)
             m_AnimatorStateCtl.SetFloat(m_MoveingHash, m_MyPlayerMemoryShare.m_AnimationVal.Value);
     }
-   
+
 
     // Update is called once per frame
     protected override void Update()
@@ -255,9 +255,9 @@ public class CPlayer : CActor
         CGameSceneWindow lTempCGameSceneWindow = CGameSceneWindow.SharedInstance;
         lTempCGameSceneWindow.MyGameStatusUI.UpdateTotalBricksNumber(setBrickColor, m_MyPlayerMemoryShare.m_CurBrickAmount[lTempindex].amount);
         lTempCGameSceneWindow.MyGameStatusUI.IncreaseBrickNumber(setBrickColor);
-        
+
         CheckBrickIsTarget();
-        
+
     }
 
     public bool CheckBrickIsTarget()
@@ -300,7 +300,7 @@ public class CPlayer : CActor
         for (int i = 0; i < 100; i++)
         {
             lTempAllCollider = null;
-            lTemppoint = Random.insideUnitSphere * Random.Range(15.0f, 20.0f);
+            lTemppoint = Random.insideUnitSphere * Random.Range(25.0f, 30.0f);
             lTemppoint.y = 0.0f;
             lTemppoint = this.transform.position + lTemppoint + Vector3.up * 10.0f;
 
@@ -313,7 +313,7 @@ public class CPlayer : CActor
                 lTempTargetpos = hit.point;
                 break;
             }
-            
+
         }
 
         m_MyPlayerMemoryShare.m_CurBuildingProgress.transform.parent = m_MyGameManager.AllCompleteBuilding;
