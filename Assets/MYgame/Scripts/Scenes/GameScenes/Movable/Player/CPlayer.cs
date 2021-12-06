@@ -59,7 +59,7 @@ public class CPlayer : CActor
 
     protected Vector3 m_OldMouseDragDir = Vector3.zero;
 
-    public override float DefSpeed { get { return 20.0f; } }
+    public override float DefSpeed { get { return 1000.0f; } }
 
     int m_MoveingHash = 0;
  
