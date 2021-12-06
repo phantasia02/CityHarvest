@@ -22,8 +22,16 @@ namespace MYgame.Scripts.Window
         /// </summary>
         public void UpdateTotalBricksNumber(StaticGlobalDel.EBrickColor color, int number)
         {
-            _brickStatusGroupUI.SetNumber(color, number);
             _buildingRecipeUI.SetNumber(color, number);
+        }
+
+        /// <summary>
+        /// Increase the number of the specified brick
+        /// </summary>
+        /// <param name="color">The color of the brick</param>
+        public void IncreaseBrickNumber(StaticGlobalDel.EBrickColor color)
+        {
+            _brickStatusGroupUI.IncreaseNumber(color);
         }
 
         /// <summary>

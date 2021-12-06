@@ -17,18 +17,19 @@ namespace MYgame.Scripts.Window
 
         private void Awake()
         {
-            foreach (var ui in _brickUIs)
+            foreach (var ui in _brickUIs) {
                 _brickColorUIMap[ui.color] = ui;
+                ui.SetNumber(0);
+            }
         }
 
         /// <summary>
         /// Set the number of the bricks
         /// </summary>
         /// <param name="color">The color of the brick</param>
-        /// <param name="number">The number of the bricks</param>
-        public void SetNumber(StaticGlobalDel.EBrickColor color, int number)
+        public void IncreaseNumber(StaticGlobalDel.EBrickColor color)
         {
-            _brickColorUIMap[color].SetNumber(number);
+            _brickColorUIMap[color].IncreaseNumber();
         }
     }
 }
