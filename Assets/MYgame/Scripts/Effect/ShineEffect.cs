@@ -18,17 +18,20 @@ namespace MYgame.Scripts.Effect
         private readonly int _emissionColor = Shader.PropertyToID("_EmissionColor");
         private Color _color;
 
-        private void OnEnable()
+        private void Awake()
         {
             _materialProperty ??= new MaterialPropertyBlock();
             _renderer.material.EnableKeyword("_EMISSION");
+        }
+
+        public void Shine()
+        {
             _color = _startColor;
             DOTween.To(
                     () => _color, x => _color = x,
                     _shineCurve.endValue, _shineCurve.duration)
                 .SetEase(_shineCurve.curve)
-                .OnUpdate(UpdateMaterialColor)
-                .OnComplete(() => enabled = false);
+                .OnUpdate(UpdateMaterialColor);
         }
 
         private void UpdateMaterialColor()
