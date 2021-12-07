@@ -303,6 +303,7 @@ public class CGameManager : MonoBehaviour
 
     public void TimeOut()
     {
+        m_Player.LockChangState = StaticGlobalDel.EMovableState.eMax;
         m_Player.ChangState = StaticGlobalDel.EMovableState.eWait;
         m_Player.ChangStateinndex = 1;
 

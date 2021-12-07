@@ -21,9 +21,7 @@ public abstract class CPlayerStateBase : CStateActor
     public override void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.layer == (int)StaticGlobalDel.ELayerIndex.eWater)
-        {
             SetHitWater(collision.contacts[0].point);
-        }
        // SetHitWater(collision.contacts[0].point);
     }
 

@@ -37,7 +37,7 @@ public class CHitStatePlayer : CPlayerStateBase
             m_MyPlayerMemoryShare.m_MyPlayer.LockChangState = StaticGlobalDel.EMovableState.eMax;
             m_MyPlayerMemoryShare.m_MyPlayer.AnimatorStateCtl.SetCurState(CAnimatorStateCtl.EState.eHit);
         }
-        else if (MomentinTime(3.0f))
+        else if (MomentinTime(2.0f))
         {
             
             m_MyPlayerMemoryShare.m_MyPlayer.ChangState = StaticGlobalDel.EMovableState.eWait;
