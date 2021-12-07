@@ -4936,7 +4936,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8912786537294724133
 Transform:
   m_ObjectHideFlags: 0
@@ -34679,7 +34679,7 @@ GameObject:
   - component: {fileID: 6894607445037761314}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Player
+  m_TagString: PlayerRoll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34946,9 +34946,9 @@ MonoBehaviour:
     m_AnimationClip: {fileID: 0}
     m_AnimationTime: 0
   m_AllHitAnima:
-  - m_flagName: 
-    m_AnimationName: 
-    m_AnimationStateName: 
+  - m_flagName: Truck_faulty_idle
+    m_AnimationName: Truck_faulty_idle
+    m_AnimationStateName: Truck_faulty_idle
     m_Speed: 1
     m_AnimationClip: {fileID: 0}
     m_AnimationTime: 0

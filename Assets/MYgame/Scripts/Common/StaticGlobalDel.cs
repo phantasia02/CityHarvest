@@ -32,6 +32,7 @@ public static class StaticGlobalDel
 
     public enum ELayerIndex
     {
+        eWater              = 4,
         eFloor              = 6,
         ePlayer             = 7,
         eCompleteBuilding   = 8,
@@ -75,6 +76,7 @@ public static class StaticGlobalDel
     public const string TagCompleteBuilding = "CompleteBuilding";
 
 
+    public const int g_WaterMask                    = 1 << (int)ELayerIndex.eWater;
     public const int g_FloorMask                    = 1 << (int)ELayerIndex.eFloor;
     public const int g_PlayerMask                   = 1 << (int)ELayerIndex.ePlayer;
     public const int g_CompleteBuildingMask         = 1 << (int)ELayerIndex.eCompleteBuilding;
