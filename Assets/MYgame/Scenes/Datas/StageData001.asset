@@ -16,3 +16,39 @@ MonoBehaviour:
   _buildings:
   - {fileID: 11400000, guid: 44d51c284695a454f9e8044f2592f776, type: 2}
   - {fileID: 11400000, guid: b761bf56a868c3c4cb2b4904b8ef16c5, type: 2}
+  _creatarchitecture:
+    _curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.21047534
+        value: 1
+        inSlope: 0.22623873
+        outSlope: 0.22623873
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _duration: 0.5
+    _endValue: {r: 1, g: 1, b: 1, a: 1}
