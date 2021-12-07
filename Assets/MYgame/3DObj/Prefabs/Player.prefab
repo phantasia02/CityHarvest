@@ -11,8 +11,6 @@ GameObject:
   - component: {fileID: 5812048917636354642}
   - component: {fileID: 8202220223947151625}
   - component: {fileID: 3854498439703399463}
-  - component: {fileID: 1377627673}
-  - component: {fileID: 1377627672}
   m_Layer: 0
   m_Name: Harvester_03_Wheel_02.002
   m_TagString: Untagged
@@ -83,75 +81,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &1377627673
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 342860638603822865}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ba06d8fe1455f0a49988afc9be9587d9, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1377627672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 342860638603822865}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 995eb737a621f334e816f58fdf7f0707, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _renderer: {fileID: 3854498439703399463}
-  _startColor: {r: 0, g: 0, b: 0, a: 0}
-  _shineCurve:
-    _curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 2
-        outSlope: 2
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.31963286
-        value: 1
-        inSlope: 0.05592811
-        outSlope: 0.05592811
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    _duration: 0.2
-    _endValue: {r: 0.64313734, g: 0, b: 0, a: 0}
 --- !u!1 &413624552714994239
 GameObject:
   m_ObjectHideFlags: 0
@@ -9900,8 +9829,6 @@ GameObject:
   - component: {fileID: 452238310987484560}
   - component: {fileID: 8525835754446715065}
   - component: {fileID: 3789633883062752837}
-  - component: {fileID: 804484072}
-  - component: {fileID: 804484071}
   m_Layer: 0
   m_Name: Harvester_03_Wheel_01
   m_TagString: Untagged
@@ -9972,75 +9899,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &804484072
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2651887599914928781}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ba06d8fe1455f0a49988afc9be9587d9, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &804484071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2651887599914928781}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 995eb737a621f334e816f58fdf7f0707, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _renderer: {fileID: 3789633883062752837}
-  _startColor: {r: 0, g: 0, b: 0, a: 0}
-  _shineCurve:
-    _curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 2
-        outSlope: 2
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.31963286
-        value: 1
-        inSlope: 0.05592811
-        outSlope: 0.05592811
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    _duration: 0.2
-    _endValue: {r: 0.64313734, g: 0, b: 0, a: 0}
 --- !u!1 &2678873794574503909
 GameObject:
   m_ObjectHideFlags: 0
@@ -10247,8 +10105,6 @@ GameObject:
   - component: {fileID: 2042789832703485377}
   - component: {fileID: 2417288854740868711}
   - component: {fileID: 8097128498856775293}
-  - component: {fileID: 512998540}
-  - component: {fileID: 512998541}
   m_Layer: 0
   m_Name: Harvester_03_Roll_Holder
   m_TagString: Untagged
@@ -10320,75 +10176,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &512998540
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3455252413195009616}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ba06d8fe1455f0a49988afc9be9587d9, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &512998541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3455252413195009616}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 995eb737a621f334e816f58fdf7f0707, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _renderer: {fileID: 8097128498856775293}
-  _startColor: {r: 0, g: 0, b: 0, a: 0}
-  _shineCurve:
-    _curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 2
-        outSlope: 2
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.31963286
-        value: 1
-        inSlope: 0.05592811
-        outSlope: 0.05592811
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    _duration: 0.2
-    _endValue: {r: 1.2862746, g: 0, b: 0, a: 0}
 --- !u!1 &3799775217207024499
 GameObject:
   m_ObjectHideFlags: 0
@@ -10432,8 +10219,6 @@ GameObject:
   - component: {fileID: 3302280208888707938}
   - component: {fileID: 7758125398181371813}
   - component: {fileID: 7903851220138164775}
-  - component: {fileID: 1294525398}
-  - component: {fileID: 1294525397}
   m_Layer: 0
   m_Name: Harvester_03_Wheel_01.002
   m_TagString: Untagged
@@ -10504,75 +10289,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &1294525398
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4008021611909522572}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ba06d8fe1455f0a49988afc9be9587d9, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1294525397
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4008021611909522572}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 995eb737a621f334e816f58fdf7f0707, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _renderer: {fileID: 7903851220138164775}
-  _startColor: {r: 0, g: 0, b: 0, a: 0}
-  _shineCurve:
-    _curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 2
-        outSlope: 2
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.31963286
-        value: 1
-        inSlope: 0.05592811
-        outSlope: 0.05592811
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    _duration: 0.2
-    _endValue: {r: 0.64313734, g: 0, b: 0, a: 0}
 --- !u!1 &4037522167999711786
 GameObject:
   m_ObjectHideFlags: 0
@@ -10584,8 +10300,6 @@ GameObject:
   - component: {fileID: 4764916102355325747}
   - component: {fileID: 8105074266452825336}
   - component: {fileID: 6384555545930537751}
-  - component: {fileID: 1162152840}
-  - component: {fileID: 1162152839}
   m_Layer: 0
   m_Name: Harvester_03_Wheel_02
   m_TagString: Untagged
@@ -10656,75 +10370,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &1162152840
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4037522167999711786}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ba06d8fe1455f0a49988afc9be9587d9, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1162152839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4037522167999711786}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 995eb737a621f334e816f58fdf7f0707, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _renderer: {fileID: 6384555545930537751}
-  _startColor: {r: 0, g: 0, b: 0, a: 0}
-  _shineCurve:
-    _curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 2
-        outSlope: 2
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.31963286
-        value: 1
-        inSlope: 0.05592811
-        outSlope: 0.05592811
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    _duration: 0.2
-    _endValue: {r: 0.64313734, g: 0, b: 0, a: 0}
 --- !u!1 &4076990426362622173
 GameObject:
   m_ObjectHideFlags: 0
@@ -10766,7 +10411,6 @@ GameObject:
   - component: {fileID: 8200498686709236943}
   - component: {fileID: 310438928628997543}
   - component: {fileID: 8491832781171550713}
-  - component: {fileID: 38368141}
   - component: {fileID: 38368140}
   m_Layer: 0
   m_Name: Harvester_03_Front_Tube
@@ -10839,25 +10483,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &38368141
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4924662177060031948}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ba06d8fe1455f0a49988afc9be9587d9, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &38368140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10870,7 +10495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 995eb737a621f334e816f58fdf7f0707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _renderer: {fileID: 8491832781171550713}
+  _renderers: []
   _startColor: {r: 0, g: 0, b: 0, a: 0}
   _shineCurve:
     _curve:
@@ -25361,8 +24986,6 @@ GameObject:
   - component: {fileID: 5561396567784576133}
   - component: {fileID: 7390216360226117092}
   - component: {fileID: 6564839963344567457}
-  - component: {fileID: 1396495336}
-  - component: {fileID: 1396495337}
   m_Layer: 0
   m_Name: Harvester_03_Roll
   m_TagString: Untagged
@@ -25433,75 +25056,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &1396495336
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5634571583889043702}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ba06d8fe1455f0a49988afc9be9587d9, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1396495337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5634571583889043702}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 995eb737a621f334e816f58fdf7f0707, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _renderer: {fileID: 6564839963344567457}
-  _startColor: {r: 0, g: 0, b: 0, a: 0}
-  _shineCurve:
-    _curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 2
-        outSlope: 2
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.31963286
-        value: 1
-        inSlope: 0.05592811
-        outSlope: 0.05592811
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    _duration: 0.2
-    _endValue: {r: 1.2862746, g: 0, b: 0, a: 0}
 --- !u!1 &6377548195193346096
 GameObject:
   m_ObjectHideFlags: 0
@@ -35424,7 +34978,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 995eb737a621f334e816f58fdf7f0707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _renderer: {fileID: 7944413008800979264}
+  _renderers:
+  - {fileID: 7944413008800979264}
+  - {fileID: 8491832781171550713}
+  - {fileID: 3215490701374376839}
+  - {fileID: 8097128498856775293}
+  - {fileID: 6564839963344567457}
+  - {fileID: 3789633883062752837}
+  - {fileID: 7903851220138164775}
+  - {fileID: 6384555545930537751}
+  - {fileID: 3854498439703399463}
   _startColor: {r: 0, g: 0, b: 0, a: 0}
   _shineCurve:
     _curve:
@@ -35568,8 +35131,6 @@ GameObject:
   - component: {fileID: 8724298772395976830}
   - component: {fileID: 3864471087398056045}
   - component: {fileID: 3215490701374376839}
-  - component: {fileID: 1995684158}
-  - component: {fileID: 1995684159}
   m_Layer: 0
   m_Name: Harvester_03_Roll_Cover
   m_TagString: Untagged
@@ -35641,72 +35202,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &1995684158
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9155788299453632621}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ba06d8fe1455f0a49988afc9be9587d9, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1995684159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9155788299453632621}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 995eb737a621f334e816f58fdf7f0707, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _renderer: {fileID: 3215490701374376839}
-  _startColor: {r: 0, g: 0, b: 0, a: 0}
-  _shineCurve:
-    _curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 2
-        outSlope: 2
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.31963286
-        value: 1
-        inSlope: 0.05592811
-        outSlope: 0.05592811
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    _duration: 0.2
-    _endValue: {r: 1.2862746, g: 0, b: 0, a: 0}
