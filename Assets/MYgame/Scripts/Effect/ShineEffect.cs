@@ -7,7 +7,7 @@ namespace MYgame.Scripts.Effect
     public class ShineEffect : MonoBehaviour
     {
         [SerializeField]
-        private Renderer _renderer;
+        private Renderer[] _renderers;
         [SerializeField]
         [ColorUsage(true, true)]
         private Color _startColor;
@@ -21,7 +21,8 @@ namespace MYgame.Scripts.Effect
         private void Awake()
         {
             _materialProperty ??= new MaterialPropertyBlock();
-            _renderer.material.EnableKeyword("_EMISSION");
+            foreach (var renderer in _renderers)
+                renderer.material.EnableKeyword("_EMISSION");
         }
 
         public void Shine()
@@ -37,7 +38,8 @@ namespace MYgame.Scripts.Effect
         private void UpdateMaterialColor()
         {
             _materialProperty.SetColor(_emissionColor, _color);
-            _renderer.SetPropertyBlock(_materialProperty);
+            foreach (var renderer in _renderers)
+                renderer.SetPropertyBlock(_materialProperty);
         }
     }
 }
