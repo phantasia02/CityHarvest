@@ -27,6 +27,7 @@ public class CPlayerMemoryShare : CActorMemoryShare
     public Transform                        m_RecycleBrickObj           = null;
     public Transform                        m_BuildingPos               = null;
     public BuildingProgress                 m_CurBuildingProgress       = null;
+    public Vector3                          m_HitWaterPoint             = Vector3.zero;
 };
 
 public class CPlayer : CActor
@@ -74,6 +75,8 @@ public class CPlayer : CActor
         m_AllState[(int)StaticGlobalDel.EMovableState.eDeath].AllThisState.Add(new CDeathStatePlayer(this));
 
         m_AllState[(int)StaticGlobalDel.EMovableState.eWin].AllThisState.Add(new CWinStatePlayer(this));
+
+        m_AllState[(int)StaticGlobalDel.EMovableState.eHit].AllThisState.Add(new CHitStatePlayer(this));
     }
 
     protected override void CreateMemoryShare()

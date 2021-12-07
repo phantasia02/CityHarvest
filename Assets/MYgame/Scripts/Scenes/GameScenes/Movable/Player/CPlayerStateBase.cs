@@ -18,20 +18,31 @@ public abstract class CPlayerStateBase : CStateActor
     }
 
 
-    //public override void OnTriggerEnter(Collider other)
-    //{
-    //    if (other.tag == StaticGlobalDel.TagBrickObj)
-    //    {
-    //        CBrickObj lTempBrickObj = other.GetComponent<CBrickObj>();
+    public override void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.layer == (int)StaticGlobalDel.ELayerIndex.eWater)
+        {
+            SetHitWater(collision.contacts[0].point);
+        }
+       // SetHitWater(collision.contacts[0].point);
+    }
 
-    //        lTempBrickObj.gameObject.SetActive(false);
-    //        //AddBrickColor(lTempBrickObj.MyBrickColor, 1);
-    //        //CheckBrickIsTarget();
-    //        //Debug.Log($"===========================================");
-    //        //for (int i = 0; i < m_MyPlayerMemoryShare.m_CurBrickAmount.Length; i++)
-    //        //    Debug.Log($"m_MyPlayerMemoryShare.m_CurBrickAmount[i].amount = {m_MyPlayerMemoryShare.m_CurBrickAmount[i].amount}");
-    //    }
-    //  //  base.OnTriggerEnter(other);
-    //}
 
+    public void SetHitWater(Vector3 hitpoint)
+    {
+        m_MyPlayerMemoryShare.m_HitWaterPoint = hitpoint;
+        m_MyPlayerMemoryShare.m_MyPlayer.LockChangState = StaticGlobalDel.EMovableState.eHit;
+        m_MyPlayerMemoryShare.m_MyPlayer.ChangState = StaticGlobalDel.EMovableState.eHit;
+    }
+
+    public void UpdateSpeed()
+    {
+        if (m_MyPlayerMemoryShare.m_TotleSpeed.Value != m_MyPlayerMemoryShare.m_TargetTotleSpeed)
+        {
+            m_MyMemoryShare.m_TotleSpeed.Value = Mathf.MoveTowards(m_MyPlayerMemoryShare.m_TotleSpeed.Value, m_MyPlayerMemoryShare.m_TargetTotleSpeed, m_MyPlayerMemoryShare.m_AddSpeedSecond * Time.deltaTime);
+
+            if (Mathf.Abs(m_MyPlayerMemoryShare.m_TotleSpeed.Value - m_MyPlayerMemoryShare.m_TargetTotleSpeed) < 0.1f)
+                m_MyMemoryShare.m_TotleSpeed.Value = m_MyMemoryShare.m_TargetTotleSpeed;
+        }
+    }
 }

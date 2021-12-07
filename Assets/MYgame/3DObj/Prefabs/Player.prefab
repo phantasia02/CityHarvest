@@ -34946,9 +34946,9 @@ MonoBehaviour:
     m_AnimationClip: {fileID: 0}
     m_AnimationTime: 0
   m_AllHitAnima:
-  - m_flagName: 
-    m_AnimationName: 
-    m_AnimationStateName: 
+  - m_flagName: Truck_faulty_idle
+    m_AnimationName: Truck_faulty_idle
+    m_AnimationStateName: Truck_faulty_idle
     m_Speed: 1
     m_AnimationClip: {fileID: 0}
     m_AnimationTime: 0
