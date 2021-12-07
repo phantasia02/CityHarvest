@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 5301555596968020067}
   - component: {fileID: 5301555596971411523}
   - component: {fileID: 5301555596970314371}
-  - component: {fileID: 5301555596966034147}
   - component: {fileID: 5301555596977612675}
   - component: {fileID: 4790305161923895179}
+  - component: {fileID: 237657966462364863}
   m_Layer: 0
   m_Name: R_Clothing
   m_TagString: Untagged
@@ -84,20 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5301555596966034147
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5301555596968121411}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 97da5a7a98cbf4d409cca227783dbc27, type: 3}
 --- !u!95 &5301555596977612675
 Animator:
   serializedVersion: 3
@@ -131,3 +117,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MyBrickColor: 0
   m_MyCopyBrickObj: {fileID: 4700942594777891684, guid: a4dfe2589087b4549b4657713ca065c3, type: 3}
+--- !u!65 &237657966462364863
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5301555596968121411}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.663759, y: 2.8895986, z: 5.500619}
+  m_Center: {x: 0.001260519, y: 1.465074, z: -0.031068683}

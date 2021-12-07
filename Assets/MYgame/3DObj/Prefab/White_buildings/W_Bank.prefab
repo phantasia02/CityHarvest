@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 8932877328605956565}
   - component: {fileID: 8932877328603056629}
   - component: {fileID: 8932877328604187445}
-  - component: {fileID: 8932877328608230229}
   - component: {fileID: -8084401054281014471}
+  - component: {fileID: 3396036207636819129}
   m_Layer: 0
   m_Name: W_Bank
   m_TagString: Untagged
@@ -83,20 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8932877328608230229
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8932877328606123509}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 6fe8fb001fd68a24c9fb9bf08809208e, type: 3}
 --- !u!114 &-8084401054281014471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,3 +97,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MyBrickColor: 5
   m_MyCopyBrickObj: {fileID: 8361521594728807944, guid: 5b7d478ccd384c94596e90c21f6a6a63, type: 3}
+--- !u!65 &3396036207636819129
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8932877328606123509}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7, y: 7.241335, z: 9}
+  m_Center: {x: -0.01921618, y: 3.6342468, z: 0.17896795}

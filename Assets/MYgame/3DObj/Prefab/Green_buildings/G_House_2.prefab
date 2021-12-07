@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 8659741133678225230}
   - component: {fileID: 8659741133675358062}
   - component: {fileID: 8659741133676455342}
-  - component: {fileID: 8659741133680481742}
   - component: {fileID: 610055153945159991}
+  - component: {fileID: 2267066424430634386}
   m_Layer: 0
   m_Name: G_House_2
   m_TagString: Untagged
@@ -83,20 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8659741133680481742
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8659741133678394222}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e47f924ef5ef44848b7eb64d54639939, type: 3}
 --- !u!114 &610055153945159991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,3 +97,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MyBrickColor: 3
   m_MyCopyBrickObj: {fileID: 4045606337303683424, guid: 27a679dad7b7acb439f74980bc0906e8, type: 3}
+--- !u!65 &2267066424430634386
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8659741133678394222}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7, y: 9.084949, z: 7.0000005}
+  m_Center: {x: 0, y: 4.542476, z: 0.76921964}
