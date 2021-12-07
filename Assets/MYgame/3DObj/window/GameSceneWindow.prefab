@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78af7636fb2fc054984a5cc35bbf5662, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _totalTime: 5
+  _totalTime: 60
   _warningTime: 10
   _timeText: {fileID: 2907469576150504858}
 --- !u!1 &1351564712942818474

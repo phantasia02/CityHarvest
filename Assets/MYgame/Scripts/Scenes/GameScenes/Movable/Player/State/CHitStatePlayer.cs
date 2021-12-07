@@ -22,10 +22,15 @@ public class CHitStatePlayer : CPlayerStateBase
         m_HitDir.Normalize();
 
         m_MyPlayerMemoryShare.m_MyPlayer.SetMoveBuff(CMovableBase.ESpeedBuff.eHit, 2.0f, true);
+
+        m_MyPlayerMemoryShare.m_AllObj.transform.DOShakePosition(2.3f, 1.0f, 10, 90);
     }
 
     protected override void updataState()
     {
+        if (m_MyGameManager.CurState != CGameManager.EState.ePlay)
+            return;
+
         if (m_StateTime < 0.5f)
         {
             UpdateSpeed();
@@ -39,7 +44,6 @@ public class CHitStatePlayer : CPlayerStateBase
         }
         else if (MomentinTime(2.0f))
         {
-            
             m_MyPlayerMemoryShare.m_MyPlayer.ChangState = StaticGlobalDel.EMovableState.eWait;
         } 
     }
