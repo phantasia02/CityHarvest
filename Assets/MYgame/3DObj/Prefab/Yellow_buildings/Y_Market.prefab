@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 3647118733330456818}
   - component: {fileID: 3647118733331259602}
   - component: {fileID: 3647118733332226578}
-  - component: {fileID: 3647118733328126578}
   - component: {fileID: 2633890568795218377}
+  - component: {fileID: -9171893635708288460}
   m_Layer: 0
   m_Name: Y_Market
   m_TagString: Untagged
@@ -83,20 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3647118733328126578
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3647118733330234578}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 660ae124d224d4b48b5c9470fb1ebd1d, type: 3}
 --- !u!114 &2633890568795218377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,3 +97,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MyBrickColor: 2
   m_MyCopyBrickObj: {fileID: 3341876270598162564, guid: 5a33a61f3f95d0b488cf0141d8dd80b2, type: 3}
+--- !u!65 &-9171893635708288460
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3647118733330234578}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9, y: 3.319787, z: 7}
+  m_Center: {x: 0.0012540817, y: 1.6622243, z: -0.5681008}

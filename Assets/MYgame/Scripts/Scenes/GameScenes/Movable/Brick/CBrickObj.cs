@@ -41,14 +41,33 @@ public class CBrickObj : CGameObjBas
     {
         yield return new WaitForSeconds(delaySecond);
 
+        Rigidbody lTempRigidbody = this.GetComponent<Rigidbody>();
+        if (lTempRigidbody != null)
+        {
+            lTempRigidbody.useGravity = false;
+          //  lTempRigidbody.isKinematic = true;
+        }
         OpenCollider(false);
 
+        Vector3 lTempOldV3 = this.transform.position;
         Transform lTempTargetTransform = m_MyGameManager.Player.RecycleBrickObj;
-        this.transform.parent = lTempTargetTransform;
+        Vector3 lTempTopPos = Vector3.Lerp(this.transform.position, lTempTargetTransform.position, 0.3f);
+        lTempTopPos.y = 40.0f;
+        // this.transform.parent = lTempTargetTransform;
 
         const float CsDoTweenTime = 1.0f;
-        Tween lTempTween = this.transform.DOLocalJump(Vector3.zero, 0.1f, 1, CsDoTweenTime);
         Tween lTempTween1 = this.transform.DOScale(Vector3.zero, 1.5f);
+
+        float lTempRatio = 0.0f;
+        Tween lTempTween = DOTween.To(() => lTempRatio, x => lTempRatio = x, 1.0f, CsDoTweenTime);
+
+        lTempTween.SetEase( Ease.OutSine);
+        lTempTween.OnUpdate(()=>
+        {
+            Vector3 lTempCurve1 = Vector3.Lerp(lTempOldV3, lTempTopPos, lTempRatio);
+            Vector3 lTempCurve2 = Vector3.Lerp(lTempTopPos, lTempTargetTransform.position, lTempRatio);
+            this.transform.position = Vector3.Lerp(lTempCurve1, lTempCurve2, lTempRatio);
+        });
 
         lTempTween.onComplete = () =>
         {

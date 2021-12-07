@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 1308188172661513514}
   - component: {fileID: 1308188172662807818}
   - component: {fileID: 1308188172663807946}
-  - component: {fileID: 1308188172659519402}
   - component: {fileID: 418093610}
   - component: {fileID: 8796938321445953180}
+  - component: {fileID: -1004588087501871175}
   m_Layer: 0
   m_Name: Props_Lamp
   m_TagString: Untagged
@@ -84,20 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1308188172659519402
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1308188172661604618}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 1356bfc719e9e5a41b41d8fb832973a6, type: 3}
 --- !u!114 &418093610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,3 +245,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MyBrickColor: 5
   m_MyCopyBrickObj: {fileID: 6766116004228805726, guid: 638c79c62db0a9842a4f4f1f4504582c, type: 3}
+--- !u!65 &-1004588087501871175
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308188172661604618}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.560352, y: 2.3519998, z: 0.31142625}
+  m_Center: {x: 0.009998202, y: 1.1761498, z: -0.000000014901161}

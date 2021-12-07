@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 5877985848538264802}
   - component: {fileID: 5877985848536937666}
   - component: {fileID: 5877985848535840258}
-  - component: {fileID: 1556102616836570015}
   - component: {fileID: 9162215222914540203}
+  - component: {fileID: -7501297593804663352}
   m_Layer: 0
   m_Name: R_Gazebo
   m_TagString: Untagged
@@ -83,20 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1556102616836570015
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5877985848538097858}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 09f47596cc2386d49841e2ff1218c042, type: 3}
 --- !u!114 &9162215222914540203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,3 +97,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MyBrickColor: 0
   m_MyCopyBrickObj: {fileID: 3584965978599584226, guid: a4ad4f01b0d072849b5497b4bcdfcb64, type: 3}
+--- !u!65 &-7501297593804663352
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5877985848538097858}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.932329, y: 2.899931, z: 2.917163}
+  m_Center: {x: -0.007979274, y: 1.3743279, z: 0.04696834}

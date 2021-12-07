@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 8346510964019814314}
   - component: {fileID: 8346510964022681482}
   - component: {fileID: 8346510964021583178}
-  - component: {fileID: 8346510964017491242}
   - component: {fileID: 8346510964029075530}
   - component: {fileID: -3818797974709177529}
+  - component: {fileID: -7623510344055585465}
   m_Layer: 0
   m_Name: R_Bus_station
   m_TagString: Untagged
@@ -84,20 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8346510964017491242
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8346510964019577738}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: c7808d8dc14a41c4b9003a7bede316bf, type: 3}
 --- !u!95 &8346510964029075530
 Animator:
   serializedVersion: 3
@@ -131,3 +117,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MyBrickColor: 0
   m_MyCopyBrickObj: {fileID: 3916221544094308216, guid: 023de62eec6640448bceae2e33f9b87d, type: 3}
+--- !u!65 &-7623510344055585465
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8346510964019577738}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.837061, y: 3.2450774, z: 4.871265}
+  m_Center: {x: 0.13745439, y: 1.6195546, z: -0.7442109}

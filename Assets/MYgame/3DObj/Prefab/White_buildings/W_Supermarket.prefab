@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 7579914699309106549}
   - component: {fileID: 7579914699309876565}
   - component: {fileID: 7579914699311007637}
-  - component: {fileID: 7579914699315312629}
   - component: {fileID: -7114898276194469515}
+  - component: {fileID: -9185548131075732906}
   m_Layer: 0
   m_Name: W_Supermarket
   m_TagString: Untagged
@@ -83,20 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7579914699315312629
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7579914699309013333}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: bee5831a878ea644f989598ad96318b5, type: 3}
 --- !u!114 &-7114898276194469515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,3 +97,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MyBrickColor: 5
   m_MyCopyBrickObj: {fileID: 2840230175022496641, guid: 8c46d6da6b0365540967bba8504e2218, type: 3}
+--- !u!65 &-9185548131075732906
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7579914699309013333}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 16, y: 8.174848, z: 13}
+  m_Center: {x: 0.7891605, y: 4.0868745, z: -2.243756}

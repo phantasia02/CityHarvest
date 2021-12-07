@@ -21,7 +21,8 @@ public class COriginBuilding : CGameObjBas
     protected Color _color;
     protected MaterialPropertyBlock _materialProperty;
     protected Renderer m_MyRendererMesh = null;
-    protected Collider[] m_MyAllCollider = null;
+    protected BoxCollider m_MyBoxCollider = null;
+    protected Vector3 m_MyBoxColliderSizehalf = Vector3.one;
 
     protected Material m_MyMaterial = null;
 
@@ -31,6 +32,12 @@ public class COriginBuilding : CGameObjBas
 
         m_MyRendererMesh = this.GetComponent<Renderer>();
         m_MyMaterial = m_MyRendererMesh.material;
+        m_MyBoxCollider = this.GetComponent<BoxCollider>();
+        m_MyBoxColliderSizehalf = m_MyBoxCollider.size;
+        m_MyBoxColliderSizehalf.x *= this.transform.localScale.x;
+        m_MyBoxColliderSizehalf.y *= this.transform.localScale.y;
+        m_MyBoxColliderSizehalf.z *= this.transform.localScale.z;
+        m_MyBoxColliderSizehalf *= 0.5f;
 
         m_MyRendererMesh.material.EnableKeyword("_EMISSION");
         _materialProperty = new MaterialPropertyBlock();
@@ -89,6 +96,11 @@ public class COriginBuilding : CGameObjBas
     {
         if (m_MyGameManager.CurState != CGameManager.EState.ePlay)
             return;
+
+        Collider[] lTempCollider = Physics.OverlapBox(this.transform.position + m_MyBoxCollider.center, m_MyBoxColliderSizehalf, this.transform.rotation, StaticGlobalDel.g_CompleteBuildingMask | StaticGlobalDel.g_PlayerMask);
+        if (lTempCollider.Length != 0)
+            return;
+
 
         this.gameObject.SetActive(true);
 
