@@ -34,7 +34,7 @@ public class CHitStatePlayer : CPlayerStateBase
         if (m_StateTime < 0.5f)
         {
             UpdateSpeed();
-            m_MyPlayerMemoryShare.m_MyRigidbody.position += m_HitDir * m_MyPlayerMemoryShare.m_MyPlayer.TotleSpeed * 0.01f * Time.fixedDeltaTime;
+            m_MyPlayerMemoryShare.m_MyRigidbody.position += m_HitDir * m_MyPlayerMemoryShare.m_MyPlayer.TotleSpeed * 0.01f * Time.deltaTime;
         }
 
         if (MomentinTime(0.5f))
