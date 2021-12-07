@@ -98,9 +98,9 @@ Shader "Custom/SimpleWater"
                 VertexPositionInputs vertexInput = (VertexPositionInputs)0;
                 vertexInput.positionWS = IN.positionWS;
 
-                float4 shadowCoord = GetShadowCoord(vertexInput);
-                half shadowAttenuation = MainLightRealtimeShadow(shadowCoord);
-                color = lerp(half4(0, 0, 0, 1), color, shadowAttenuation);
+                //float4 shadowCoord = GetShadowCoord(vertexInput);
+                //half shadowAttenuation = MainLightRealtimeShadow(shadowCoord);
+                //color = lerp(half4(0, 0, 0, 1), color, shadowAttenuation);
 
                 color.rgb = MixFogColor(color.rgb, half3(1, 1, 1), IN.fogCoord);
                 return color;
