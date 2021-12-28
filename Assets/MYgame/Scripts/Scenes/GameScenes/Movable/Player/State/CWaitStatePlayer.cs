@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CWaitStatePlayer : CPlayerStateBase
 {
-    public override StaticGlobalDel.EMovableState StateType() { return StaticGlobalDel.EMovableState.eWait; }
+    public override EMovableState StateType() { return EMovableState.eWait; }
 
     public CWaitStatePlayer(CMovableBase pamMovableBase) : base(pamMovableBase)
     {

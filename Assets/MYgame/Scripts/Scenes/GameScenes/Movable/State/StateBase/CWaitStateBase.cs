@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CDragStateBase : CMovableStatePototype
+public class CWaitStateBase : CMovableStatePototype
 {
-    public override StaticGlobalDel.EMovableState StateType() { return StaticGlobalDel.EMovableState.eDrag; }
+    public override EMovableState StateType() { return EMovableState.eWait; }
 
-    public CDragStateBase(CMovableBase pamMovableBase) : base(pamMovableBase)
+    public CWaitStateBase(CMovableBase pamMovableBase) : base(pamMovableBase)
     {
 
     }

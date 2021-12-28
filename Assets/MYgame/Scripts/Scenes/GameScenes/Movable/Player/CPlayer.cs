@@ -33,6 +33,8 @@ public class CPlayerMemoryShare : CActorMemoryShare
 public class CPlayer : CActor
 {
     public override EMovableType MyMovableType() { return EMovableType.ePlayer; }
+    public override EObjType ObjType() { return EObjType.ePlayer; }
+    public override EActorType MyActorType() { return EActorType.ePlayer; }
 
     protected float m_MaxMoveDirSize = 5.0f;
 
@@ -117,7 +119,7 @@ public class CPlayer : CActor
 
         UpdateInitSetUIMode();
 
-        SetCurState(StaticGlobalDel.EMovableState.eWait);
+        SetCurState(CMovableStatePototype.EMovableState.eWait);
         //UpdateAnimationVal().Subscribe(_ => {
         //    UpdateAnimationChangVal();
         //}).AddTo(this.gameObject);
@@ -161,16 +163,8 @@ public class CPlayer : CActor
 
     public void PlayerMouseDown()
     {
-        //if (!PlayerCtrl())
-        //{
-        //    if (m_CurState != StaticGlobalDel.EMovableState.eNull && m_AllState[(int)m_CurState] != null)
-        //    {
-        //        m_AllState[(int)m_CurState].MouseDown();
-        //    }
-        //}
-
         DataState lTempDataState = m_AllState[(int)CurState];
-        if (m_CurState != StaticGlobalDel.EMovableState.eNull && lTempDataState != null && lTempDataState.AllThisState[lTempDataState.index] != null)
+        if (m_CurState != CMovableStatePototype.EMovableState.eNull && lTempDataState != null && lTempDataState.AllThisState[lTempDataState.index] != null)
             lTempDataState.AllThisState[lTempDataState.index].MouseDown();
 
         m_MyPlayerMemoryShare.m_bDown = true;
@@ -185,7 +179,7 @@ public class CPlayer : CActor
             return;
 
         DataState lTempDataState = m_AllState[(int)CurState];
-        if (m_CurState != StaticGlobalDel.EMovableState.eNull && lTempDataState != null && lTempDataState.AllThisState[lTempDataState.index] != null)
+        if (m_CurState != CMovableStatePototype.EMovableState.eNull && lTempDataState != null && lTempDataState.AllThisState[lTempDataState.index] != null)
             lTempDataState.AllThisState[lTempDataState.index].MouseDrag();
 
         m_MyPlayerMemoryShare.m_OldMouseDownPos = Input.mousePosition;
@@ -196,7 +190,7 @@ public class CPlayer : CActor
         if (m_MyPlayerMemoryShare.m_bDown)
         {
             DataState lTempDataState = m_AllState[(int)CurState];
-            if (m_CurState != StaticGlobalDel.EMovableState.eNull && lTempDataState != null && lTempDataState.AllThisState[lTempDataState.index] != null)
+            if (m_CurState != CMovableStatePototype.EMovableState.eNull && lTempDataState != null && lTempDataState.AllThisState[lTempDataState.index] != null)
                 lTempDataState.AllThisState[lTempDataState.index].MouseUp();
 
             m_MyPlayerMemoryShare.m_bDown = false;
@@ -233,7 +227,7 @@ public class CPlayer : CActor
         //  float lTempScreenDragProportion = lTempMouseDrag.magnitude / m_MinScreenSize;
         //if (lTempScreenDragProportion >= 0.01f)
         // {
-        ChangState = StaticGlobalDel.EMovableState.eMove;
+        SetChangState(CMovableStatePototype.EMovableState.eMove);
         m_OldMouseDragDir += lTempMouseDrag * 3.0f;
         m_OldMouseDragDir.y = 0.0f;
 
@@ -303,8 +297,11 @@ public class CPlayer : CActor
         for (int i = 0; i < 100; i++)
         {
             lTempAllCollider = null;
-            lTemppoint = Random.insideUnitSphere * Random.Range(25.0f, 30.0f);
+            lTemppoint = Random.insideUnitSphere;
             lTemppoint.y = 0.0f;
+            lTemppoint.Normalize();
+            lTemppoint = lTemppoint * Random.Range(20.0f, 25.0f);
+
             lTemppoint = this.transform.position + lTemppoint + Vector3.up * 10.0f;
 
             if (Physics.Raycast(lTemppoint, Vector3.down, out RaycastHit hit, 20.0f, StaticGlobalDel.g_FloorMask))

@@ -5,7 +5,7 @@ using DG.Tweening;
 
 public class CHitStatePlayer : CPlayerStateBase
 {
-    public override StaticGlobalDel.EMovableState StateType() { return StaticGlobalDel.EMovableState.eHit; }
+    public override EMovableState StateType() { return EMovableState.eHit; }
 
     protected Vector3 m_HitDir = Vector3.one;
 
@@ -39,12 +39,11 @@ public class CHitStatePlayer : CPlayerStateBase
 
         if (MomentinTime(0.5f))
         {
-            m_MyPlayerMemoryShare.m_MyPlayer.LockChangState = StaticGlobalDel.EMovableState.eMax;
             m_MyPlayerMemoryShare.m_MyPlayer.AnimatorStateCtl.SetCurState(CAnimatorStateCtl.EState.eHit);
         }
         else if (MomentinTime(2.0f))
         {
-            m_MyPlayerMemoryShare.m_MyPlayer.ChangState = StaticGlobalDel.EMovableState.eWait;
+            m_MyPlayerMemoryShare.m_MyPlayer.SetChangState(EMovableState.eWait);
         } 
     }
 

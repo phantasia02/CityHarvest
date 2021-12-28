@@ -29,8 +29,7 @@ public abstract class CPlayerStateBase : CStateActor
     public void SetHitWater(Vector3 hitpoint)
     {
         m_MyPlayerMemoryShare.m_HitWaterPoint = hitpoint;
-        m_MyPlayerMemoryShare.m_MyPlayer.LockChangState = StaticGlobalDel.EMovableState.eHit;
-        m_MyPlayerMemoryShare.m_MyPlayer.ChangState = StaticGlobalDel.EMovableState.eHit;
+        m_MyPlayerMemoryShare.m_MyPlayer.SetChangState(EMovableState.eHit);
     }
 
     public void UpdateSpeed()

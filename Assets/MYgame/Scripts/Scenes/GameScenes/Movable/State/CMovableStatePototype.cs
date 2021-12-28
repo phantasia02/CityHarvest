@@ -6,13 +6,30 @@ public abstract class CMovableStateData{}
 
 public abstract class CMovableStatePototype
 {
+    public enum EMovableState
+    {
+        eNull       = 0,
+        eWait       = 1,
+        eDrag       = 2,
+        eMove       = 3,
+        eAtk        = 4,
+        eJump       = 5,
+        eJumpDown   = 6,
+        eHit        = 7,
+        eWin        = 8,
+        eDeath      = 9,
+        eFinish     = 10,
+        eFlee       = 11,
+        eMax
+    }
 
     protected CMovableBase m_MyMovable = null;
     protected CGameManager m_MyGameManager = null;
     protected CMemoryShareBase m_MyMemoryShare = null;
 
+    public virtual int Priority => 0;
+    abstract public EMovableState StateType();
 
-    abstract public StaticGlobalDel.EMovableState StateType();
     protected float m_StateTime = 0.0f;
     protected float m_StateUnscaledTime = 0.0f;
     protected int m_StateCount = 0;
@@ -77,6 +94,13 @@ public abstract class CMovableStatePototype
 
     public bool MomentinTime(float time){return m_OldStateTime < time && m_StateTime >= time;}
 
+    public EMovableState RandomState(List<CMovableStatePototype.EMovableState> RandomList)
+    {
+        if (RandomList == null)
+            return EMovableState.eMax;
+
+        return RandomList[Random.Range(0, RandomList.Count)];
+    }
 
     protected virtual void InState() {}
 
@@ -99,15 +123,6 @@ public abstract class CMovableStatePototype
     public virtual void MouseDown(){}
     public virtual void MouseDrag(){}
     public virtual void MouseUp(){}
-
-    //public void SetAnimationState(CAnimatorStateCtl.EState AniState, float Speed = 1.0f, int index = -1)
-    //{
-    //    if (m_MyMemoryShare.m_MyMovable.AnimatorStateCtl != null)
-    //    {
-    //        m_MyMemoryShare.m_MyMovable.AnimatorStateCtl.SetCurState(AniState, index);
-    //        m_MyMemoryShare.m_MyMovable.AnimatorStateCtl.AnimatorSpeed = Speed;
-    //    }
-    //}
 
     public bool FloatingToFloorChack()
     {

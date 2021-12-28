@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CFinishStateBase : CMovableStatePototype
+public class CHitStateBase : CMovableStatePototype
 {
-    public override StaticGlobalDel.EMovableState StateType() { return StaticGlobalDel.EMovableState.eFinish; }
+    public override EMovableState StateType() { return EMovableState.eHit; }
+    public override int Priority => 2;
 
-    public CFinishStateBase(CMovableBase pamMovableBase) : base(pamMovableBase)
+    public CHitStateBase(CMovableBase pamMovableBase) : base(pamMovableBase)
     {
 
     }

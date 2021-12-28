@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CAtkStateBase : CMovableStatePototype
+public class CFinishStateBase : CMovableStatePototype
 {
-    public override StaticGlobalDel.EMovableState StateType() { return StaticGlobalDel.EMovableState.eAtk; }
+    public override EMovableState StateType() { return EMovableState.eFinish; }
 
-    public CAtkStateBase(CMovableBase pamMovableBase) : base(pamMovableBase)
+    public CFinishStateBase(CMovableBase pamMovableBase) : base(pamMovableBase)
     {
 
     }

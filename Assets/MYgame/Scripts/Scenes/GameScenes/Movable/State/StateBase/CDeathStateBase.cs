@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CWaitStateBase : CMovableStatePototype
+public class CDeathStateBase : CMovableStatePototype
 {
-    public override StaticGlobalDel.EMovableState StateType() { return StaticGlobalDel.EMovableState.eWait; }
+    public override EMovableState StateType() { return EMovableState.eDeath; }
+    public override int Priority => 10;
 
-    public CWaitStateBase(CMovableBase pamMovableBase) : base(pamMovableBase)
+    public CDeathStateBase(CMovableBase pamMovableBase) : base(pamMovableBase)
     {
 
     }

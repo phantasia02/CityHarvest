@@ -5,7 +5,7 @@ using DG.Tweening;
 
 public class CWinStatePlayer : CPlayerStateBase
 {
-    public override StaticGlobalDel.EMovableState StateType() { return StaticGlobalDel.EMovableState.eWin; }
+    public override EMovableState StateType() { return EMovableState.eWin; }
 
     public CWinStatePlayer(CMovableBase pamMovableBase) : base(pamMovableBase)
     {

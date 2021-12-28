@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CDeathStateBase : CMovableStatePototype
+public class CDragStateBase : CMovableStatePototype
 {
-    public override StaticGlobalDel.EMovableState StateType() { return StaticGlobalDel.EMovableState.eDeath; }
+    public override EMovableState StateType() { return EMovableState.eDrag; }
 
-    public CDeathStateBase(CMovableBase pamMovableBase) : base(pamMovableBase)
+    public CDragStateBase(CMovableBase pamMovableBase) : base(pamMovableBase)
     {
 
     }
