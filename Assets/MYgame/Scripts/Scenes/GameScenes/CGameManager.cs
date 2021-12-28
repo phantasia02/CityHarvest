@@ -397,7 +397,7 @@ public class CGameManager : MonoBehaviour
         if (removeMovableBase == null)
             return;
 
-        int lTempTypeIndex = (int)removeMovableBase.ObjType();
+        int lTempTypeIndex = (int)removeMovableBase.MyMovableType();
         List<CMovableBase> lTempMovableBaseList = m_AllMovableBase[lTempTypeIndex].m_MovableBaseListData;
         lTempMovableBaseList.Remove(removeMovableBase);
     }

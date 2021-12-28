@@ -6,7 +6,7 @@ using DG.Tweening;
 public class CHitStatePlayer : CPlayerStateBase
 {
     public override EMovableState StateType() { return EMovableState.eHit; }
-
+    public override int Priority => 2;
     protected Vector3 m_HitDir = Vector3.one;
 
     public CHitStatePlayer(CMovableBase pamMovableBase) : base(pamMovableBase)
