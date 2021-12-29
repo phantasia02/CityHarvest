@@ -18,7 +18,6 @@ public class CMoveStatePlayer : CPlayerStateBase
 
     protected override void updataState()
     {
-
        // m_MyPlayerMemoryShare.m_MyTransform.Translate(new Vector3(0.0f, 0.0f, Time.deltaTime * m_MyPlayerMemoryShare.m_MyMovable.TotleSpeed));
         m_MyPlayerMemoryShare.m_MyRigidbody.velocity = m_MyPlayerMemoryShare.m_MyTransform.forward * m_MyPlayerMemoryShare.m_MyPlayer.DefSpeed * Time.fixedDeltaTime;
     }

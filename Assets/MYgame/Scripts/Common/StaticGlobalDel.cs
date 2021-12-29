@@ -32,11 +32,17 @@ public static class StaticGlobalDel
 
     public enum ELayerIndex
     {
+        e0                  = 0,
+        e1                  = 1,
+        e2                  = 2,
+        e3                  = 3,
         eWater              = 4,
+        eUI                 = 5,
         eFloor              = 6,
         ePlayer             = 7,
         eCompleteBuilding   = 8,
-
+        eWall               = 9,
+        eBuildingFloor      = 10,
         eMax
     }
 
@@ -80,6 +86,8 @@ public static class StaticGlobalDel
     public const int g_FloorMask                    = 1 << (int)ELayerIndex.eFloor;
     public const int g_PlayerMask                   = 1 << (int)ELayerIndex.ePlayer;
     public const int g_CompleteBuildingMask         = 1 << (int)ELayerIndex.eCompleteBuilding;
+    public const int g_WallMask                     = 1 << (int)ELayerIndex.eWall;
+    public const int g_BuildingFloorMask            = 1 << (int)ELayerIndex.eBuildingFloor;
 
     public const int g_MaxFever         = 100;
     public const int g_LeveFever        = 33;
