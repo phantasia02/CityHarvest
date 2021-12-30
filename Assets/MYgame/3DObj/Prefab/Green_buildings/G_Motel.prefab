@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2018712977934723237}
   - component: {fileID: -2165281351998312373}
   - component: {fileID: 4760587414115355991}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: G_Motel
   m_TagString: Untagged
   m_Icon: {fileID: 0}

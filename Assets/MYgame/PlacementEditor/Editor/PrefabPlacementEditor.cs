@@ -7,8 +7,11 @@ using UnityEditor;
 [CanEditMultipleObjects]
 public class PrefabPlacementEditor : Editor {
 
+    private SerializedProperty ParentObject;
     private SerializedProperty prefab;
     private SerializedProperty layerMask;
+    private SerializedProperty layerMask2;
+    private SerializedProperty TargetlayerMask;
     private SerializedProperty prefabTag;
     private SerializedProperty minRage, maxRage;
     private SerializedProperty randomizePrefab;
@@ -17,7 +20,8 @@ public class PrefabPlacementEditor : Editor {
     private SerializedProperty spread;
     private SerializedProperty radius;
     private SerializedProperty amount;
-    private SerializedProperty size;
+    private SerializedProperty Minsize;
+    private SerializedProperty Maxsize;
     private SerializedProperty positionOffset;
 
     private SerializedProperty canPlaceOver;
@@ -29,12 +33,19 @@ public class PrefabPlacementEditor : Editor {
     private Vector3 lastPos;
     private Vector3 mousePos;
     private Quaternion mouseRot;
+    private GameObject m_ParentObject;
+
+   
 
 
     private void OnEnable()
     {
+        m_ParentObject = GameObject.Find("ParentObject");
+        ParentObject = serializedObject.FindProperty("ParentObject");
         prefab = serializedObject.FindProperty("prefab");
         layerMask = serializedObject.FindProperty("layerMask");
+        layerMask2 = serializedObject.FindProperty("layerMask2");
+        TargetlayerMask = serializedObject.FindProperty("TargetlayerMask");
         prefabTag = serializedObject.FindProperty("prefabTag");
         minRage = serializedObject.FindProperty("minRage");
         maxRage = serializedObject.FindProperty("maxRage");
@@ -43,7 +54,8 @@ public class PrefabPlacementEditor : Editor {
         spread = serializedObject.FindProperty("spread");
         radius = serializedObject.FindProperty("radius");
         amount = serializedObject.FindProperty("amount");
-        size = serializedObject.FindProperty("size");
+        Minsize = serializedObject.FindProperty("Minsize");
+        Maxsize = serializedObject.FindProperty("Maxsize");
         positionOffset = serializedObject.FindProperty("positionOffset");
         canPlaceOver = serializedObject.FindProperty("canPlaceOver");
         canAling = serializedObject.FindProperty("canAling");
@@ -56,8 +68,11 @@ public class PrefabPlacementEditor : Editor {
     {
         serializedObject.Update();
 
+       
+        EditorGUILayout.PropertyField(ParentObject, new GUIContent ("ParentObject"), true);
         EditorGUILayout.PropertyField(prefab, new GUIContent ("Prefab"), true);
         layerMask.intValue = EditorGUILayout.LayerField(new GUIContent("Layer Mask"), layerMask.intValue);
+        layerMask2.intValue = EditorGUILayout.LayerField(new GUIContent("Layer Mask2"), layerMask2.intValue);
         prefabTag.stringValue = EditorGUILayout.TagField(new GUIContent("Prefab Tag"), prefabTag.stringValue);
         EditorGUILayout.PropertyField(randomizePrefab, new GUIContent ("Randomize Prefab"));
 
@@ -73,7 +88,8 @@ public class PrefabPlacementEditor : Editor {
         EditorGUILayout.Slider(spread, 1, 10, new GUIContent("Spread"));
         EditorGUILayout.Slider(radius, 1, 10, new GUIContent ("Radius"));
         EditorGUILayout.IntSlider(amount, 1, 50, new GUIContent ("Amount"));
-        EditorGUILayout.Slider(size, 0.1f, 10, new GUIContent ("Size"));
+        EditorGUILayout.Slider(Minsize, 0.1f, Maxsize.floatValue, new GUIContent ("Minsize"));
+        EditorGUILayout.Slider(Maxsize, Minsize.floatValue, 10, new GUIContent ("Maxsize"));
         EditorGUILayout.PropertyField(canAling, new GUIContent("Aling with normal"));
         EditorGUILayout.DelayedFloatField(positionOffset, new GUIContent("yOffset"));
         EditorGUILayout.PropertyField(isRandomS, new GUIContent("Randomize Size"));
@@ -135,7 +151,7 @@ public class PrefabPlacementEditor : Editor {
         Ray ray = HandleUtility.GUIPointToWorldRay(Event.current.mousePosition);
         RaycastHit hit;
 
-        if (Physics.Raycast(ray.origin, ray.direction, out hit, Mathf.Infinity, 1 << layerMask.intValue))
+        if (Physics.Raycast(ray.origin, ray.direction, out hit, Mathf.Infinity, 1 << layerMask.intValue | 1 << layerMask2.intValue))
         {
             mousePos = hit.point;
             mouseRot = Quaternion.FromToRotation(Vector3.up, hit.normal);
@@ -146,37 +162,61 @@ public class PrefabPlacementEditor : Editor {
 
     public void PrefabInstantiate (int index)
     {
+        bool lTempDestroy = false;
         RaycastHit hit;
         GameObject instanceOf = PrefabUtility.InstantiatePrefab(prefab.GetArrayElementAtIndex(index).objectReferenceValue) as GameObject;
         Vector3 radiusAdjust = Random.insideUnitSphere * radius.floatValue / 2;
-        float prefabSize = size.floatValue;
         
+        float prefabSize = Minsize.floatValue;
+
+        if (isRandomS.boolValue)
+            prefabSize = Random.Range(Minsize.floatValue, Maxsize.floatValue);
+
+
         if (hideInHierarchy.boolValue)
             instanceOf.hideFlags = HideFlags.HideInHierarchy;
 
-        instanceOf.transform.localScale = new Vector3 (prefabSize, prefabSize, prefabSize);
+        instanceOf.transform.localScale = new Vector3 (prefabSize, 1.0f, prefabSize);
         instanceOf.transform.position = new Vector3(mousePos.x, mousePos.y, mousePos.z);
         instanceOf.transform.rotation = new Quaternion (0, 0, 0, 0);
+
+
+        BoxCollider lTempMyBoxCollider = instanceOf.GetComponent<BoxCollider>();
+        if (lTempMyBoxCollider == null)
+        {
+            DestroyImmediate(instanceOf);
+            return;
+        }
+
+        Vector3 lTempHalfEx = lTempMyBoxCollider.size * prefabSize;
+        lTempHalfEx.x /= 1.8f;
+        lTempHalfEx.z /= 1.8f;
+
 
         if (canAling.boolValue)
             instanceOf.transform.rotation = mouseRot;
         else
             instanceOf.transform.rotation = new Quaternion(0, 0, 0, 0);
 
-        if (amount.intValue > 1)
+        if (isRandomR.boolValue)
+            instanceOf.transform.Rotate(0, (float)(Random.Range(0, 5)) * 90, 0);
+
+        // if (amount.intValue > 1)
         {
             instanceOf.transform.Translate(radiusAdjust.x, positionOffset.floatValue, radiusAdjust.y);
 
-            if (Physics.Raycast(instanceOf.transform.position, -instanceOf.transform.up, out hit))
+            if (Physics.Raycast(instanceOf.transform.position, -instanceOf.transform.up, out hit, 100.0f, StaticGlobalDel.g_BuildingFloorMask))
             {
-                if (!canPlaceOver.boolValue && hit.collider.tag == instanceOf.tag)
+                Collider[] lTempCollider = Physics.OverlapBox(hit.point + lTempMyBoxCollider.center + (Vector3.down * 0.5f), lTempHalfEx, instanceOf.transform.rotation, StaticGlobalDel.g_NormalBuilding | StaticGlobalDel.g_RoadFloorMask);
+
+                if ((!canPlaceOver.boolValue && hit.collider.tag == instanceOf.tag) || lTempCollider.Length != 0)
                 {
                     DestroyImmediate(instanceOf);
                     return;
                 }
 
-                instanceOf.transform.position = new Vector3(hit.point.x, hit.point.y, hit.point.z);
-                instanceOf.transform.parent = hit.transform;
+                instanceOf.transform.position = hit.point;
+                instanceOf.transform.parent = m_ParentObject.transform;
 
                 if (canAling.boolValue)
                     instanceOf.transform.up = hit.normal;
@@ -188,8 +228,8 @@ public class PrefabPlacementEditor : Editor {
             }
         }
 
-        if (isRandomR.boolValue)
-            instanceOf.transform.Rotate(0, Random.Range(0, 180) * 45, 0);
+        //if (isRandomR.boolValue)
+        //    instanceOf.transform.Rotate(0, Random.Range(0, 180) * 45, 0);
 
         Undo.RegisterCreatedObjectUndo(instanceOf, "Instantiate");
     }

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1406943481100446524}
   - component: {fileID: -7719812848129060402}
   - component: {fileID: 1878338215481368369}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: G_Dormitory_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

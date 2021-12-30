@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7579914699311007637}
   - component: {fileID: -245720087526111987}
   - component: {fileID: 1965509039772118121}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: G_Supermarket
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5877985848535840258}
   - component: {fileID: -754719404015094124}
   - component: {fileID: 5441549334503387424}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: G_Gazebo
   m_TagString: Untagged
   m_Icon: {fileID: 0}

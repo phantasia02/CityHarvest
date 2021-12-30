@@ -1775,6 +1775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce2957798c81dee4d9e2163f138b44f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ParentObject: {fileID: 594655136}
   prefab:
   - {fileID: 83301834821298837, guid: 0efae501d22993f44af1e01362394235, type: 3}
   - {fileID: 6984075305542098934, guid: 9978b610a31cbfd4493186f1fb08ab50, type: 3}
@@ -1800,20 +1801,27 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 10
+  layerMask2:
+    serializedVersion: 2
+    m_Bits: 11
+  TargetlayerMask:
+    serializedVersion: 2
+    m_Bits: 1
   prefabTag: CompleteBuilding
-  randomizePrefab: 0
+  randomizePrefab: 1
   minRage: 0
-  maxRage: 1
+  maxRage: 20
   toInstantiate: 0
-  radius: 1
-  spread: 1
+  radius: 7.75
+  spread: 9.82
   amount: 1
-  size: 0.1
+  Minsize: 0.4
+  Maxsize: 0.4
   positionOffset: 2
-  canPlaceOver: 0
+  canPlaceOver: 1
   canAling: 0
   isRandomS: 0
-  isRandomR: 0
+  isRandomR: 1
   hideInHierarchy: 0
 --- !u!1001 &69372376
 PrefabInstance:
@@ -6033,7 +6041,7 @@ GameObject:
   - component: {fileID: 265562849}
   m_Layer: 10
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: CompleteBuilding
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6046,8 +6054,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 265562847}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 1, z: 10}
+  m_LocalPosition: {x: 0, y: 0, z: -15.75}
+  m_LocalScale: {x: 100, y: 1, z: 100}
   m_Children: []
   m_Father: {fileID: 2064376575}
   m_RootOrder: 5
@@ -6063,7 +6071,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &265562850
@@ -13673,6 +13681,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3035226582647508810, guid: 11a5c3dbc39bf924abc98dfa5eaabc00, type: 3}
+      propertyPath: m_TagString
+      value: CompleteBuilding
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11a5c3dbc39bf924abc98dfa5eaabc00, type: 3}
 --- !u!1001 &585524037
@@ -13986,7 +13998,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 594655136}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -50956,6 +50968,10 @@ PrefabInstance:
     - target: {fileID: 8800935801427888488, guid: 444ae1cbf3933ee4d86148659c861fbd, type: 3}
       propertyPath: m_Name
       value: Directional Light2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800935801427888488, guid: 444ae1cbf3933ee4d86148659c861fbd, type: 3}
+      propertyPath: m_TagString
+      value: CompleteBuilding
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 444ae1cbf3933ee4d86148659c861fbd, type: 3}

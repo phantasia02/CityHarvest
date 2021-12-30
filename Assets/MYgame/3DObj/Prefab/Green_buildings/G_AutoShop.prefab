@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 83301834819368021}
   - component: {fileID: -5881526610018002999}
   - component: {fileID: -7487001261053642858}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: G_AutoShop
   m_TagString: Untagged
   m_Icon: {fileID: 0}

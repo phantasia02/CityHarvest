@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7000251875195954036}
   - component: {fileID: -1034788722082507577}
   - component: {fileID: -4736126947193607013}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: G_PawnShop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
