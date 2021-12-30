@@ -11,9 +11,12 @@ GameObject:
   - component: {fileID: 5299739835169200058}
   - component: {fileID: 5299739835169200056}
   - component: {fileID: 5299739835169200057}
+  - component: {fileID: 3730597363533866909}
+  - component: {fileID: 676442162643157161}
+  - component: {fileID: 784183622822251880}
   m_Layer: 0
   m_Name: G_Office_sh_20
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81,6 +84,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3730597363533866909
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739835169200059}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.2294908, y: 4.268056, z: 3.122674}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &676442162643157161
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739835169200059}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &784183622822251880
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739835169200059}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.2294908, y: 4.268056, z: 3.122674}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5299739835189408118
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,9 +137,12 @@ GameObject:
   - component: {fileID: 5299739835189408117}
   - component: {fileID: 5299739835189408075}
   - component: {fileID: 5299739835189408116}
+  - component: {fileID: 5747909375958934830}
+  - component: {fileID: 5145353591355883745}
+  - component: {fileID: 5359414728122377958}
   m_Layer: 0
   m_Name: G_Office_sh_17
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -162,6 +210,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5747909375958934830
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739835189408118}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.4267263, y: 0.4115801, z: 2.1199255}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &5145353591355883745
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739835189408118}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &5359414728122377958
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739835189408118}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.4267263, y: 0.4115801, z: 2.1199255}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5299739835554178663
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,9 +263,12 @@ GameObject:
   - component: {fileID: 5299739835554178662}
   - component: {fileID: 5299739835554178660}
   - component: {fileID: 5299739835554178661}
+  - component: {fileID: 6947388124938059817}
+  - component: {fileID: 820729897953890164}
+  - component: {fileID: 420283328894112358}
   m_Layer: 0
   m_Name: G_Office_sh_13
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -243,6 +336,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6947388124938059817
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739835554178663}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.8212068, y: 3.119398, z: 3.6705685}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &820729897953890164
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739835554178663}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &420283328894112358
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739835554178663}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.8212068, y: 3.119398, z: 3.6705685}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5299739835622257209
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,9 +389,12 @@ GameObject:
   - component: {fileID: 5299739835622257208}
   - component: {fileID: 5299739835622257214}
   - component: {fileID: 5299739835622257215}
+  - component: {fileID: 210984606191823592}
+  - component: {fileID: 8781153073913875456}
+  - component: {fileID: 4690221709919706474}
   m_Layer: 0
   m_Name: G_Office_sh_10
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -324,6 +462,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &210984606191823592
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739835622257209}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.1782374, y: 3.7036831, z: 7.3203325}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &8781153073913875456
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739835622257209}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &4690221709919706474
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739835622257209}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.1782374, y: 3.7036831, z: 7.3203325}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5299739835654034433
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,9 +515,12 @@ GameObject:
   - component: {fileID: 5299739835654034432}
   - component: {fileID: 5299739835654034438}
   - component: {fileID: 5299739835654034439}
+  - component: {fileID: 7695149532232332248}
+  - component: {fileID: 7104760584963420646}
+  - component: {fileID: 4462733645182390011}
   m_Layer: 0
   m_Name: G_Office_sh_18
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -405,6 +588,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7695149532232332248
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739835654034433}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.2018175, y: 4.703616, z: 6.8381867}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &7104760584963420646
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739835654034433}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &4462733645182390011
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739835654034433}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.2018175, y: 4.703616, z: 6.8381867}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5299739835663140576
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,9 +641,12 @@ GameObject:
   - component: {fileID: 5299739835663140583}
   - component: {fileID: 5299739835663140581}
   - component: {fileID: 5299739835663140582}
+  - component: {fileID: 2466374109022984972}
+  - component: {fileID: 8653198055220180618}
+  - component: {fileID: 1759303028680283086}
   m_Layer: 0
   m_Name: G_Office_sh_2
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -486,6 +714,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2466374109022984972
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739835663140576}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.2713437, y: 4.559523, z: 5.853188}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &8653198055220180618
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739835663140576}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1759303028680283086
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739835663140576}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.2713437, y: 4.559523, z: 5.853188}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5299739835801922101
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,9 +767,12 @@ GameObject:
   - component: {fileID: 5299739835801922100}
   - component: {fileID: 5299739835801922058}
   - component: {fileID: 5299739835801922059}
+  - component: {fileID: 4635145793576338920}
+  - component: {fileID: 4833830361146853699}
+  - component: {fileID: 8887603137642154783}
   m_Layer: 0
   m_Name: G_Office_sh_5
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -567,6 +840,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4635145793576338920
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739835801922101}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.213681, y: 5.6289124, z: 6.25591}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &4833830361146853699
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739835801922101}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &8887603137642154783
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739835801922101}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.213681, y: 5.6289124, z: 6.25591}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5299739835874061258
 GameObject:
   m_ObjectHideFlags: 0
@@ -628,9 +943,12 @@ GameObject:
   - component: {fileID: 5299739835875338359}
   - component: {fileID: 5299739835875338357}
   - component: {fileID: 5299739835875338358}
+  - component: {fileID: 6527189476591441732}
+  - component: {fileID: 780118710240488157}
+  - component: {fileID: 4464795595760304482}
   m_Layer: 0
   m_Name: G_Office_sh_7
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -698,6 +1016,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6527189476591441732
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739835875338352}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.90079, y: 3.806656, z: 5.166342}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &780118710240488157
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739835875338352}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &4464795595760304482
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739835875338352}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.90079, y: 3.806656, z: 5.166342}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5299739836163286561
 GameObject:
   m_ObjectHideFlags: 0
@@ -709,9 +1069,12 @@ GameObject:
   - component: {fileID: 5299739836163286560}
   - component: {fileID: 5299739836163286566}
   - component: {fileID: 5299739836163286567}
+  - component: {fileID: 5095929623509012467}
+  - component: {fileID: 2878534490290944433}
+  - component: {fileID: 9163201594902295755}
   m_Layer: 0
   m_Name: G_Office_sh_1
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -779,6 +1142,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5095929623509012467
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836163286561}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.6693945, y: 4.008564, z: 4.550331}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &2878534490290944433
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836163286561}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &9163201594902295755
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836163286561}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.6693945, y: 4.008564, z: 4.550331}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5299739836207988011
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,9 +1195,12 @@ GameObject:
   - component: {fileID: 5299739836207988010}
   - component: {fileID: 5299739836207988008}
   - component: {fileID: 5299739836207988009}
+  - component: {fileID: 4559911370412383609}
+  - component: {fileID: 5436960470207250932}
+  - component: {fileID: 6436771591736033394}
   m_Layer: 0
   m_Name: G_Office_sh_19
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -860,6 +1268,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4559911370412383609
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836207988011}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.2927284, y: 4.885774, z: 4.446943}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &5436960470207250932
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836207988011}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &6436771591736033394
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836207988011}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.2927284, y: 4.885774, z: 4.446943}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5299739836254791003
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,9 +1321,12 @@ GameObject:
   - component: {fileID: 5299739836254791002}
   - component: {fileID: 5299739836254791000}
   - component: {fileID: 5299739836254791001}
+  - component: {fileID: 7229482338412990090}
+  - component: {fileID: 3445231736588383580}
+  - component: {fileID: 8881304260935564208}
   m_Layer: 0
   m_Name: G_Office_sh_9
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -941,6 +1394,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7229482338412990090
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836254791003}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.6983109, y: 8.249642, z: 5.0236816}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &3445231736588383580
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836254791003}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &8881304260935564208
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836254791003}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.6983109, y: 8.249642, z: 5.0236816}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5299739836274077964
 GameObject:
   m_ObjectHideFlags: 0
@@ -952,9 +1447,12 @@ GameObject:
   - component: {fileID: 5299739836274077955}
   - component: {fileID: 5299739836274077953}
   - component: {fileID: 5299739836274077954}
+  - component: {fileID: 2090400263033548709}
+  - component: {fileID: 3095315305654698143}
+  - component: {fileID: 7040809391492562844}
   m_Layer: 0
   m_Name: G_Office_sh_8
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1022,6 +1520,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2090400263033548709
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836274077964}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.320629, y: 5.315632, z: 4.2263947}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &3095315305654698143
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836274077964}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &7040809391492562844
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836274077964}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.320629, y: 5.315632, z: 4.2263947}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5299739836281903158
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,9 +1573,12 @@ GameObject:
   - component: {fileID: 5299739836281903157}
   - component: {fileID: 5299739836281903115}
   - component: {fileID: 5299739836281903156}
+  - component: {fileID: 6268928110054285371}
+  - component: {fileID: 8979330150383041005}
+  - component: {fileID: 7489966186823214181}
   m_Layer: 0
   m_Name: G_Office_sh_11
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1103,6 +1646,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6268928110054285371
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836281903158}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.1948047, y: 4.3563414, z: 3.5541408}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &8979330150383041005
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836281903158}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &7489966186823214181
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836281903158}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.1948047, y: 4.3563414, z: 3.5541408}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5299739836309706557
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,9 +1699,12 @@ GameObject:
   - component: {fileID: 5299739836309706556}
   - component: {fileID: 5299739836309706546}
   - component: {fileID: 5299739836309706547}
+  - component: {fileID: 3180785984882492403}
+  - component: {fileID: 7315230905804294748}
+  - component: {fileID: 2494819684386364988}
   m_Layer: 0
   m_Name: G_Office_sh_3
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1184,6 +1772,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3180785984882492403
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836309706557}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.4034066, y: 4.2959013, z: 4.128074}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &7315230905804294748
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836309706557}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2494819684386364988
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836309706557}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.4034066, y: 4.2959013, z: 4.128074}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5299739836463466727
 GameObject:
   m_ObjectHideFlags: 0
@@ -1195,9 +1825,12 @@ GameObject:
   - component: {fileID: 5299739836463466726}
   - component: {fileID: 5299739836463466724}
   - component: {fileID: 5299739836463466725}
+  - component: {fileID: 6159493133292746290}
+  - component: {fileID: 6138748956982655676}
+  - component: {fileID: 4627644177443342652}
   m_Layer: 0
   m_Name: G_Office_sh_12
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1265,6 +1898,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6159493133292746290
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836463466727}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.617049, y: 6.9316797, z: 7.1195602}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &6138748956982655676
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836463466727}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &4627644177443342652
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836463466727}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.617049, y: 6.9316797, z: 7.1195602}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5299739836728704684
 GameObject:
   m_ObjectHideFlags: 0
@@ -1276,9 +1951,12 @@ GameObject:
   - component: {fileID: 5299739836728704675}
   - component: {fileID: 5299739836728704673}
   - component: {fileID: 5299739836728704674}
+  - component: {fileID: 5271369896034505201}
+  - component: {fileID: 1606441741665664191}
+  - component: {fileID: 2361649444008209373}
   m_Layer: 0
   m_Name: G_Office_sh_4
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1346,6 +2024,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5271369896034505201
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836728704684}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.738513, y: 3.977621, z: 7.639292}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1606441741665664191
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836728704684}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2361649444008209373
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836728704684}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.738513, y: 3.977621, z: 7.639292}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5299739836966718137
 GameObject:
   m_ObjectHideFlags: 0
@@ -1357,9 +2077,12 @@ GameObject:
   - component: {fileID: 5299739836966718136}
   - component: {fileID: 5299739836966718142}
   - component: {fileID: 5299739836966718143}
+  - component: {fileID: 6371143571589134462}
+  - component: {fileID: 65482049645109973}
+  - component: {fileID: 9147772448852013016}
   m_Layer: 0
   m_Name: G_Office_sh_14
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1427,6 +2150,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6371143571589134462
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836966718137}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.4334574, y: 5.745214, z: 4.704272}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &65482049645109973
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836966718137}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &9147772448852013016
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739836966718137}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.4334574, y: 5.745214, z: 4.704272}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5299739837081309925
 GameObject:
   m_ObjectHideFlags: 0
@@ -1438,9 +2203,12 @@ GameObject:
   - component: {fileID: 5299739837081309924}
   - component: {fileID: 5299739837081309946}
   - component: {fileID: 5299739837081309947}
+  - component: {fileID: 1613871226866447541}
+  - component: {fileID: 7844829214538764370}
+  - component: {fileID: 110076290177763171}
   m_Layer: 0
   m_Name: G_Office_sh_6
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1508,6 +2276,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1613871226866447541
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739837081309925}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.959338, y: 7.625635, z: 5.261368}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &7844829214538764370
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739837081309925}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &110076290177763171
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739837081309925}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.959338, y: 7.625635, z: 5.261368}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5299739837123147390
 GameObject:
   m_ObjectHideFlags: 0
@@ -1519,9 +2329,12 @@ GameObject:
   - component: {fileID: 5299739837123147389}
   - component: {fileID: 5299739837123147379}
   - component: {fileID: 5299739837123147388}
+  - component: {fileID: 5255371322269090451}
+  - component: {fileID: 260619132816769866}
+  - component: {fileID: 8489618506951597376}
   m_Layer: 0
   m_Name: G_Office_sh_16
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1589,6 +2402,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5255371322269090451
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739837123147390}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.8156705, y: 5.5061445, z: 2.1336386}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &260619132816769866
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739837123147390}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &8489618506951597376
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739837123147390}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.8156705, y: 5.5061445, z: 2.1336386}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5299739837206121876
 GameObject:
   m_ObjectHideFlags: 0
@@ -1600,9 +2455,12 @@ GameObject:
   - component: {fileID: 5299739837206121963}
   - component: {fileID: 5299739837206121961}
   - component: {fileID: 5299739837206121962}
+  - component: {fileID: 5362682449606526205}
+  - component: {fileID: 3581775494824205692}
+  - component: {fileID: 8016288991321221246}
   m_Layer: 0
   m_Name: G_Office_sh_15
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1670,3 +2528,45 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5362682449606526205
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739837206121876}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.8592498, y: 5.376192, z: 1.9470224}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &3581775494824205692
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739837206121876}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &8016288991321221246
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299739837206121876}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.8592498, y: 5.376192, z: 1.9470224}
+  m_Center: {x: 0, y: 0, z: 0}

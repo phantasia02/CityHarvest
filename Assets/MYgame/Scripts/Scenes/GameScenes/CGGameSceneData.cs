@@ -1,7 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using MYgame.Scripts.Scenes.GameScenes.Data;
 
+[System.Serializable]
+public class CDateBrick
+{
+    public Material m_ColorMat = null;
+    public StaticGlobalDel.EBrickColor m_Type = StaticGlobalDel.EBrickColor.eRed;
+}
 
 public class CGGameSceneData : CSingletonMonoBehaviour<CGGameSceneData>
 {
@@ -20,8 +27,13 @@ public class CGGameSceneData : CSingletonMonoBehaviour<CGGameSceneData>
         eMax,
     };
 
-    [SerializeField]  public GameObject[]    m_AllFX                 = null;
-    [SerializeField]  public GameObject[]    m_AllOtherObj           = null;
+    [SerializeField]  public GameObject[]    m_AllFX                = null;
+    [SerializeField]  public GameObject[]    m_AllOtherObj          = null;
+    [SerializeField]  public StageData       m_CurStageData         = null;
+
+
+    [VarRename(new string[] { "Red", "Orange", "Yellow", "Green", "Blue", "White" })]
+    [SerializeField]  public CDateBrick[]    m_AllDateBrick         = new CDateBrick[(int)StaticGlobalDel.EBrickColor.eMax];
 
     private void Awake()
     {

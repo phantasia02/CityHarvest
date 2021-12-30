@@ -11,9 +11,12 @@ GameObject:
   - component: {fileID: 581313509158248209}
   - component: {fileID: 581313509158248211}
   - component: {fileID: 581313509158248208}
+  - component: {fileID: 4130769391436178499}
+  - component: {fileID: 9184162774348607601}
+  - component: {fileID: 4674016105940976073}
   m_Layer: 0
   m_Name: G_Supermarket_sh_2
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81,6 +84,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4130769391436178499
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509158248214}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.8688793, y: 4.9891887, z: 7.035932}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &9184162774348607601
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509158248214}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &4674016105940976073
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509158248214}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.8688793, y: 4.9891887, z: 7.035932}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &581313509410710793
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,9 +137,12 @@ GameObject:
   - component: {fileID: 581313509410710792}
   - component: {fileID: 581313509410710794}
   - component: {fileID: 581313509410710795}
+  - component: {fileID: 1382320558464862606}
+  - component: {fileID: 7193187916443896156}
+  - component: {fileID: 5416990473671629767}
   m_Layer: 0
   m_Name: G_Supermarket_sh_4
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -162,6 +210,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1382320558464862606
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509410710793}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.1102943, y: 2.915927, z: 8.229294}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &7193187916443896156
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509410710793}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &5416990473671629767
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509410710793}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.1102943, y: 2.915927, z: 8.229294}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &581313509419526889
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,9 +263,12 @@ GameObject:
   - component: {fileID: 581313509419526888}
   - component: {fileID: 581313509419526890}
   - component: {fileID: 581313509419526891}
+  - component: {fileID: 2753674624106160727}
+  - component: {fileID: 3040590325305148288}
+  - component: {fileID: 3929791396825640428}
   m_Layer: 0
   m_Name: G_Supermarket_sh_17
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -243,6 +336,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2753674624106160727
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509419526889}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.3660574, y: 3.7045817, z: 3.6549382}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &3040590325305148288
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509419526889}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &3929791396825640428
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509419526889}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.3660574, y: 3.7045817, z: 3.6549382}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &581313509430170744
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,9 +389,12 @@ GameObject:
   - component: {fileID: 581313509430170747}
   - component: {fileID: 581313509430170741}
   - component: {fileID: 581313509430170746}
+  - component: {fileID: 229461666793410056}
+  - component: {fileID: 2336469090332995617}
+  - component: {fileID: 6753521644502444609}
   m_Layer: 0
   m_Name: G_Supermarket_sh_8
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -324,6 +462,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &229461666793410056
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509430170744}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.798826, y: 3.6877916, z: 4.604769}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &2336469090332995617
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509430170744}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &6753521644502444609
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509430170744}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.798826, y: 3.6877916, z: 4.604769}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &581313509531603695
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,9 +565,12 @@ GameObject:
   - component: {fileID: 581313509538758430}
   - component: {fileID: 581313509538758424}
   - component: {fileID: 581313509538758425}
+  - component: {fileID: 3785763362909225711}
+  - component: {fileID: 123930311331424641}
+  - component: {fileID: 2214787974274588264}
   m_Layer: 0
   m_Name: G_Supermarket_sh_11
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -455,6 +638,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3785763362909225711
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509538758431}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.5859747, y: 4.8670216, z: 2.8668156}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &123930311331424641
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509538758431}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2214787974274588264
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509538758431}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.5859747, y: 4.8670216, z: 2.8668156}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &581313509680256127
 GameObject:
   m_ObjectHideFlags: 0
@@ -466,9 +691,12 @@ GameObject:
   - component: {fileID: 581313509680256126}
   - component: {fileID: 581313509680256120}
   - component: {fileID: 581313509680256121}
+  - component: {fileID: 2091117879024962348}
+  - component: {fileID: 2774877752537642066}
+  - component: {fileID: 4965414543178455041}
   m_Layer: 0
   m_Name: G_Supermarket_sh_6
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -536,6 +764,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2091117879024962348
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509680256127}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.426693, y: 6.897661, z: 6.2614717}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &2774877752537642066
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509680256127}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &4965414543178455041
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509680256127}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.426693, y: 6.897661, z: 6.2614717}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &581313509727356894
 GameObject:
   m_ObjectHideFlags: 0
@@ -547,9 +817,12 @@ GameObject:
   - component: {fileID: 581313509727356889}
   - component: {fileID: 581313509727356891}
   - component: {fileID: 581313509727356888}
+  - component: {fileID: 8649048535050436892}
+  - component: {fileID: 243741526319757579}
+  - component: {fileID: 8505742131160753221}
   m_Layer: 0
   m_Name: G_Supermarket_sh_15
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -617,6 +890,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8649048535050436892
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509727356894}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.4990106, y: 4.206453, z: 3.363068}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &243741526319757579
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509727356894}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &8505742131160753221
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509727356894}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.4990106, y: 4.206453, z: 3.363068}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &581313509865406742
 GameObject:
   m_ObjectHideFlags: 0
@@ -628,9 +943,12 @@ GameObject:
   - component: {fileID: 581313509865406737}
   - component: {fileID: 581313509865406739}
   - component: {fileID: 581313509865406736}
+  - component: {fileID: 1052876309680755392}
+  - component: {fileID: 308291927769547934}
+  - component: {fileID: 7864875652273156779}
   m_Layer: 0
   m_Name: G_Supermarket_sh_3
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -698,6 +1016,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1052876309680755392
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509865406742}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0337515, y: 3.310754, z: 6.7555513}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &308291927769547934
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509865406742}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &7864875652273156779
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509865406742}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0337515, y: 3.310754, z: 6.7555513}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &581313509963199105
 GameObject:
   m_ObjectHideFlags: 0
@@ -709,9 +1069,12 @@ GameObject:
   - component: {fileID: 581313509963199104}
   - component: {fileID: 581313509963199106}
   - component: {fileID: 581313509963199107}
+  - component: {fileID: 2917085802736435192}
+  - component: {fileID: 5451458706429209331}
+  - component: {fileID: 8868385129723565725}
   m_Layer: 0
   m_Name: G_Supermarket_sh_13
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -779,6 +1142,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2917085802736435192
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509963199105}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.197579, y: 1.4491677, z: 3.5640216}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &5451458706429209331
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509963199105}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &8868385129723565725
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313509963199105}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.197579, y: 1.4491677, z: 3.5640216}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &581313510165077346
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,9 +1195,12 @@ GameObject:
   - component: {fileID: 581313510165077341}
   - component: {fileID: 581313510165077343}
   - component: {fileID: 581313510165077340}
+  - component: {fileID: 3983735588012514788}
+  - component: {fileID: 2842933443970084013}
+  - component: {fileID: 6624663611158515643}
   m_Layer: 0
   m_Name: G_Supermarket_sh_20
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -860,6 +1268,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3983735588012514788
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313510165077346}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0231447, y: 2.5245442, z: 3.1734014}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &2842933443970084013
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313510165077346}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &6624663611158515643
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313510165077346}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0231447, y: 2.5245442, z: 3.1734014}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &581313510171645063
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,9 +1321,12 @@ GameObject:
   - component: {fileID: 581313510171645062}
   - component: {fileID: 581313510171645056}
   - component: {fileID: 581313510171645057}
+  - component: {fileID: 7179049137791528077}
+  - component: {fileID: 1358855247128179116}
+  - component: {fileID: 4361339594543603038}
   m_Layer: 0
   m_Name: G_Supermarket_sh_1
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -941,6 +1394,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7179049137791528077
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313510171645063}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.776573, y: 4.1771255, z: 4.688574}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1358855247128179116
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313510171645063}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &4361339594543603038
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313510171645063}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.776573, y: 4.1771255, z: 4.688574}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &581313510342126209
 GameObject:
   m_ObjectHideFlags: 0
@@ -952,9 +1447,12 @@ GameObject:
   - component: {fileID: 581313510342126208}
   - component: {fileID: 581313510342126210}
   - component: {fileID: 581313510342126211}
+  - component: {fileID: 1923273397603101768}
+  - component: {fileID: 4985237359463399050}
+  - component: {fileID: 4871177015919604477}
   m_Layer: 0
   m_Name: G_Supermarket_sh_19
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1022,6 +1520,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1923273397603101768
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313510342126209}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.3310685, y: 5.4017596, z: 6.5074987}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &4985237359463399050
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313510342126209}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &4871177015919604477
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313510342126209}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.3310685, y: 5.4017596, z: 6.5074987}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &581313510556436996
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,9 +1573,12 @@ GameObject:
   - component: {fileID: 581313510556436999}
   - component: {fileID: 581313510556436993}
   - component: {fileID: 581313510556436998}
+  - component: {fileID: 7414801958761334451}
+  - component: {fileID: 7408212700174022687}
+  - component: {fileID: 7390153990912583414}
   m_Layer: 0
   m_Name: G_Supermarket_sh_5
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1103,6 +1646,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7414801958761334451
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313510556436996}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.7119246, y: 4.572008, z: 6.3859797}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &7408212700174022687
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313510556436996}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &7390153990912583414
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313510556436996}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.7119246, y: 4.572008, z: 6.3859797}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &581313510572482676
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,9 +1699,12 @@ GameObject:
   - component: {fileID: 581313510572482679}
   - component: {fileID: 581313510572482673}
   - component: {fileID: 581313510572482678}
+  - component: {fileID: 1997343390204058698}
+  - component: {fileID: 1721692363439819231}
+  - component: {fileID: 462660031221941493}
   m_Layer: 0
   m_Name: G_Supermarket_sh_7
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1184,6 +1772,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1997343390204058698
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313510572482676}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.116923, y: 3.7518659, z: 2.2291663}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1721692363439819231
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313510572482676}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &462660031221941493
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313510572482676}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.116923, y: 3.7518659, z: 2.2291663}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &581313510679077280
 GameObject:
   m_ObjectHideFlags: 0
@@ -1195,9 +1825,12 @@ GameObject:
   - component: {fileID: 581313510679077283}
   - component: {fileID: 581313510679077277}
   - component: {fileID: 581313510679077282}
+  - component: {fileID: 1857554315577445115}
+  - component: {fileID: 5922281228044264227}
+  - component: {fileID: 4750638160785888470}
   m_Layer: 0
   m_Name: G_Supermarket_sh_18
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1265,6 +1898,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1857554315577445115
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313510679077280}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.526607, y: 3.963253, z: 7.0323963}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &5922281228044264227
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313510679077280}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &4750638160785888470
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313510679077280}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.526607, y: 3.963253, z: 7.0323963}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &581313510804581305
 GameObject:
   m_ObjectHideFlags: 0
@@ -1276,9 +1951,12 @@ GameObject:
   - component: {fileID: 581313510804581304}
   - component: {fileID: 581313510804581306}
   - component: {fileID: 581313510804581307}
+  - component: {fileID: 933288359733904840}
+  - component: {fileID: 8278518100815766276}
+  - component: {fileID: 5089725385849913800}
   m_Layer: 0
   m_Name: G_Supermarket_sh_14
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1346,6 +2024,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &933288359733904840
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313510804581305}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.0604944, y: 5.2175293, z: 4.8361216}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &8278518100815766276
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313510804581305}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &5089725385849913800
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313510804581305}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.0604944, y: 5.2175293, z: 4.8361216}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &581313510868252231
 GameObject:
   m_ObjectHideFlags: 0
@@ -1357,9 +2077,12 @@ GameObject:
   - component: {fileID: 581313510868252230}
   - component: {fileID: 581313510868252224}
   - component: {fileID: 581313510868252225}
+  - component: {fileID: 912709282567417633}
+  - component: {fileID: 928189722079612670}
+  - component: {fileID: 8170387415294789791}
   m_Layer: 0
   m_Name: G_Supermarket_sh_10
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1427,6 +2150,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &912709282567417633
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313510868252231}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.450322, y: 3.1780305, z: 8.394987}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &928189722079612670
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313510868252231}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &8170387415294789791
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313510868252231}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.450322, y: 3.1780305, z: 8.394987}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &581313511069777182
 GameObject:
   m_ObjectHideFlags: 0
@@ -1438,9 +2203,12 @@ GameObject:
   - component: {fileID: 581313511069777177}
   - component: {fileID: 581313511069777179}
   - component: {fileID: 581313511069777176}
+  - component: {fileID: 6844630002192547954}
+  - component: {fileID: 4043969716965194667}
+  - component: {fileID: 8222168407321845622}
   m_Layer: 0
   m_Name: G_Supermarket_sh_12
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1508,6 +2276,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6844630002192547954
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313511069777182}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.056869, y: 5.586971, z: 6.741829}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &4043969716965194667
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313511069777182}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &8222168407321845622
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313511069777182}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.056869, y: 5.586971, z: 6.741829}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &581313511115726252
 GameObject:
   m_ObjectHideFlags: 0
@@ -1519,9 +2329,12 @@ GameObject:
   - component: {fileID: 581313511115726255}
   - component: {fileID: 581313511115726249}
   - component: {fileID: 581313511115726254}
+  - component: {fileID: 3580732703089112551}
+  - component: {fileID: 1089916046417468560}
+  - component: {fileID: 8227318558738972719}
   m_Layer: 0
   m_Name: G_Supermarket_sh_16
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1589,6 +2402,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3580732703089112551
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313511115726252}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.010165, y: 3.5057185, z: 2.4152708}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1089916046417468560
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313511115726252}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &8227318558738972719
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313511115726252}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.010165, y: 3.5057185, z: 2.4152708}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &581313511228163502
 GameObject:
   m_ObjectHideFlags: 0
@@ -1600,9 +2455,12 @@ GameObject:
   - component: {fileID: 581313511228163497}
   - component: {fileID: 581313511228163499}
   - component: {fileID: 581313511228163496}
+  - component: {fileID: 6277602108785310526}
+  - component: {fileID: 5889838936850292768}
+  - component: {fileID: 3484775129541276822}
   m_Layer: 0
   m_Name: G_Supermarket_sh_9
-  m_TagString: Untagged
+  m_TagString: BrickObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1670,3 +2528,45 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6277602108785310526
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313511228163502}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.4933734, y: 6.120383, z: 6.1443434}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &5889838936850292768
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313511228163502}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &3484775129541276822
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581313511228163502}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.4933734, y: 6.120383, z: 6.1443434}
+  m_Center: {x: 0, y: 0, z: 0}

@@ -13,7 +13,7 @@ public class COriginBuilding : CGameObjBas
     // ==================== SerializeField ===========================================
 
     [SerializeField] protected StaticGlobalDel.EBrickColor m_MyBrickColor = StaticGlobalDel.EBrickColor.eBlue;
-    public StaticGlobalDel.EBrickColor MyBrickColor => m_MyBrickColor;
+    public StaticGlobalDel.EBrickColor MyBrickColor{get { return m_MyBrickColor; }}
 
     [SerializeField] protected GameObject m_MyCopyBrickObj = null;
     // ==================== SerializeField ===========================================
@@ -43,6 +43,12 @@ public class COriginBuilding : CGameObjBas
         _materialProperty = new MaterialPropertyBlock();
     }
 
+    public void SetDateBrick(CDateBrick lTempDateBrick)
+    {
+        m_MyRendererMesh = this.GetComponent<Renderer>();
+        m_MyMaterial = m_MyRendererMesh.material = lTempDateBrick.m_ColorMat;
+    }
+
     public void OnTriggerEnter(Collider other)
     {
         if (other.tag == StaticGlobalDel.TagPlayerRoll || other.tag == StaticGlobalDel.TagCompleteBuilding)
@@ -60,6 +66,7 @@ public class COriginBuilding : CGameObjBas
             Renderer lTempTransformRenderer = null;
             CBrickObj lTempBrickObj = null;
             Rigidbody lTempRigidbody = null;
+           // BoxCollider lTempBoxCollider = null;
             float lTempTime = 1.0f;
            // Sequence lTempSequence;
 
@@ -72,9 +79,13 @@ public class COriginBuilding : CGameObjBas
                 lTempBrickObj = lTempTransformRenderer.gameObject.AddComponent<CBrickObj>();
                 lTempBrickObj.MyBrickColor = MyBrickColor;
 
-                lTempRigidbody = lTempchildTransform.GetComponent<Rigidbody>();
+                lTempchildTransform.gameObject.tag = StaticGlobalDel.TagBrickObj;
 
-                lTempRigidbody.AddExplosionForce(500.0f, other.transform.position, 1000.0f);
+                //lTempBoxCollider = lTempchildTransform.gameObject.AddComponent<BoxCollider>();
+                //lTempBoxCollider.isTrigger = true;
+
+                lTempRigidbody = lTempchildTransform.gameObject.GetComponent<Rigidbody>();
+                lTempRigidbody.AddExplosionForce(1000.0f, other.transform.position, 1000.0f);
 
                 lTempBrickObj.BrickObjToPlayToStartCoroutine(lTempTime);
             }

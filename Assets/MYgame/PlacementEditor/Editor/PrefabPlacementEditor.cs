@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
+using MYgame.Scripts.Scenes.GameScenes.Data;
+
 
 [CustomEditor(typeof(PlacementSystem))]
 [CanEditMultipleObjects]
 public class PrefabPlacementEditor : Editor {
 
-    private SerializedProperty ParentObject;
     private SerializedProperty prefab;
     private SerializedProperty layerMask;
-    private SerializedProperty layerMask2;
     private SerializedProperty TargetlayerMask;
     private SerializedProperty prefabTag;
     private SerializedProperty minRage, maxRage;
@@ -34,17 +34,14 @@ public class PrefabPlacementEditor : Editor {
     private Vector3 mousePos;
     private Quaternion mouseRot;
     private GameObject m_ParentObject;
-
-   
-
+    private StageData m_CurStageData;
 
     private void OnEnable()
     {
+
         m_ParentObject = GameObject.Find("ParentObject");
-        ParentObject = serializedObject.FindProperty("ParentObject");
         prefab = serializedObject.FindProperty("prefab");
         layerMask = serializedObject.FindProperty("layerMask");
-        layerMask2 = serializedObject.FindProperty("layerMask2");
         TargetlayerMask = serializedObject.FindProperty("TargetlayerMask");
         prefabTag = serializedObject.FindProperty("prefabTag");
         minRage = serializedObject.FindProperty("minRage");
@@ -68,11 +65,8 @@ public class PrefabPlacementEditor : Editor {
     {
         serializedObject.Update();
 
-       
-        EditorGUILayout.PropertyField(ParentObject, new GUIContent ("ParentObject"), true);
         EditorGUILayout.PropertyField(prefab, new GUIContent ("Prefab"), true);
         layerMask.intValue = EditorGUILayout.LayerField(new GUIContent("Layer Mask"), layerMask.intValue);
-        layerMask2.intValue = EditorGUILayout.LayerField(new GUIContent("Layer Mask2"), layerMask2.intValue);
         prefabTag.stringValue = EditorGUILayout.TagField(new GUIContent("Prefab Tag"), prefabTag.stringValue);
         EditorGUILayout.PropertyField(randomizePrefab, new GUIContent ("Randomize Prefab"));
 
@@ -151,7 +145,7 @@ public class PrefabPlacementEditor : Editor {
         Ray ray = HandleUtility.GUIPointToWorldRay(Event.current.mousePosition);
         RaycastHit hit;
 
-        if (Physics.Raycast(ray.origin, ray.direction, out hit, Mathf.Infinity, 1 << layerMask.intValue | 1 << layerMask2.intValue))
+        if (Physics.Raycast(ray.origin, ray.direction, out hit, Mathf.Infinity, 1 << layerMask.intValue))
         {
             mousePos = hit.point;
             mouseRot = Quaternion.FromToRotation(Vector3.up, hit.normal);
@@ -181,6 +175,7 @@ public class PrefabPlacementEditor : Editor {
         instanceOf.transform.rotation = new Quaternion (0, 0, 0, 0);
 
 
+
         BoxCollider lTempMyBoxCollider = instanceOf.GetComponent<BoxCollider>();
         if (lTempMyBoxCollider == null)
         {
@@ -188,9 +183,9 @@ public class PrefabPlacementEditor : Editor {
             return;
         }
 
-        Vector3 lTempHalfEx = lTempMyBoxCollider.size * prefabSize;
-        lTempHalfEx.x /= 1.8f;
-        lTempHalfEx.z /= 1.8f;
+        Vector3 lTempHalfEx = lTempMyBoxCollider.size * prefabSize ;
+        lTempHalfEx.x /= 1.5f;
+        lTempHalfEx.z /= 1.5f;
 
 
         if (canAling.boolValue)
@@ -218,6 +213,15 @@ public class PrefabPlacementEditor : Editor {
                 instanceOf.transform.position = hit.point;
                 instanceOf.transform.parent = m_ParentObject.transform;
 
+                COriginBuilding lTempCOriginBuilding = instanceOf.GetComponent<COriginBuilding>();
+                if (lTempCOriginBuilding != null)
+                {
+                    CGGameSceneData lTempGameSceneData = CGGameSceneData.SharedInstance;
+
+                    int lTempRandomIndex = Random.Range(0, lTempGameSceneData.m_CurStageData.brickColors.Length);
+                    CDateBrick lTempCDateBrick = lTempGameSceneData.m_AllDateBrick[(int)lTempGameSceneData.m_CurStageData.brickColors[lTempRandomIndex]];
+                    lTempCOriginBuilding.SetDateBrick(lTempCDateBrick);
+                }
                 if (canAling.boolValue)
                     instanceOf.transform.up = hit.normal;
             }

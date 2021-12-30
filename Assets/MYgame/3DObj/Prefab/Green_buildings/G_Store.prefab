@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_MyBrickColor: 3
-  m_MyCopyBrickObj: {fileID: 8250334444192396508, guid: 3ecc3931579aec1469d931f36e9aca3f, type: 3}
+  m_MyCopyBrickObj: {fileID: 3231004053789852989, guid: 54c57f40987068b468361500b0cad892, type: 3}
 --- !u!65 &1805208120627497071
 BoxCollider:
   m_ObjectHideFlags: 0
