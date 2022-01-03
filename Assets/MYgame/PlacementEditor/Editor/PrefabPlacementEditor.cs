@@ -107,7 +107,6 @@ public class PrefabPlacementEditor : Editor {
             EditorGUILayout.Slider(Ratio[i], 0.1f, 1.0f, new GUIContent(lTempGameSceneData.m_CurStageData.brickColors[i].ToString()));
             m_MaxRatio += Ratio[i].floatValue;
         }
-        Debug.Log($"m_MaxRatio = {m_MaxRatio}");
 
         serializedObject.ApplyModifiedProperties();
     }
@@ -238,7 +237,6 @@ public class PrefabPlacementEditor : Editor {
                     CGGameSceneData lTempGameSceneData = CGGameSceneData.SharedInstance;
                     float lTempCurRatio = 0.0f;
                     float lTempRandomRatio = Random.Range(0.0f, m_MaxRatio);
-                    Debug.Log($"lTempRandomRatio = {lTempRandomRatio}");
                   
                     int i = 0;
                     for (i = 0; i < lTempGameSceneData.m_CurStageData.brickColors.Length; i++)
@@ -246,10 +244,12 @@ public class PrefabPlacementEditor : Editor {
                         if (lTempCurRatio <= lTempRandomRatio && lTempRandomRatio <= lTempCurRatio + Ratio[i].floatValue)
                             break;
 
-                        lTempRandomRatio += Ratio[i].floatValue;
+      
+                        lTempCurRatio += Ratio[i].floatValue;
                     }
 
-                   // int lTempRandomIndex = Random.Range(0, lTempGameSceneData.m_CurStageData.brickColors.Length);
+
+                    // int lTempRandomIndex = Random.Range(0, lTempGameSceneData.m_CurStageData.brickColors.Length);
                     CDateBrick lTempCDateBrick = lTempGameSceneData.m_AllDateBrick[(int)lTempGameSceneData.m_CurStageData.brickColors[i]];
                     lTempCOriginBuilding.SetDateBrick(lTempCDateBrick);
                 }
