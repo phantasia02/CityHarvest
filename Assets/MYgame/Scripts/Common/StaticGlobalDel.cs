@@ -32,10 +32,6 @@ public static class StaticGlobalDel
 
     public enum ELayerIndex
     {
-        e0                  = 0,
-        e1                  = 1,
-        e2                  = 2,
-        e3                  = 3,
         eWater              = 4,
         eUI                 = 5,
         eFloor              = 6,

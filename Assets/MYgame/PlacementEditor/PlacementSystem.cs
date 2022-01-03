@@ -25,4 +25,12 @@ public class PlacementSystem : MonoBehaviour {
     public bool isRandomS;
     public bool isRandomR;
     public bool hideInHierarchy;
+
+    public float Ratio_1 = 0.1f;
+    public float Ratio_2 = 0.1f;
+    public float Ratio_3 = 0.1f;
+    public float Ratio_4 = 0.1f;
+    public float Ratio_5 = 0.1f;
+    public float Ratio_6 = 0.1f;
+
 }
