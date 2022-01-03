@@ -43,6 +43,7 @@ public class CGameManager : MonoBehaviour
     [Header("Result OBJ")]
     [SerializeField] protected GameObject   m_WinObjAnima       = null;
     [SerializeField] protected GameObject   m_OverObjAnima      = null;
+    [SerializeField] protected GameObject   PrefabGameSceneData = null;
     [SerializeField] protected StageData    m_MyTargetBuilding  = null;
     // ==================== All ObjData  ===========================================
 
@@ -111,6 +112,32 @@ public class CGameManager : MonoBehaviour
 
         for (int i = 0; i < m_AllActorBase.Length; i++)
             m_AllActorBase[i] = new CActorBaseListData();
+
+
+        string[] lTempAllGlobalObj ={
+            StaticGlobalDel.TagGameSceneData,
+            StaticGlobalDel.TagEventSystem };
+
+        GameObject lTempObj = null;
+
+        for (int i = 0; i < lTempAllGlobalObj.Length; i++)
+        {
+            lTempObj = GameObject.FindWithTag(lTempAllGlobalObj[i]);
+            if (lTempObj == null)
+            {
+                switch (lTempAllGlobalObj[i])
+                {
+                    case StaticGlobalDel.TagGameSceneData:
+                        GameObject.Instantiate(PrefabGameSceneData);
+                        break;
+                    case StaticGlobalDel.TagEventSystem:
+                        CGGameSceneData lTempCGGameSceneData = CGGameSceneData.SharedInstance;
+                        GameObject.Instantiate(lTempCGGameSceneData.m_PrefabEventSystem);
+                        break;
+                }
+            }
+        }
+           
     }
 
     // Start is called before the first frame update

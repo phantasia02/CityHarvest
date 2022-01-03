@@ -78,6 +78,8 @@ public static class StaticGlobalDel
     public const string TagOriginBuilding   = "OriginBuilding";
     public const string TagPlayerRoll       = "PlayerRoll";
     public const string TagCompleteBuilding = "CompleteBuilding";
+    public const string TagEventSystem      = "EventSystem";
+    public const string TagGameSceneData    = "CGGameSceneData";
 
 
     public const int g_WaterMask                    = 1 << (int)ELayerIndex.eWater;

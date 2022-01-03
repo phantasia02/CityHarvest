@@ -30,6 +30,7 @@ public class CGGameSceneData : CSingletonMonoBehaviour<CGGameSceneData>
     [SerializeField]  public GameObject[]    m_AllFX                = null;
     [SerializeField]  public GameObject[]    m_AllOtherObj          = null;
     [SerializeField]  public StageData       m_CurStageData         = null;
+    [SerializeField]  public GameObject      m_PrefabEventSystem    = null;
 
 
     [VarRename(new string[] { "Red", "Orange", "Yellow", "Green", "Blue", "White" })]

@@ -8,6 +8,8 @@ TagManager:
   - PlayerRoll
   - OriginBuilding
   - CompleteBuilding
+  - EventSystem
+  - CGGameSceneData
   layers:
   - Default
   - TransparentFX

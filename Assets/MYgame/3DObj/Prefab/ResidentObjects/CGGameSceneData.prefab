@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1509596396949040922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1509596396949041124}
+  - component: {fileID: 1509596396949041125}
+  m_Layer: 0
+  m_Name: CGGameSceneData
+  m_TagString: CGGameSceneData
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1509596396949041124
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509596396949040922}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1509596396949041125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509596396949040922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 354a63f2da176f84380871f546f07075, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AllFX: []
+  m_AllOtherObj: []
+  m_CurStageData: {fileID: 11400000, guid: faa925b7aaf7b234b8e1a18fb2e393e6, type: 2}
+  m_PrefabEventSystem: {fileID: 1792202897340608778, guid: e66c430660b85334ca70bd0fec000779, type: 3}
+  m_AllDateBrick:
+  - m_ColorMat: {fileID: 2100000, guid: d2a04c0a458126f4198edf6125c545b0, type: 2}
+    m_Type: 0
+  - m_ColorMat: {fileID: 2100000, guid: d2a04c0a458126f4198edf6125c545b0, type: 2}
+    m_Type: 1
+  - m_ColorMat: {fileID: 2100000, guid: 92b15c05db685ec40a2c1fcd34ce2ad4, type: 2}
+    m_Type: 2
+  - m_ColorMat: {fileID: 2100000, guid: 5ebe58df583e5934da6913174c7cfb46, type: 2}
+    m_Type: 3
+  - m_ColorMat: {fileID: 2100000, guid: 5ebe58df583e5934da6913174c7cfb46, type: 2}
+    m_Type: 4
+  - m_ColorMat: {fileID: 2100000, guid: 133515f76733c954e9ffb22124600e2f, type: 2}
+    m_Type: 5
