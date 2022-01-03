@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class CBootScene : MonoBehaviour
 {
-    [SerializeField] protected int m_InitLevelIndex = 0;
+    [SerializeField] protected int m_InitLevelIndex = 1;
     CChangeScenes m_ChangeScenes = new CChangeScenes();
 
     // Start is called before the first frame update

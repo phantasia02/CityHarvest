@@ -47,6 +47,7 @@ public class COriginBuilding : CGameObjBas
     {
         m_MyRendererMesh = this.GetComponent<Renderer>();
         m_MyMaterial = m_MyRendererMesh.material = lTempDateBrick.m_ColorMat;
+        m_MyBrickColor = lTempDateBrick.m_Type;
     }
 
     public void OnTriggerEnter(Collider other)

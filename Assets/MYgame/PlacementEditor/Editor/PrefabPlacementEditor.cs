@@ -41,6 +41,7 @@ public class PrefabPlacementEditor : Editor {
     private GameObject m_ParentObject;
     private StageData m_CurStageData;
     private float m_MaxRatio = 1.0f;
+    public readonly Vector3 RV3Down = Vector3.down * 0.5f;
 
     private void OnEnable()
     {
@@ -174,7 +175,6 @@ public class PrefabPlacementEditor : Editor {
 
     public void PrefabInstantiate (int index)
     {
-        bool lTempDestroy = false;
         RaycastHit hit;
         GameObject instanceOf = PrefabUtility.InstantiatePrefab(prefab.GetArrayElementAtIndex(index).objectReferenceValue) as GameObject;
         Vector3 radiusAdjust = Random.insideUnitSphere * radius.floatValue / 2;
@@ -211,8 +211,10 @@ public class PrefabPlacementEditor : Editor {
         else
             instanceOf.transform.rotation = new Quaternion(0, 0, 0, 0);
 
+        
+        int RotationIndex = Random.Range(0, 3);
         if (isRandomR.boolValue)
-            instanceOf.transform.Rotate(0, (float)(Random.Range(0, 5)) * 90, 0);
+            instanceOf.transform.Rotate(0, (float)RotationIndex * 90.0f, 0);
 
         // if (amount.intValue > 1)
         {
@@ -220,13 +222,24 @@ public class PrefabPlacementEditor : Editor {
 
             if (Physics.Raycast(instanceOf.transform.position, -instanceOf.transform.up, out hit, 100.0f, StaticGlobalDel.g_BuildingFloorMask))
             {
-                Collider[] lTempCollider = Physics.OverlapBox(hit.point + lTempMyBoxCollider.center + (Vector3.down * 0.5f), lTempHalfEx, instanceOf.transform.rotation, StaticGlobalDel.g_NormalBuilding | StaticGlobalDel.g_RoadFloorMask);
+                Collider[] lTempCollider = null;
+                lTempCollider = Physics.OverlapBox(hit.point + lTempMyBoxCollider.center + RV3Down, lTempHalfEx, instanceOf.transform.rotation, StaticGlobalDel.g_NormalBuilding | StaticGlobalDel.g_RoadFloorMask);
+
+                for(int x = 0; x < 4; x++)
+                {
+                    if (lTempCollider.Length == 0)
+                        break;
+
+                    instanceOf.transform.Rotate(0, 90.0f, 0);
+                    lTempCollider = Physics.OverlapBox(hit.point + lTempMyBoxCollider.center + RV3Down, lTempHalfEx, instanceOf.transform.rotation, StaticGlobalDel.g_NormalBuilding | StaticGlobalDel.g_RoadFloorMask);
+                }
 
                 if ((!canPlaceOver.boolValue && hit.collider.tag == instanceOf.tag) || lTempCollider.Length != 0)
                 {
                     DestroyImmediate(instanceOf);
                     return;
                 }
+
 
                 instanceOf.transform.position = hit.point;
                 instanceOf.transform.parent = m_ParentObject.transform;
